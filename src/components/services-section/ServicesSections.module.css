@@ -103,7 +103,13 @@
   gap: 10px;
   border-radius: 20px;
   padding: 5px;
+  width: 100%;
   /* flex-wrap: wrap; */
+}
+.headingContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .titleContainer {
   display: flex;
@@ -178,13 +184,61 @@
   font-weight: 900;
   margin-bottom: 0px;
 }
+
+/* ==========Silver section styles=========== */
 .perMonthText {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
-  color: #000000;
   margin-top: 5px;
-  width: 50%;
+  width: 100%;
+  color: #3366FF;
 }
+.silverRescueContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.silverImageContainer {
+  display: flex;
+ 
+  width: 60%;
+  margin-left: 20px;
+}
+.silverRescueText {
+ 
+  width: 40%;
+
+}
+.SilverimageUltraWide {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+/* ===== gold offer section styles ===== */ 
+
+
+.GoldperMonthText {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 5px;
+  width: 100%;
+   font-weight: 700;
+  color: #3366FF;
+}
+.goldRescueText {
+ 
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .serviceSection {
@@ -210,3 +264,13 @@
     height: 55px;
   }
 }
+
+
+
+
+
+
+
+
+
+

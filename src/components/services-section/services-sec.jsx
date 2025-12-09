@@ -7,8 +7,10 @@ import BrownStar from "./images/sergonup-star.png";
 import PowerImg from "./images/rob1.jpeg";
 import ClickMe from "./images/image.png";
 import GoldStar from "./images/sergonup-brwonstar.png";
+import SilverMinus from "./images/SilverMinus.jpg"
 import Agency2 from "./images/sergonup-agency2.png";
 import SilverStar from "./images/sergonup-silverstar.png";
+import PlatinumOffer from "./images/PlatinumOffer.svg"
 import SilverStar3 from "./images/silverFor2nd.png";
 import cupFor4 from "./images/cupFor4.png";
 import wolf from "./images/rob44.jpeg";
@@ -24,7 +26,7 @@ const cardsData = [
     url: "/services",
   },
   {
-    title: "SOS RESCUE",
+    title: "SILVER RESCUE",
     images: ["SilverStar3", "/opImg.png"],
     imag1: SilverStar3,
     imag2: OpImg,
@@ -35,7 +37,7 @@ const cardsData = [
   {
     title: "GOLD OFFER",
     images: ["/goldStar.png", "/agency2.png"],
-        imag1: GoldStar,
+    imag1: GoldStar,
     imag2: Agency2,
     imag3: ClickMe,
     desc: "You may have toxic backlinks, idling Google Business Profile (GBP) and sparse Directory listings. But you have only one website, which is an extremely astute decision. During a month of intensive AI-SEO repair, you can expect at least one Client (which should cover your investment in us) but none can be guaranteed because of our focus on repair. During your repair month, we will clean toxic backlinks, optimise your GBP, build quality Directory listings, and strengthen your site foundation. If you decide to continue on your Fast track to Platinum, then, repair done, we’ll focus on getting you 10 guaranteed Clients every month. No lock-in, continue monthly; pause or stop anytime. Hook up your tow-truck!",
@@ -44,7 +46,7 @@ const cardsData = [
   {
     title: "PLATINUM OFFER",
     images: ["/silverStar.png", "/wolf.png"],
-       imag1: SilverStar,
+    imag1: SilverStar,
     imag2: wolf,
     imag3: ClickMe,
     desc: "You qualify if your website is reasonably functional OR you've completed our Silver or Gold Offers. We GUARANTEE you 10 CLIENTS a month with NOTHING upfront. Pay after results. We can scale for each Surgeon in your Clinic, up to six. How? From an AI-SEO Client Acquisition system exclusively for Aesthetic Surgeons. It’s our SIGNATURE offer, it encapsulates how we like to be treated.£4,407 a month, plummets by 25% three times in months 5, 6 and 7, to under £2k.  No lock-in. continue one month at a time; pause or stop at any time. Ready for Lift Off? 3, 2, 1 . . .",
@@ -58,6 +60,9 @@ export default function ServicesSections() {
       {cardsData.map((card, idx) => (
         <section key={idx} className={styles.serviceSection}>
           <div className={styles.headingRow}>
+
+            <div className={styles.headingContent}>
+
             {card?.imag1 && (
               <div className={styles.imageContainer}>
                 <Image
@@ -117,6 +122,7 @@ export default function ServicesSections() {
                 />
               </div>
             )}
+            </div>
           </div>
 
           {/* Description */}
@@ -125,32 +131,81 @@ export default function ServicesSections() {
             <div className={styles.contentContainer}>
               <div className={styles.icons}>
                 <div className={styles.dollar}>
-                  $<p className={styles.free}>{card.title==="BRONZE OFFER" ? "FREE" : "5873"}</p>
+                  $
+                  <p className={styles.free}>
+                    {card.title === "BRONZE OFFER" ? "FREE" : "5873"}
+                  </p>
                 </div>
 
                 <div className={styles.euro}>
-                  £<p className={styles.free}>{card.title==="BRONZE OFFER" ? "FREE" : "4407"}</p>
+                  £
+                  <p className={styles.free}>
+                    {card.title === "BRONZE OFFER" ? "FREE" : "4407"}
+                  </p>
                 </div>
               </div>
-              {/* <div >
-               <p className={styles.perMonthText}>per month for 2 months of repair, paid after results.  In the 3rd month you are guaranteed 10 Clients.</p>
-              </div>
-              <div >
 
-                <Image
-                  src={ClickMe}
-                  width={494}
-                  height={100}
-                  alt="icon"
-                  className={styles.imageUltraWide}
-                />
-             </div> */}
+              {card.title === "SILVER RESCUE" && (
+                <div className={styles.silverRescueContainer}>
+                  <div className={styles.silverRescueText}>
+                    <p className={styles.perMonthText}>
+                      per month for 2 months of repair, paid after results. In
+                      the 3rd month you are guaranteed 10 Clients.
+                    </p>
+                  </div>
+                  <div className={styles.silverImageContainer}>
+                    <Image
+                      src={SilverMinus}
+                      width={494}
+                      height={200}
+                      alt="icon"
+                      className={styles.SilverimageUltraWide}
+                    />
+                  </div>
+                </div>
+              )}
+              {
+                card.title === "GOLD OFFER" && (
+                  <div className={styles.silverRescueContainer}>
+                    <div className={styles.goldRescueText}>
+                      <p className={styles.GoldperMonthText}>
+                        For a month, paid after stats results. In the 2nd months you’ll get 10 Clients
+                      </p>
+                    </div>
+                   
+                  </div>
+                )
 
+              }
+              {
+                card.title === "PLATINUM OFFER" && (
+                  <div className={styles.silverRescueContainer}>
+                    <div className={styles.goldRescueText}>
+                      <p className={styles.GoldperMonthText}>
+                        For a month, paid after stats results. In the 2nd months you’ll get 10 Clients
+                      </p>
+                    </div>
+                    <div>
+                      {/* Image  */}
+                      <Image
+                        src={PlatinumOffer}
+                        width={494}
+                        height={200}
+                        alt="icon"
+                        className={styles.SilverimageUltraWide}
+                      />
+
+                    </div>
+                   
+                  </div>
+                )
+
+              }
 
               <div className={styles.imageContainer}>
-                {card.title==="BRONZE OFFER" &&
-                <h3 className={styles.clickMeText}>GET YOUR FREE AUDIT!</h3>
-}
+                {card.title === "BRONZE OFFER" && (
+                  <h3 className={styles.clickMeText}>GET YOUR FREE AUDIT!</h3>
+                )}
                 <Image
                   src={card.imag3}
                   width={494}
