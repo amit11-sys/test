@@ -139,6 +139,38 @@ align-items: center;
   justify-content: center;
   gap: 15px;
 }
+/* bronze offer section */
+.BronzetitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+}
+.goldtitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 77px;
+}
+.silvertitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 77px;
+}
+.platinumTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+
   .footerSecontInvestmentText{
 
     color: #006633;
@@ -157,6 +189,12 @@ align-items: center;
   }
 .title {
   font-size: 25px;
+  margin-top: 10px;
+  font-weight: 700;
+  /* text-wrap: nowrap; */
+}
+.Bronzetitle {
+  font-size: 28px;
   margin-top: 10px;
   font-weight: 700;
   /* text-wrap: nowrap; */
@@ -483,155 +521,7 @@ align-items: center;
   padding-top: 10px;
 }
 
-/* Tablet */
-@media (max-width: 900px) {
-  .item {
-    flex: 1 1 calc(50% - 20px);
-  }
-}
 
-/* Mobile */
-@media (max-width: 600px) {
-
-  .headerRow {
-  display: none;
- 
-}
- .box {
-  width: fit-content;
-  display: block;
-  background: #33ffcc;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 4px solid #20f2d1;
-  font-weight: bold;
-  color: #3366ff;
-}
-.MoreServicesCutYourCardImageUltraWide {
-    width: 285px;
-    height: auto;
-}
-.footer{
-  display: none;
-}
-
-
- .moboAIOOHeaderRowtitle{
-  display: flex;
-  color: #3366ff;
-  font-weight: 900;
-  font-size: 20px;
-  width: 90%;
-  margin: auto;
- }
- .moboAIOOHeaderRow{
-  display: flex;
-   display: flex;
-  color: #3366ff;
-  font-weight: 900;
-  font-size: 14px;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 10px;
- }
-
-
-
-  .item {
-    flex: 1 1 100%;
-  }
-  .servicesRowImgContainer :nth-child(2) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: 20px;
-    margin-top: 10px;
-  }
-   .mobosilverImageContainer{
-  display: flex;
- }
-.moboDescriptionContainer{
-display: flex;
-width: 100%;
-
-}
-
-  .clickMeText{
-    display: none;
-  }
-  .silverRescueContainer{
-    display: none;
-  }
-  .contentContainer{
-    display: none;
-  }
- 
-  .servicesRowImgContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-  }
-  .imageContainer .headerImg{
-
-    display: none;
-  }
-  .icons{
-    display: none;
-  }
-
-  .starImageContainer {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
-  }
-  .starImageContainer {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 5px;
-    align-items: center;
-    justify-content: center;
-  }
-  .titleContainer {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
-  }
-  .subtitle{
-    font-size: 22px;
-    margin: 0;
-
-
-  }
-  .moboApplyImageContainer{
-
-    width: 100%;
-    height: auto;
-    display: flex;
-  }
-  .starImageContainer .title {
-    font-size:30px;
-    text-align: center;
-    margin-right: 0px;
-  }
-  .imageUltraWide {
-    display: none;
-  }
-
-  .servicesRow {
-    gap: 17px;
-  }
-  .imageNormal {
-    width: 3rem;
-    height: 3rem;
-  }
-}
 
 /* more services  */
 
@@ -804,5 +694,165 @@ width: 100%;
     flex-wrap: wrap;
 
     /* justify-content: space-between; */
+  }
+}
+
+
+
+/* Tablet */
+@media (max-width: 900px) {
+  .item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+  .headerRow {
+  display: none;
+ 
+}
+ .box {
+  width: fit-content;
+  display: block;
+  background: #33ffcc;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 4px solid #20f2d1;
+  font-weight: bold;
+  color: #3366ff;
+}
+.MoreServicesCutYourCardImageUltraWide {
+    width: 285px;
+    height: auto;
+}
+.footer{
+  display: none;
+}
+
+
+ .moboAIOOHeaderRowtitle{
+  display: flex;
+  color: #3366ff;
+  font-weight: 900;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+ }
+ .moboAIOOHeaderRow{
+  display: flex;
+   display: flex;
+  color: #3366ff;
+  font-weight: 900;
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+ }
+
+
+
+  .item {
+    flex: 1 1 100%;
+  }
+  .servicesRowImgContainer :nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    margin-top: 10px;
+  }
+   .mobosilverImageContainer{
+  display: flex;
+ }
+.moboDescriptionContainer{
+display: flex;
+width: 100%;
+
+}
+
+  .clickMeText{
+    display: none;
+  }
+  .silverRescueContainer{
+    display: none;
+  }
+  .contentContainer{
+    display: none;
+  }
+ 
+  .servicesRowImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .imageContainer .headerImg{
+
+    display: none;
+  }
+  .icons{
+    display: none;
+  }
+
+  .starImageContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .starImageContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .titleContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+  }
+  .BronzetitleContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+  }
+  .subtitle{
+    font-size: 22px;
+    margin: 0;
+
+
+  }
+  .moboApplyImageContainer{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .starImageContainer .title {
+    font-size:30px;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .imageUltraWide {
+    display: none;
+  }
+
+  .servicesRow {
+    gap: 17px;
+  }
+  .imageNormal {
+    width: 3rem;
+    height: 3rem;
   }
 }

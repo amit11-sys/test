@@ -61,407 +61,403 @@ export default function ServicesSections() {
   return (
     <>
       <div className={styles.wrapper}>
-        {cardsData.map((card, idx) => (
-          <section key={idx} className={styles.serviceSection}>
-            <div className={styles.headingRow}>
-              <div className={styles.headingContent}>
-                {card?.imag1 && (
-                  <div className={styles.starImageContainer}>
-                    <div className={styles.servicesRowImgContainer}>
-                      <Image
-                        src={card.imag1}
-                        width={""}
-                        height={""}
-                        alt="icon"
-                        className={styles.imageNormal}
-                      />
+       
 
-                      <Image
-                        src={card.imag2}
-                        width={150}
-                        height={100}
-                        alt="icon"
-                        className={styles.imageWide}
-                      />
-                    </div>
-                    <h2 className={styles.title}>{card.title}</h2>
-                  </div>
-                )}
+         
+    <>
+   
+      <section className={styles.serviceSection}>
+        <div className={styles.headingRow}>
+          <div className={styles.headingContent}>
+            <div className={styles.starImageContainer}>
+              <div className={styles.servicesRowImgContainer}>
+                <Image src={BrownStar} alt="icon" className={styles.imageNormal} />
+                <Image src={PowerImg} width={150} height={100} alt="icon" className={styles.imageWide} />
+              </div>
 
-                {/* Center Title */}
-                <div className={styles.titleContainer}>
-                  <h3 className={styles.subtitle}>
-                    {card.title.includes("BRONZE") ? (
-                      <>
-                        IS YOUR WEBSITE <i>FIT?</i>
-                      </>
-                    ) : card.title.includes("SOS") ? (
-                      <>
-                        <i>BURIED</i> DEEP IN A HOLE?
-                      </>
-                    ) : card.title.includes("GOLD") ? (
-                      <>
-                        <i>STUCK</i> IN A RUT?
-                      </>
-                    ) : (
-                      <>
-                        GET 10 EXTRA <i>CLIENTS</i>
-                      </>
-                    )}
-                  </h3>
-                  {card?.imag2 && (
-                    <div className={styles.imageContainer}>
-                      <Image
-                        src={card.imag2}
-                        width={150}
-                        height={100}
-                        alt="icon"
-                        id=""
-                        className={`${styles.imageWide} ${styles.headerImg}`}
-                      />
-                    </div>
-                  )}
-                </div>
+              <h2 className={styles.Bronzetitle}>BRONZE OFFER</h2>
+            </div>
 
-                {/* Right Image */}
+            <div className={styles.BronzetitleContainer}>
+              <h3 className={styles.subtitle}>
+                IS YOUR WEBSITE <i>FIT?</i>
+              </h3>
 
-                {card?.imag3 && (
-                  <div className={styles.imageContainer}>
-                    <Image
-                      src={ClickMe}
-                      width={494}
-                      height={100}
-                      id="allcardImage"
-                      alt="icon"
-                      className={styles.imageUltraWide}
-                    />
-                  </div>
-                )}
+              <div className={styles.imageContainer}>
+                <Image
+                  src={PowerImg}
+                  width={150}
+                  height={100}
+                  alt="icon"
+                  className={`${styles.imageWide} ${styles.headerImg}`}
+                />
               </div>
             </div>
 
-            {/* Description */}
+            <div className={styles.imageContainer}>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.description}>
+          <p className={styles.desc}>
+            FREE, no-obligation website audit from a Cambridge graduate who has optimized top surgeons' websites
+            for over 25 years. From Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left IBM as a Data
+            Analyst in the 90s to focus exclusively on SEO for Cosmetic and Hair Restoration Surgeons. A full
+            AI-SEO analysis will reveal where you stand against competitors. Tam's Semrush AI-SEO expertise will
+            show you the path to organic growth. Claim your complimentary audit.
+          </p>
+
+          <div className={styles.contentContainer}>
+            <div className={styles.icons}>
+              <div className={styles.dollar}>
+                $ <p className={styles.free}>FREE</p>
+              </div>
+              <div className={styles.euro}>
+                £ <p className={styles.free}>FREE</p>
+              </div>
+            </div>
+
+            <div className={styles.imageContainer}>
+              <h3 className={styles.clickMeText}>GET YOUR FREE AUDIT!</h3>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.moboDescriptionContainer}>
+          <div className={styles.description}>
+            <div className={styles.footerFirstInvestmentText}>Y o u r i n v e s t m e n t i s</div>
+            <div className={styles.footerSecontInvestmentText}>
+              N O T H I N G, <span> it’s FREE! </span>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.moboApplyImageContainer}>
+          <Image src={moboApply} alt="icon" className={styles.moboApplyImage} />
+        </div>
+      </section>
+
+      {/* ---------------------------------------------------- */}
+      {/* ---------------- SILVER SOS RESCUE ----------------- */}
+      {/* ---------------------------------------------------- */}
+
+      <section className={styles.serviceSection}>
+        <div className={styles.headingRow}>
+          <div className={styles.headingContent}>
+            <div className={styles.starImageContainer}>
+              <div className={styles.servicesRowImgContainer}>
+                <Image src={SilverStar3} alt="icon" className={styles.imageNormal} />
+                <Image src={OpImg} width={150} height={100} alt="icon" className={styles.imageWide} />
+              </div>
+
+              <h2 className={styles.title}>SILVER SOS RESCUE</h2>
+            </div>
+
+            <div className={styles.titleContainer}>
+              <h3 className={styles.subtitle}>
+                <i>BURIED</i> DEEP IN A HOLE?
+              </h3>
+
+              <div className={styles.imageContainer}>
+                <Image
+                  src={OpImg}
+                  width={150}
+                  height={100}
+                  alt="icon"
+                  className={`${styles.imageWide} ${styles.headerImg}`}
+                />
+              </div>
+            </div>
+
+            <div className={styles.imageContainer}>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.description}>
+          <p className={styles.desc}>
+            Fed up spending £10-20k monthly just to survive on Paid Ads, with nothing certain? You're trapped at
+            the bottom of a deep hole, while competitors dominate above you, winning patients you're paying for...
+          </p>
+
+          <div className={styles.contentContainer}>
+            <div className={styles.icons}>
+              <div className={styles.dollar}>
+                $<p className={styles.free}>5873</p>
+              </div>
+              <div className={styles.euro}>
+                £<p className={styles.free}>4407</p>
+              </div>
+            </div>
+
+            <div className={styles.silverRescueContainer}>
+              <div className={styles.silverRescueText}>
+                <p className={styles.perMonthText}>
+                  per month for 2 months of repair, paid after results. In the 3rd month you are guaranteed
+                  10 Clients.
+                </p>
+              </div>
+              <div className={styles.silverImageContainer}>
+                <Image src={SilverMinus} width={494} height={200} alt="icon" className={styles.SilverimageUltraWide} />
+              </div>
+            </div>
+
+            <div className={styles.imageContainer}>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+          </div>
+
+          {/* Mobile Footer */}
+          <div className={styles.moboDescriptionContainer}>
+            <div className={styles.moboSilverImageContainer}>
+              <Image src={SilverMinus} width={494} height={200} alt="icon" className={styles.SilverimageUltraWide} />
+            </div>
+
             <div className={styles.description}>
-              <p className={styles.desc}>{card.desc}</p>
-              <div className={styles.contentContainer}>
-                <div className={styles.icons}>
-                  <div className={styles.dollar}>
-                    $
-                    <p className={styles.free}>
-                      {card.title === "BRONZE OFFER" ? "FREE" : "5873"}
-                    </p>
+              <div className={styles.footerFirstInvestmentText}>Y o u r i n v e s t m e n t i s</div>
+
+              <div className={styles.footerSecontInvestmentText}>
+                <div className={styles.otherFirstFooterInvestmentTextContainer}>
+                  <div className={styles.otherfirstFooterInvestmentText}>
+                    <div className={styles.otherFirstFooterInvestmentTextChild}>
+                      <span>$</span>
+                      <span>5873</span>
+                    </div>
+                    <div className={styles.otherFirstFooterInvestmentTextChild}>
+                      <span>£</span>
+                      <span>4407</span>
+                    </div>
                   </div>
 
-                  <div className={styles.euro}>
-                    £
-                    <p className={styles.free}>
-                      {card.title === "BRONZE OFFER" ? "FREE" : "4407"}
-                    </p>
+                  <div className={styles.otherSecondFooterInvestmentText}>
+                    <p>monthly for 2 months of repairs, then</p>
+                    <p>monthly for 10 guaranteed Clients!</p>
                   </div>
-                </div>
-
-                {card.title === "SILVER SOS RESCUE" && (
-                  <div className={styles.silverRescueContainer}>
-                    <div className={styles.silverRescueText}>
-                      <p className={styles.perMonthText}>
-                        per month for 2 months of repair, paid after results. In
-                        the 3rd month you are guaranteed 10 Clients.
-                      </p>
-                    </div>
-                    <div className={styles.silverImageContainer}>
-                      <Image
-                        src={SilverMinus}
-                        width={494}
-                        height={200}
-                        alt="icon"
-                        className={styles.SilverimageUltraWide}
-                      />
-                    </div>
-                  </div>
-                )}
-                {card.title === "GOLD OFFER" && (
-                  <div className={styles.silverRescueContainer}>
-                    <div className={styles.goldRescueText}>
-                      <p className={styles.GoldperMonthText}>
-                        For a month, paid after stats results. In the 2nd months
-                        you’ll get 10 Clients
-                      </p>
-                    </div>
-                  </div>
-                )}
-                {card.title === "PLATINUM OFFER" && (
-                  <>
-                    <div className={styles.silverRescueContainer}>
-                      <div className={styles.goldRescueText}>
-                        <p className={styles.GoldperMonthText}>
-                          For a month, paid after stats results. In the 2nd
-                          months you’ll get 10 Clients
-                        </p>
-                      </div>
-                      <div>
-                        {/* Image  */}
-                        <Image
-                          src={PlatinumOffer}
-                          width={494}
-                          height={200}
-                          alt="icon"
-                          className={styles.SilverimageUltraWide}
-                        />
-                      </div>
-                    </div>
-                  </>
-                )}
-
-                <div className={styles.imageContainer}>
-                  {card.title === "BRONZE OFFER" && (
-                    <h3 className={styles.clickMeText}>GET YOUR FREE AUDIT!</h3>
-                  )}
-                  <Image
-                    src={card.imag3}
-                    width={494}
-                    height={100}
-                    alt="icon"
-                    className={styles.imageUltraWide}
-                  />
                 </div>
               </div>
-              {card.title === "PLATINUM OFFER" && (
-                <>
-                  <div className={styles.mobosilverImageContainer}>
-                    {/* Image  */}
-                    <Image
-                      src={PlatinumOffer}
-                      width={494}
-                      height={200}
-                      alt="icon"
-                      className={styles.SilverimageUltraWide}
-                    />
-                  </div>
-                </>
-              )}
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.moboApplyImageContainer}>
+          <Image src={moboApply} alt="icon" className={styles.moboApplyImage} />
+        </div>
+      </section>
+
+      {/* ---------------------------------------------------- */}
+      {/* --------------------- GOLD OFFER ------------------- */}
+      {/* ---------------------------------------------------- */}
+
+      <section className={styles.serviceSection}>
+        <div className={styles.headingRow}>
+          <div className={styles.headingContent}>
+            <div className={styles.starImageContainer}>
+              <div className={styles.servicesRowImgContainer}>
+                <Image src={GoldStar} alt="icon" className={styles.imageNormal} />
+                <Image src={Agency2} width={150} height={100} alt="icon" className={styles.imageWide} />
+              </div>
+
+              <h2 className={styles.title}>GOLD OFFER</h2>
             </div>
 
-            {card.title === "BRONZE OFFER" && (
-              <>
-                <div className={styles.moboDescriptionContainer}>
-                  <div className={styles.description}>
-                    <div className={styles.footerFirstInvestmentText}>
-                      Y o u r i n v e s t m e n t i s
-                    </div>
-                    <div className={styles.footerSecontInvestmentText}>
-                      N O T H I N G, <span> it’s FREE! </span>
-                    </div>
-                  </div>
-                </div>
-              </>
-            )}
+            <div className={styles.goldtitleContainer}>
+              <h3 className={styles.subtitle}>
+                <i>STUCK</i> IN A RUT?
+              </h3>
 
-            {card.title === "SILVER SOS RESCUE" && (
-              <>
-                <div className={styles.moboDescriptionContainer}>
-                  <div className={styles.moboSilverImageContainer}>
-                    <Image
-                      src={SilverMinus}
-                      width={494}
-                      height={200}
-                      alt="icon"
-                      className={styles.SilverimageUltraWide}
-                    />
-                  </div>
-                  <div className={styles.description}>
-                    <div className={styles.footerFirstInvestmentText}>
-                      Y o u r i n v e s t m e n t i s
-                    </div>
-                    <div className={styles.footerSecontInvestmentText}>
-                      <div
-                        className={
-                          styles.otherFirstFooterInvestmentTextContainer
-                        }
-                      >
-                        <div className={styles.otherfirstFooterInvestmentText}>
-                          <div
-                            className={
-                              styles.otherFirstFooterInvestmentTextChild
-                            }
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                            }}
-                          >
-                            <span style={{}}>$</span>
-                            <span>5873</span>
-                          </div>
-
-                          <div
-                            className={
-                              styles.otherFirstFooterInvestmentTextChild
-                            }
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                            }}
-                          >
-                            <span>£</span>
-                            <span>4407</span>
-                          </div>
-                        </div>
-
-                        <div className={styles.otherSecondFooterInvestmentText}>
-                          <p>monthly for 2 months of repairs, then</p>
-                          <p>monthly for 10 guaranteed Clients!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </>
-            )}
-            {card.title === "GOLD OFFER" && (
-              <>
-                <div className={styles.moboDescriptionContainer}>
-                  {/* <div className={styles.moboSilverImageContainer}>
-                  
-                      <Image
-                        src={SilverMinus}
-                        width={494}
-                        height={200}
-                        alt="icon"
-                        className={styles.SilverimageUltraWide}
-                      />
-                    </div> */}
-                  <div className={styles.description}>
-                    <div className={styles.footerFirstInvestmentText}>
-                      Y o u r i n v e s t m e n t i s
-                    </div>
-                    <div className={styles.footerSecontInvestmentText}>
-                      <div
-                        className={
-                          styles.otherFirstFooterInvestmentTextContainer
-                        }
-                      >
-                        <div className={styles.otherfirstFooterInvestmentText}>
-                          <div
-                            className={
-                              styles.otherFirstFooterInvestmentTextChild
-                            }
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                            }}
-                          >
-                            <span style={{}}>$</span>
-                            <span>5873</span>
-                          </div>
-
-                          <div
-                            className={
-                              styles.otherFirstFooterInvestmentTextChild
-                            }
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                            }}
-                          >
-                            <span>£</span>
-                            <span>4407</span>
-                          </div>
-                        </div>
-
-                        <div className={styles.otherSecondFooterInvestmentText}>
-                          <p>for a month of repairs, then monthly </p>
-                          <p>for 10 guaranteed Clients ongoing!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </>
-            )}
-            {card.title === "PLATINUM OFFER" && (
-              <>
-                <div className={styles.moboDescriptionContainer}>
-                  {/* <div className={styles.moboSilverImageContainer}>
-                  
-                      <Image
-                        src={SilverMinus}
-                        width={494}
-                        height={200}
-                        alt="icon"
-                        className={styles.SilverimageUltraWide}
-                      />
-                    </div> */}
-                  <div className={styles.description}>
-                    <div className={styles.footerFirstInvestmentText}>
-                      Y o u r i n v e s t m e n t i s
-                    </div>
-                    <div className={styles.footerSecontInvestmentText}>
-                      <div
-                        className={
-                          styles.otherFirstFooterInvestmentTextContainer
-                        }
-                      >
-                        <div className={styles.otherfirstFooterInvestmentText}>
-                          <div
-                            className={
-                              styles.otherFirstFooterInvestmentTextChild
-                            }
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                            }}
-                          >
-                            <span style={{}}>$</span>
-                            <span>5873</span>
-                          </div>
-
-                          <div
-                            className={
-                              styles.otherFirstFooterInvestmentTextChild
-                            }
-                            style={{
-                              display: "flex",
-                              flexDirection: "column",
-                              justifyContent: "center",
-                              alignItems: "center",
-                            }}
-                          >
-                            <span>£</span>
-                            <span>4407</span>
-                          </div>
-                        </div>
-
-                        <div className={styles.otherSecondFooterInvestmentText}>
-                          <p>per month, no lock in. If you continue, </p>
-                          <p>get 10 guaranteed Clients ongoing!</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </>
-            )}
-
-            <div className={styles.moboApplyImageContainer}>
-              <Image
-                src={moboApply}
-                width={""}
-                height={""}
-                alt="icon"
-                className={styles.moboApplyImage}
-              />
+              <div className={styles.imageContainer}>
+                <Image
+                  src={Agency2}
+                  width={150}
+                  height={100}
+                  alt="icon"
+                  className={`${styles.imageWide} ${styles.headerImg}`}
+                />
+              </div>
             </div>
-          </section>
-        ))}
+
+            <div className={styles.imageContainer}>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.description}>
+          <p className={styles.desc}>
+            You may have toxic backlinks, idling Google Business Profile and sparse Directory listings. But you
+            have only one website, which is an extremely astute decision…
+          </p>
+
+          <div className={styles.contentContainer}>
+            <div className={styles.icons}>
+              <div className={styles.dollar}>
+                $<p className={styles.free}>5873</p>
+              </div>
+              <div className={styles.euro}>
+                £<p className={styles.free}>4407</p>
+              </div>
+            </div>
+
+            <div className={styles.silverRescueContainer}>
+              <div className={styles.goldRescueText}>
+                <p className={styles.GoldperMonthText}>
+                  For a month, paid after stats results. In the 2nd month you’ll get 10 Clients
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.imageContainer}>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+          </div>
+
+          {/* Mobile footer */}
+          <div className={styles.moboDescriptionContainer}>
+            <div className={styles.description}>
+              <div className={styles.footerFirstInvestmentText}>Y o u r i n v e s t m e n t i s</div>
+
+              <div className={styles.footerSecontInvestmentText}>
+                <div className={styles.otherFirstFooterInvestmentTextContainer}>
+                  <div className={styles.otherfirstFooterInvestmentText}>
+                    <div className={styles.otherFirstFooterInvestmentTextChild}>
+                      <span>$</span>
+                      <span>5873</span>
+                    </div>
+                    <div className={styles.otherFirstFooterInvestmentTextChild}>
+                      <span>£</span>
+                      <span>4407</span>
+                    </div>
+                  </div>
+
+                  <div className={styles.otherSecondFooterInvestmentText}>
+                    <p>for a month of repairs, then monthly</p>
+                    <p>for 10 guaranteed Clients ongoing!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.moboApplyImageContainer}>
+          <Image src={moboApply} alt="icon" className={styles.moboApplyImage} />
+        </div>
+      </section>
+
+      {/* ---------------------------------------------------- */}
+      {/* ------------------- PLATINUM OFFER ------------------ */}
+      {/* ---------------------------------------------------- */}
+
+      <section className={styles.serviceSection}>
+        <div className={styles.headingRow}>
+          <div className={styles.headingContent}>
+            <div className={styles.starImageContainer}>
+              <div className={styles.servicesRowImgContainer}>
+                <Image src={SilverStar} alt="icon" className={styles.imageNormal} />
+                <Image src={wolf} width={150} height={100} alt="icon" className={styles.imageWide} />
+              </div>
+
+              <h2 className={styles.title}>PLATINUM OFFER</h2>
+            </div>
+
+            <div className={styles.platinumTitleContainer}>
+              <h3 className={styles.subtitle}>
+                GET 10 EXTRA <i>CLIENTS</i>
+              </h3>
+
+              <div className={styles.imageContainer}>
+                <Image
+                  src={wolf}
+                  width={150}
+                  height={100}
+                  alt="icon"
+                  className={`${styles.imageWide} ${styles.headerImg}`}
+                />
+              </div>
+            </div>
+
+            <div className={styles.imageContainer}>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.description}>
+          <p className={styles.desc}>
+            You qualify if your website is reasonably functional OR you've completed our Silver or Gold Offers.
+            We GUARANTEE you 10 Clients a month with NOTHING upfront…
+          </p>
+
+          <div className={styles.contentContainer}>
+            <div className={styles.icons}>
+              <div className={styles.dollar}>
+                $<p className={styles.free}>5873</p>
+              </div>
+              <div className={styles.euro}>
+                £<p className={styles.free}>4407</p>
+              </div>
+            </div>
+
+            <div className={styles.silverRescueContainer}>
+              <div className={styles.goldRescueText}>
+                <p className={styles.GoldperMonthText}>
+                  For a month, paid after stats results. In the 2nd months you’ll get 10 Clients
+                </p>
+              </div>
+
+              <div>
+                <Image src={PlatinumOffer} width={494} height={200} alt="icon" className={styles.SilverimageUltraWide} />
+              </div>
+            </div>
+
+            <div className={styles.imageContainer}>
+              <Image src={ClickMe} width={494} height={100} alt="icon" className={styles.imageUltraWide} />
+            </div>
+
+            <div className={styles.mobosilverImageContainer}>
+              <Image src={PlatinumOffer} width={494} height={200} alt="icon" className={styles.SilverimageUltraWide} />
+            </div>
+          </div>
+
+          {/* Mobile footer */}
+          <div className={styles.moboDescriptionContainer}>
+            <div className={styles.description}>
+              <div className={styles.footerFirstInvestmentText}>Y o u r i n v e s t m e n t i s</div>
+
+              <div className={styles.footerSecontInvestmentText}>
+                <div className={styles.otherFirstFooterInvestmentTextContainer}>
+                  <div className={styles.otherfirstFooterInvestmentText}>
+                    <div className={styles.otherFirstFooterInvestmentTextChild}>
+                      <span>$</span>
+                      <span>5873</span>
+                    </div>
+
+                    <div className={styles.otherFirstFooterInvestmentTextChild}>
+                      <span>£</span>
+                      <span>4407</span>
+                    </div>
+                  </div>
+
+                  <div className={styles.otherSecondFooterInvestmentText}>
+                    <p>per month, no lock in. If you continue,</p>
+                    <p>get 10 guaranteed Clients ongoing!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.moboApplyImageContainer}>
+          <Image src={moboApply} alt="icon" className={styles.moboApplyImage} />
+        </div>
+      </section>
+    </>
+  
 
         <section className={styles.serviceSection}>
           <div className={styles.container}>
