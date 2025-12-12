@@ -8,7 +8,7 @@
 /* EACH SERVICE SECTION */
 .serviceSection {
   /* width: 80%; */
-  margin: 0 auto 90px auto;
+  margin: 0 auto 110px auto;
   background: #ffffff;
   border-radius: 18px;
   padding: 23px;
@@ -101,7 +101,8 @@
   border-radius: 12px;
   margin-bottom: 0px;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 26px;
+  line-height: 32px;
 }
 
 /* BUTTON */
@@ -273,7 +274,7 @@
 
 /* ==========Silver section styles=========== */
 .perMonthText {
-font-size: 15px;
+  font-size: 15px;
   font-weight: 800;
   /* margin-top: 5px; */
   margin-bottom: 0px;
@@ -359,16 +360,16 @@ font-size: 15px;
 }
 
 .item {
-      flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: calc(33.33% - 20px);
-    background: #41ffd9;
-    padding: 17px 5px;
-    text-align: center;
-    font-weight: 900;
-    border-radius: 12px;
-    font-size: 21px;
-    min-width: 220px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: calc(33.33% - 20px);
+  background: #41ffd9;
+  padding: 17px 5px;
+  text-align: center;
+  font-weight: 900;
+  border-radius: 12px;
+  font-size: 21px;
+  min-width: 220px;
 }
 .servicesRowImgContainer :nth-child(2) {
   display: none;
@@ -610,7 +611,6 @@ font-size: 15px;
 .priceBlock :nth-child(2) span {
   font-size: 20px;
   margin-right: 10px;
-
 }
 .priceSpanFlex {
   display: flex;
@@ -699,20 +699,14 @@ font-size: 15px;
   align-items: flex-end;
 }
 
-
-.BronzeSubtitle{
-
-      font-size: 57px;
-    font-weight: 900;
-    margin: 0px;
-    /* text-wrap: nowrap; */
+.BronzeSubtitle {
+  font-size: 57px;
+  font-weight: 900;
+  margin: 0px;
+  /* text-wrap: nowrap; */
 }
 
-
-
 /* ==================== */
-
-
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -760,8 +754,7 @@ font-size: 15px;
   .imageUltraWide {
     width: 214px;
     height: 49px;
-}
-  
+  }
 }
 @media (max-width: 1024px) {
   .contentContainer {
@@ -774,14 +767,14 @@ font-size: 15px;
     font-weight: 900;
     margin: 0px;
     /* text-wrap: nowrap; */
-}
-.Bronzetitle {
+  }
+  .Bronzetitle {
     font-size: 30px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 700;
     /* text-wrap: nowrap; */
-}
+  }
 }
 
 /* Tablet */
