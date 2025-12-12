@@ -7,7 +7,7 @@ import BrownStar from "./images/sergonup-star.png";
 import PowerImg from "./images/rob1.jpeg";
 import ClickMe from "./images/image.png";
 import GoldStar from "./images/sergonup-brwonstar.png";
-import SilverMinus from "./images/SilverMinus.jpg";
+import SilverMinus from "./images/SilverMinus.png";
 import Agency2 from "./images/sergonup-agency2.png";
 import SilverStar from "./images/sergonup-silverstar.png";
 import PlatinumOffer from "./images/PlatinumOffer.svg";
@@ -64,6 +64,7 @@ export default function ServicesSections() {
         <>
           <section className={styles.serviceSection}>
             <div className={styles.headingRow}>
+              {/* herder  */}
               <div className={styles.headingContent}>
                 <div className={styles.starImageContainer}>
                   <div className={styles.servicesRowImgContainer}>
@@ -85,7 +86,7 @@ export default function ServicesSections() {
                 </div>
 
                 <div className={styles.BronzetitleContainer}>
-                  <h3 className={styles.subtitle}>
+                  <h3 className={`${styles.subtitle} ${styles.BronzeSubtitle}`}>
                     IS YOUR WEBSITE <i>FIT?</i>
                   </h3>
 
@@ -110,6 +111,8 @@ export default function ServicesSections() {
                   />
                 </div>
               </div>
+
+              {/* end */}
             </div>
 
             <div className={styles.description}>
@@ -190,7 +193,9 @@ export default function ServicesSections() {
                     />
                   </div>
 
-                  <h2 className={styles.title}>SILVER SOS RESCUE</h2>
+                  <h2 className={`${styles.title} ${styles.silverTitle}`}>
+                    SILVER SOS RESCUE
+                  </h2>
                 </div>
 
                 <div className={styles.titleContainer}>
@@ -226,46 +231,54 @@ export default function ServicesSections() {
                 Fed up spending £10-20k monthly just to survive on Paid Ads,
                 with nothing certain? You're trapped at the bottom of a deep
                 hole, while competitors dominate above you, winning patients
-                you're paying for...
+                you're paying for. Fragmented multi-website practices splinter
+                your visibility. Your fractured presence confuses Google - it
+                can't tell who the real Surgeon is, so it penalises them ALL.
+                Your digital footprint is AGAINST you. This damage demands
+                intervention. It’s too severe to guarantee Clients yet. We'll
+                rebuild over 2 months, paid in arrears. You'll typically see at
+                least 1 Client during repair but none guaranteed. Month 3+: 10
+                clients monthly, under £2k Month 9 - ROI 9-25:1. Unfurl your
+                rope ladder!
               </p>
-            <div className={styles.contentContainer}>
-              <div className={styles.icons}>
-                <div className={styles.dollar}>
-                  $<p className={styles.free}>5873</p>
+              <div style={{alignItems:"center"}} className={styles.contentContainer}>
+                <div className={styles.icons}>
+                  <div className={styles.dollar}>
+                    $<p className={styles.free}>5873</p>
+                  </div>
+                  <div className={styles.euro}>
+                    £<p className={styles.free}>4407</p>
+                  </div>
                 </div>
-                <div className={styles.euro}>
-                  £<p className={styles.free}>4407</p>
-                </div>
-              </div>
 
-              <div className={styles.silverRescueContainer}>
-                <div className={styles.silverRescueText}>
-                  <p className={styles.perMonthText}>
-                    per month for 2 months of repair, paid after results. In the
-                    3rd month you are guaranteed 10 Clients.
-                  </p>
+                <div className={styles.silverRescueContainer}>
+                  <div className={styles.silverRescueText}>
+                    <p className={styles.perMonthText}>
+                      per month for 2 months of repair, paid after results. In
+                      the 3rd month you are guaranteed 10 Clients.
+                    </p>
+                  </div>
+                  <div className={styles.silverImageContainer}>
+                    <Image
+                      src={SilverMinus}
+                      width={494}
+                      height={200}
+                      alt="icon"
+                      className={styles.SilverimageUltraWide}
+                    />
+                  </div>
                 </div>
-                <div className={styles.silverImageContainer}>
+
+                <div className={styles.imageContainer}>
                   <Image
-                    src={SilverMinus}
+                    src={ClickMe}
                     width={494}
-                    height={200}
+                    height={100}
                     alt="icon"
-                    className={styles.SilverimageUltraWide}
+                    className={styles.imageUltraWide}
                   />
                 </div>
               </div>
-
-              <div className={styles.imageContainer}>
-                <Image
-                  src={ClickMe}
-                  width={494}
-                  height={100}
-                  alt="icon"
-                  className={styles.imageUltraWide}
-                />
-              </div>
-            </div>
             </div>
 
             {/* Mobile Footer */}
@@ -344,7 +357,9 @@ export default function ServicesSections() {
                     />
                   </div>
 
-                  <h2 className={styles.title}>GOLD OFFER</h2>
+                  <h2 className={`${styles.title} ${styles.goldtitle}`}>
+                    GOLD OFFER
+                  </h2>
                 </div>
 
                 <div className={styles.goldtitleContainer}>
@@ -382,39 +397,48 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-                You may have toxic backlinks, idling Google Business Profile and
-                sparse Directory listings. But you have only one website, which
-                is an extremely astute decision…
+                You may have toxic backlinks, idling Google Business Profile
+                (GBP) and sparse Directory listings. But you have only one
+                website, which is an extremely astute decision. During a month
+                of intensive AI-SEO repair, you can expect at least one Client
+                (which should cover your investment in us) but none can be
+                guaranteed because of our focus on repair. During your repair
+                month, we will clean toxic backlinks, optimise your GBP, build
+                quality Directory listings, and strengthen your site foundation.
+                If you decide to continue on your Fast track to Platinum, then,
+                repair done, we’ll focus on getting you 10 guaranteed Clients
+                every month. No lock-in, continue monthly; pause or stop
+                anytime. Hook up your tow-truck!
               </p>
-            <div className={styles.contentContainer}>
-              <div className={styles.icons}>
-                <div className={styles.dollar}>
-                  $<p className={styles.free}>5873</p>
+              <div className={styles.contentContainer}>
+                <div className={styles.icons}>
+                  <div className={styles.dollar}>
+                    $<p className={styles.free}>5873</p>
+                  </div>
+                  <div className={styles.euro}>
+                    £<p className={styles.free}>4407</p>
+                  </div>
                 </div>
-                <div className={styles.euro}>
-                  £<p className={styles.free}>4407</p>
-                </div>
-              </div>
 
-              <div className={styles.silverRescueContainer}>
-                <div className={styles.goldRescueText}>
-                  <p className={styles.GoldperMonthText}>
-                    For a month, paid after stats results. In the 2nd month
-                    you’ll get 10 Clients
-                  </p>
+                <div className={styles.silverRescueContainer}>
+                  <div className={styles.goldRescueText}>
+                    <p className={styles.GoldperMonthText}>
+                      For a month, paid after stats results. In the 2nd month
+                      you’ll get 10 Clients
+                    </p>
+                  </div>
+                </div>
+
+                <div className={styles.imageContainer}>
+                  <Image
+                    src={ClickMe}
+                    width={494}
+                    height={100}
+                    alt="icon"
+                    className={styles.imageUltraWide}
+                  />
                 </div>
               </div>
-
-              <div className={styles.imageContainer}>
-                <Image
-                  src={ClickMe}
-                  width={494}
-                  height={100}
-                  alt="icon"
-                  className={styles.imageUltraWide}
-                />
-              </div>
-            </div>
             </div>
 
             {/* Mobile footer */}
@@ -484,7 +508,9 @@ export default function ServicesSections() {
                     />
                   </div>
 
-                  <h2 className={styles.title}>PLATINUM OFFER</h2>
+                  <h2 className={`${styles.title} ${styles.platinumtitle}`}>
+                    PLATINUM OFFER
+                  </h2>
                 </div>
 
                 <div className={styles.platinumTitleContainer}>
@@ -523,28 +549,58 @@ export default function ServicesSections() {
             <div className={styles.description}>
               <p className={styles.desc}>
                 You qualify if your website is reasonably functional OR you've
-                completed our Silver or Gold Offers. We GUARANTEE you 10 Clients
-                a month with NOTHING upfront…
+                completed our Silver or Gold Offers. We GUARANTEE you 10 CLIENTS
+                a month with NOTHING upfront. Pay after results. We can scale
+                for each Surgeon in your Clinic, up to six. How? From an AI-SEO
+                Client Acquisition system exclusively for Aesthetic Surgeons.
+                It’s our SIGNATURE offer, it encapsulates how we like to be
+                treated. £4,407 a month, plummets by 25% three times in months
+                5, 6 and 7, to under £2k. No lock-in. continue one month at a
+                time; pause or stop at any time. Ready for Lift Off? 3, 2, 1 . .
+                .
               </p>
-            <div className={styles.contentContainer}>
-              <div className={styles.icons}>
-                <div className={styles.dollar}>
-                  $<p className={styles.free}>5873</p>
-                </div>
-                <div className={styles.euro}>
-                  £<p className={styles.free}>4407</p>
-                </div>
-              </div>
-
-              <div className={styles.silverRescueContainer}>
-                <div className={styles.goldRescueText}>
-                  <p className={styles.GoldperMonthText}>
-                    For a month, paid after stats results. In the 2nd months
-                    you’ll get 10 Clients
-                  </p>
+              <div className={styles.contentContainer}>
+                <div className={styles.icons}>
+                  <div className={styles.dollar}>
+                    $<p className={styles.free}>5873</p>
+                  </div>
+                  <div className={styles.euro}>
+                    £<p className={styles.free}>4407</p>
+                  </div>
                 </div>
 
-                <div>
+                <div className={styles.platiumRescueContainer}>
+                  <div className={`${styles.goldRescueText} ${styles.platinumRescueText}`}>
+                    <div className={styles.paltinumperMonth}>
+
+                    <p style={{marginBottom:13}} className={styles.GoldperMonthText}>
+                      For each month paid on DAY 31
+                    </p>
+                    </div>
+                  <div>
+                    <Image
+                      src={PlatinumOffer}
+                      width={494}
+                      height={200}
+                      alt="icon"
+                      className={`${styles.SilverimageUltraWide} ${styles.platinumimageUltraWide}`}
+                    />
+                  </div>
+                  </div>
+
+                </div>
+
+                <div className={styles.imageContainer}>
+                  <Image
+                    src={ClickMe}
+                    width={494}
+                    height={100}
+                    alt="icon"
+                    className={styles.imageUltraWide}
+                  />
+                </div>
+
+                <div className={styles.mobosilverImageContainer}>
                   <Image
                     src={PlatinumOffer}
                     width={494}
@@ -554,27 +610,6 @@ export default function ServicesSections() {
                   />
                 </div>
               </div>
-
-              <div className={styles.imageContainer}>
-                <Image
-                  src={ClickMe}
-                  width={494}
-                  height={100}
-                  alt="icon"
-                  className={styles.imageUltraWide}
-                />
-              </div>
-
-              <div className={styles.mobosilverImageContainer}>
-                <Image
-                  src={PlatinumOffer}
-                  width={494}
-                  height={200}
-                  alt="icon"
-                  className={styles.SilverimageUltraWide}
-                />
-              </div>
-            </div>
             </div>
 
             {/* Mobile footer */}
@@ -940,7 +975,7 @@ export default function ServicesSections() {
             </div>
           </div>
           {/* <di className={styles.moboMonthCardcontainer}> */}
-            {/* <div className={styles.moboMonthCardTop}>
+          {/* <div className={styles.moboMonthCardTop}>
               <p style={{ textAlign: "center", marginBottom: 0 }}>
                 THE FIRST MONTH:
               </p>
@@ -954,7 +989,7 @@ export default function ServicesSections() {
                 <span>4407</span>
               </div>
             </div> */}
-            {/* <div className={styles.moboMonthCardTop}>
+          {/* <div className={styles.moboMonthCardTop}>
               <p style={{ textAlign: "center", marginBottom: 0 }}>
                 THE FIRST MONTH:
               </p>
@@ -972,34 +1007,34 @@ export default function ServicesSections() {
                 </div>
               </div>
             </div> */}
-            <div className={styles.box}>
-              <div className={styles.row}>
-                <span className={styles.label}>THE FIRST MONTH:</span>
+          <div className={styles.box}>
+            <div className={styles.row}>
+              <span className={styles.label}>THE FIRST MONTH:</span>
 
-                <div className={styles.values}>
-                  <span className={styles.valueItem}>
-                    <span className={styles.currency}>$</span>1283
-                  </span>
-                  <span className={styles.valueItem}>
-                    <span className={styles.currency}>£</span>977
-                  </span>
-                </div>
-              </div>
-
-              <div className={styles.line}></div>
-
-              <div
-                style={{ paddingTop: "10px", paddingBottom: "10px" }}
-                className={styles.row}
-              >
-                <span className={styles.label}>SUBSEQUENT MONTHS:</span>
-
-                <div className={styles.values}>
-                  <span className={styles.valueNumber}>497</span>
-                  <span className={styles.valueNumber}>393</span>
-                </div>
+              <div className={styles.values}>
+                <span className={styles.valueItem}>
+                  <span className={styles.currency}>$</span>1283
+                </span>
+                <span className={styles.valueItem}>
+                  <span className={styles.currency}>£</span>977
+                </span>
               </div>
             </div>
+
+            <div className={styles.line}></div>
+
+            <div
+              style={{ paddingTop: "10px", paddingBottom: "10px" }}
+              className={styles.row}
+            >
+              <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+
+              <div className={styles.values}>
+                <span className={styles.valueNumber}>497</span>
+                <span className={styles.valueNumber}>393</span>
+              </div>
+            </div>
+          </div>
           {/* </di> */}
           <div className={styles.moboApplyImageINsectionsContainer}>
             <Image
