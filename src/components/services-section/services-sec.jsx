@@ -705,6 +705,9 @@ export default function ServicesSections() {
             </div>
             <div className={styles.item}>CUT YOUR CARD COSTS</div>
             <div className={styles.item}>OTHER NEW SERVICE tbc</div>
+            <div className={styles.item}>OTHER NEW SERVICE tbc</div>
+            <div className={styles.item}>OTHER NEW SERVICE tbc</div>
+            <div className={styles.item}>OTHER NEW SERVICE tbc</div>
           </div>
         </section>
 

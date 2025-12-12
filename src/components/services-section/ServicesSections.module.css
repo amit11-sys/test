@@ -8,7 +8,7 @@
 /* EACH SERVICE SECTION */
 .serviceSection {
   /* width: 80%; */
-  margin: 0 auto 40px auto;
+  margin: 0 auto 90px auto;
   background: #ffffff;
   border-radius: 18px;
   padding: 23px;
@@ -101,7 +101,7 @@
   border-radius: 12px;
   margin-bottom: 0px;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 /* BUTTON */
@@ -359,16 +359,16 @@ font-size: 15px;
 }
 
 .item {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: calc(33.33% - 20px);
-  background: #41ffd9;
-  padding: 10px 5px;
-  text-align: center;
-  font-weight: 900;
-  border-radius: 12px;
-  font-size: 22px;
-  min-width: 220px;
+      flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(33.33% - 20px);
+    background: #41ffd9;
+    padding: 17px 5px;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 12px;
+    font-size: 21px;
+    min-width: 220px;
 }
 .servicesRowImgContainer :nth-child(2) {
   display: none;
