@@ -241,7 +241,10 @@ export default function ServicesSections() {
                 clients monthly, under £2k Month 9 - ROI 9-25:1. Unfurl your
                 rope ladder!
               </p>
-              <div style={{alignItems:"center"}} className={styles.contentContainer}>
+              <div
+                style={{ alignItems: "center" }}
+                className={styles.contentContainer}
+              >
                 <div className={styles.icons}>
                   <div className={styles.dollar}>
                     $<p className={styles.free}>5873</p>
@@ -570,24 +573,27 @@ export default function ServicesSections() {
                 </div>
 
                 <div className={styles.platiumRescueContainer}>
-                  <div className={`${styles.goldRescueText} ${styles.platinumRescueText}`}>
+                  <div
+                    className={`${styles.goldRescueText} ${styles.platinumRescueText}`}
+                  >
                     <div className={styles.paltinumperMonth}>
-
-                    <p style={{marginBottom:13}} className={styles.GoldperMonthText}>
-                      For each month paid on DAY 31
-                    </p>
+                      <p
+                        style={{ marginBottom: 13 }}
+                        className={styles.GoldperMonthText}
+                      >
+                        For each month paid on DAY 31
+                      </p>
                     </div>
-                  <div>
-                    <Image
-                      src={PlatinumOffer}
-                      width={494}
-                      height={200}
-                      alt="icon"
-                      className={`${styles.SilverimageUltraWide} ${styles.platinumimageUltraWide}`}
-                    />
+                    <div>
+                      <Image
+                        src={PlatinumOffer}
+                        width={494}
+                        height={200}
+                        alt="icon"
+                        className={`${styles.SilverimageUltraWide} ${styles.platinumimageUltraWide}`}
+                      />
+                    </div>
                   </div>
-                  </div>
-
                 </div>
 
                 <div className={styles.imageContainer}>
@@ -1771,8 +1777,8 @@ export default function ServicesSections() {
               >
                 <Image
                   src={bankLogos}
-                  width={500}
-                  height={100}
+                  width={800}
+                  height={300}
                   alt="icon"
                   className={styles.MoreServicesCutYourCardImageUltraWide}
                 />
