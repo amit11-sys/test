@@ -11,6 +11,7 @@ import SilverMinus from "./images/SilverMinus.png";
 import Agency2 from "./images/sergonup-agency2.png";
 import SilverStar from "./images/sergonup-silverstar.png";
 import PlatinumOffer from "./images/PlatinumOffer.svg";
+import WhatsApp from "./images/whatsapp.png";
 import SilverStar3 from "./images/silverFor2nd.png";
 import backToMoreServices from "./images/backToMoreServices.png";
 import bankLogos from "./images/bankLogos.png";
@@ -102,13 +103,22 @@ export default function ServicesSections() {
                 </div>
 
                 <div className={styles.imageContainer}>
-                  <Image
-                    src={ClickMe}
-                    width={494}
-                    height={100}
-                    alt="icon"
-                    className={styles.imageUltraWide}
-                  />
+                  <button className={styles.orderBtn}>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                    <span className={styles.applytext}>
+                      CLICK ME! <br />
+                      <span>TO ORDER</span>
+                    </span>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                  </button>
                 </div>
               </div>
 
@@ -117,7 +127,16 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-               FREE, no-obligation website audit from a Cambridge graduate who has optimised top Surgeons' websites for over 25 years. From Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left IBM as a Data Analyst in the 90s to focus exclusively on SEO for Cosmetic and Hair Restoration Surgeons. A full AI-SEO analysis will reveal where you stand against competitors. Tam's Semrush AI-SEO expertise will show you the path to organic growth. Find hidden opportunities your competitors are missing. See exactly what's holding your practice back from page one rankings. Claim your complimentary audit.
+                FREE, no-obligation website audit from a Cambridge graduate who
+                has optimised top Surgeons' websites for over 25 years. From
+                Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left
+                IBM as a Data Analyst in the 90s to focus exclusively on SEO for
+                Cosmetic and Hair Restoration Surgeons. A full AI-SEO analysis
+                will reveal where you stand against competitors. Tam's Semrush
+                AI-SEO expertise will show you the path to organic growth. Find
+                hidden opportunities your competitors are missing. See exactly
+                what's holding your practice back from page one rankings. Claim
+                your complimentary audit.
               </p>
 
               <div className={styles.contentContainer}>
@@ -132,13 +151,22 @@ export default function ServicesSections() {
 
                 <div className={styles.imageContainer}>
                   <h3 className={styles.clickMeText}>GET YOUR FREE AUDIT!</h3>
-                  <Image
-                    src={ClickMe}
-                    width={494}
-                    height={100}
-                    alt="icon"
-                    className={styles.imageUltraWide}
-                  />
+                  <button className={styles.orderBtn}>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                    <span className={styles.applytext}>
+                      CLICK ME! <br />
+                      <span>TO ORDER</span>
+                    </span>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                  </button>
                 </div>
               </div>
             </div>
@@ -255,13 +283,35 @@ export default function ServicesSections() {
                     </p>
                   </div>
                   <div className={styles.silverImageContainer}>
-                    <Image
+                    {/* <Image
                       src={SilverMinus}
                       width={494}
                       height={200}
                       alt="icon"
                       className={styles.SilverimageUltraWide}
-                    />
+                    /> */}
+                    <div className={styles.badge}>
+                      <div className={styles.left}>
+                        <Image
+                          src={SilverStar3}
+                          alt="icon"
+                          className={styles.SilverimageNormal}
+                        />
+                        <span className={styles.SilverStriptitle}>SILVER MINUS</span>
+
+                        <div className={styles.right}>
+                        <span>EXTREMELY SEVERE WEBSITES</span>
+                        <span>WILL TAKE MORE MONTHS TO FIX</span>
+                      </div>
+                      </div>
+
+                      {/* <div className={styles.divider} /> */}
+
+                      {/* <div className={styles.right}>
+                        <span>EXTREMELY SEVERE WEBSITES</span>
+                        <span>WILL TAKE MORE MONTHS TO FIX</span>
+                      </div> */}
+                    </div>
                   </div>
                 </div>
 
