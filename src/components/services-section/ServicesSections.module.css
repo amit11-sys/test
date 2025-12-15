@@ -96,13 +96,13 @@
   line-height: 1.5;
 } */
 .desc {
-  background: #33ffcc;
-  /* padding: 20px; */
-  border-radius: 12px;
-  margin-bottom: 0px;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 32px;
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 42px;
 }
 
 /* BUTTON */
@@ -253,11 +253,13 @@
   line-height: 28px;
 }
 .contentContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: end;
-  justify-content: space-between;
-  gap: 15px;
+     display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 12px;
+    margin-top: 12px;
 }
 .clickMeText {
   font-size: 22px;
@@ -310,8 +312,8 @@
 }
 .imageContainer {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  /* flex-direction: column; */
+  gap: 36px;
   align-items: center;
   justify-content: center;
 }

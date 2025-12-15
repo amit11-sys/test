@@ -117,14 +117,7 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-                FREE, no-obligation website audit from a Cambridge graduate who
-                has optimized top surgeons' websites for over 25 years. From
-                Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left
-                IBM as a Data Analyst in the 90s to focus exclusively on SEO for
-                Cosmetic and Hair Restoration Surgeons. A full AI-SEO analysis
-                will reveal where you stand against competitors. Tam's Semrush
-                AI-SEO expertise will show you the path to organic growth. Claim
-                your complimentary audit.
+               FREE, no-obligation website audit from a Cambridge graduate who has optimised top Surgeons' websites for over 25 years. From Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left IBM as a Data Analyst in the 90s to focus exclusively on SEO for Cosmetic and Hair Restoration Surgeons. A full AI-SEO analysis will reveal where you stand against competitors. Tam's Semrush AI-SEO expertise will show you the path to organic growth. Find hidden opportunities your competitors are missing. See exactly what's holding your practice back from page one rankings. Claim your complimentary audit.
               </p>
 
               <div className={styles.contentContainer}>
