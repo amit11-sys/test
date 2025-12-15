@@ -76,7 +76,7 @@
 /* DESCRIPTION BOX */
 .description {
   background: #33ffcc;
-  padding: 15px 10px 13px 10px;
+  padding: 0px 10px 13px 10px;
   border-radius: 12px;
   /* font-size: 1rem; */
   font-weight: 500;
@@ -101,13 +101,13 @@
   line-height: 1.5;
 } */
 .desc {
-    background: #33ffcc;
+        background: #33ffcc;
     /* padding: 20px; */
     border-radius: 12px;
     margin-bottom: 0px;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 26px;
+    line-height: 40px;
 }
 
 /* BUTTON */
@@ -263,8 +263,8 @@
     align-items: end;
     justify-content: space-between;
     gap: 15px;
-    margin-bottom: 12px;
-    margin-top: 12px;
+    /* margin-bottom: 12px;
+    margin-top: 12px; */
 }
 .clickMeText {
   font-size: 22px;
