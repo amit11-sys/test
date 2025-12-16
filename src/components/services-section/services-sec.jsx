@@ -772,7 +772,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>AI-OO</h2>
         </div>
-        <section className={styles.serviceSection}>
+        <section className={styles.googleAiserviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
