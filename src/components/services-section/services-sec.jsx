@@ -127,9 +127,9 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-                FREE, no-obligation website audit from a Cambridge graduate who
-                has optimised top Surgeons' websites for over 25 years. From
-                Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left
+                A FREE, no-obligation website audit from a Cambridge graduate
+                who has optimised top Surgeons' websites for over 25 years. From
+                Beverly Hills to Barcelona, the UAE and beyond. Tam Moudden left
                 IBM as a Data Analyst in the 90s to focus exclusively on SEO for
                 Cosmetic and Hair Restoration Surgeons. A full AI-SEO analysis
                 will reveal where you stand against competitors. Tam's Semrush
@@ -257,10 +257,10 @@ export default function ServicesSections() {
                 can't tell who the real Surgeon is, so it penalises them ALL.
                 Your digital footprint is AGAINST you. This damage demands
                 intervention. It’s too severe to guarantee Clients yet. We'll
-                rebuild over 2 months, paid in arrears. You'll typically see at
-                least 1 Client during repair but none guaranteed. Month 3+: 10
-                clients monthly, under £2k Month 9 - ROI 9-25:1. Unfurl your
-                rope ladder!
+                rebuild over 2 months, paid after results. You'll typically see
+                at least 1 client during repair, but none guaranteed. Month 3
+                onwards, 10 clients monthly, for under £2k a month. Month 9, ROI
+                up to 25:1. Unfurl your rope ladder!
               </p>
               <div
                 style={{ alignItems: "center" }}
@@ -297,12 +297,14 @@ export default function ServicesSections() {
                           alt="icon"
                           className={styles.SilverimageNormal}
                         />
-                        <span className={styles.SilverStriptitle}>SILVER MINUS</span>
+                        <span className={styles.SilverStriptitle}>
+                          SILVER MINUS
+                        </span>
 
                         <div className={styles.right}>
-                        <span>EXTREMELY SEVERE WEBSITES</span>
-                        <span>WILL TAKE MORE MONTHS TO FIX</span>
-                      </div>
+                          <span>EXTREMELY SEVERE WEBSITES</span>
+                          <span>WILL TAKE MORE MONTHS TO FIX</span>
+                        </div>
                       </div>
 
                       {/* <div className={styles.divider} /> */}
@@ -598,12 +600,12 @@ export default function ServicesSections() {
                 completed our Silver or Gold Offers. We GUARANTEE you 10 CLIENTS
                 a month with NOTHING upfront. Pay after results. We can scale
                 for each Surgeon in your Clinic, up to six. How? From an AI-SEO
-                Client Acquisition system exclusively for Aesthetic Surgeons.
+                Client Acquisition strategy exclusively for Aesthetic Surgeons.
                 It’s our SIGNATURE offer, it encapsulates how we like to be
                 treated. £4,407 a month, plummets by 25% three times in months
-                5, 6 and 7, to under £2k. No lock-in. continue one month at a
-                time; pause or stop at any time. Ready for Lift Off? 3, 2, 1 . .
-                .
+                5, 6 and 7, to under £2k. No lock-in, continue month-by-month,
+                still get 10 Clients. Pause or stop anytime. Ready for Lift Off?
+                3, 2, 1 . . . .
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
@@ -803,7 +805,6 @@ export default function ServicesSections() {
               platforms. More and more Clients are relying on Google’s AI
               Overviews when selecting their Surgeon. Appearing in these results
               is essential for visibility and Client Acquisition.
-             
               <br />
               Few practices have begun AI Overviews Optimisation (AI-OO) yet.
               Most Surgeons focus on outdated SEO tactics while the ground
