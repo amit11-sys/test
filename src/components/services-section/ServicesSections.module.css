@@ -109,6 +109,15 @@
     font-size: 25px;
     line-height: 40px;
 }
+.silverDesc {
+        background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+}
 
 /* BUTTON */
 .btnWrapper {
@@ -338,6 +347,15 @@
   height: 100%;
 }
 
+.platiumperMonthText {
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 5px;
+  text-align: start;
+  width: 100%;
+  font-weight: 700;
+  color: #3366ff;
+}
 /* ===== gold offer section styles ===== */
 
 .GoldperMonthText {
@@ -367,16 +385,23 @@
 }
 
 .item {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: calc(33.33% - 20px);
-  background: #41ffd9;
-  padding: 17px 5px;
-  text-align: center;
-  font-weight: 900;
-  border-radius: 12px;
-  font-size: 21px;
-  min-width: 220px;
+     flex-grow: 1;
+    text-align: center;
+    /* flex-shrink: 1; */
+    line-height: 24px;
+    flex-basis: calc(33.33% - 20px);
+    background: #41ffd9;
+    padding: 17px 5px;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 12px;
+    font-size: 21px;
+    display: flex;
+    min-width: 98px;
+    min-height: 85px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .servicesRowImgContainer :nth-child(2) {
   display: none;
@@ -818,6 +843,7 @@
     font-weight: 800;
     font-size: 18px;
     color: #006633;
+    text-align: center;
     line-height: 1.1;
     white-space: nowrap;
 }

@@ -248,7 +248,7 @@ export default function ServicesSections() {
             </div>
 
             <div className={styles.description}>
-              <p className={styles.desc}>
+              <p className={styles.silverDesc}>
                 Fed up spending £10-20k monthly just to survive on Paid Ads,
                 with nothing certain? You're trapped at the bottom of a deep
                 hole, while competitors dominate above you, winning patients
@@ -622,7 +622,7 @@ export default function ServicesSections() {
                     <div className={styles.paltinumperMonth}>
                       <p
                         style={{ marginBottom: 13 }}
-                        className={styles.GoldperMonthText}
+                        className={styles.platiumperMonthText}
                       >
                         For each month paid on DAY 31
                       </p>
