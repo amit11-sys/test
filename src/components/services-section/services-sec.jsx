@@ -258,8 +258,8 @@ export default function ServicesSections() {
                 Your digital footprint is AGAINST you. This damage demands
                 intervention. It’s too severe to guarantee Clients yet. We'll
                 rebuild over 2 months, paid after results. You'll typically see
-                at least 1 client a month during repair?, but none guaranteed.
-                Month 3 onwards, 10 clients monthly, for under £2k a month.
+                at least 1 client a month during repair but none guaranteed.
+                Month 3 onwards, 10 clients a month.
                 Month 9, ROI up to 25:1. Unfurl your rope ladder!
               </p>
               <div
@@ -450,7 +450,7 @@ export default function ServicesSections() {
                 website, which is an extremely astute decision. During a month
                 of intensive AI-SEO repair, you can expect at least one Client
                 (which should cover your investment in us) but none can be
-                guaranteed because of our focus on repair. During your repair
+                guaranteed because of our focus on repair. During your remedial
                 month, we will clean toxic backlinks, optimise your GBP, build
                 quality Directory listings, and strengthen your site foundation.
                 If you decide to continue on your Fast track to Platinum, then,
