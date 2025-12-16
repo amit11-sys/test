@@ -803,7 +803,7 @@ export default function ServicesSections() {
               platforms. More and more Clients are relying on Google’s AI
               Overviews when selecting their Surgeon. Appearing in these results
               is essential for visibility and Client Acquisition.
-              <br />
+             
               <br />
               Few practices have begun AI Overviews Optimisation (AI-OO) yet.
               Most Surgeons focus on outdated SEO tactics while the ground
