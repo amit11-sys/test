@@ -259,7 +259,7 @@ export default function ServicesSections() {
                 intervention. It’s too severe to guarantee Clients yet. We'll
                 rebuild over 2 months, paid after results. You'll typically see
                 at least 1 client a month during repair but none guaranteed.
-                Month 3 onwards, 10 clients a month.
+                Month 7 onwards, 10 clients a month.
                 Month 9, ROI up to 25:1. Unfurl your rope ladder!
               </p>
               <div
