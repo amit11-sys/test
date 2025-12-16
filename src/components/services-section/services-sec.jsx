@@ -258,9 +258,9 @@ export default function ServicesSections() {
                 Your digital footprint is AGAINST you. This damage demands
                 intervention. It’s too severe to guarantee Clients yet. We'll
                 rebuild over 2 months, paid after results. You'll typically see
-                at least 1 client during repair, but none guaranteed. Month 3
-                onwards, 10 clients monthly, for under £2k a month. Month 9, ROI
-                up to 25:1. Unfurl your rope ladder!
+                at least 1 client a month during repair?, but none guaranteed.
+                Month 3 onwards, 10 clients monthly, for under £2k a month.
+                Month 9, ROI up to 25:1. Unfurl your rope ladder!
               </p>
               <div
                 style={{ alignItems: "center" }}
@@ -599,13 +599,13 @@ export default function ServicesSections() {
                 You qualify if your website is reasonably functional OR you've
                 completed our Silver or Gold Offers. We GUARANTEE you 10 CLIENTS
                 a month with NOTHING upfront. Pay after results. We can scale
-                for each Surgeon in your Clinic, up to six. How? From an AI-SEO
-                Client Acquisition strategy exclusively for Aesthetic Surgeons.
-                It’s our SIGNATURE offer, it encapsulates how we like to be
-                treated. £4,407 a month, plummets by 25% three times in months
-                5, 6 and 7, to under £2k. No lock-in, continue month-by-month,
-                still get 10 Clients. Pause or stop anytime. Ready for Lift Off?
-                3, 2, 1 . . . .
+                for each Surgeon in your Clinic, up to six. How? From 25 years
+                of SEO mastery, now AI-powered, exclusively for Aesthetic
+                Surgeons. It’s our SIGNATURE offer, it encapsulates how we like
+                to be treated. £4,407 a month, plummets by 25% three times in
+                months 5, 6 and 7, to under £2k. No lock-in, continue
+                month-by-month, still get 10 Clients. Pause or stop anytime.
+                Ready for Lift Off? 3, 2, 1 . . . .
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
