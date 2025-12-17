@@ -994,11 +994,11 @@
 }
 .desktopAIOOHeaderMore{
          width: 80%;
-    margin-bottom: 7px;
+    /* margin-bottom: 7px; */
    gap: 373px;
     display: flex;
     justify-content: start;
-    align-items: end;
+    /* align-items: end; */
 }
 .desktopAIOOHeaderMore h2{
         font-size: 33px;
