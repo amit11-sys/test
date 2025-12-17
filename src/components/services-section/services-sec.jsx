@@ -726,6 +726,8 @@ export default function ServicesSections() {
             </div>
           </section>
         </>
+
+
         <div className={styles.desktopServiceHeaderRow}>
           {/* <button className={styles.backBtn}></button> */}
           {/* <img src={backToMoreServices} alt="" /> */}
@@ -821,7 +823,7 @@ export default function ServicesSections() {
               {/* </div> */}
             </div>
 
-            <h2 style={{ color: "#2F66FF" }}>AI-OO</h2>
+            <h2 style={{ color: "#2F66FF" }}>AI OO</h2>
           </div>
         </div>
         <section className={styles.googleAiserviceSection}>
@@ -840,7 +842,7 @@ export default function ServicesSections() {
               </div>
 
               <h2 className={styles.title}>
-                GOOGLE'S AI OVERVIEWS OPTIMISATION (AI-OO)
+                GOOGLE'S AI OVERVIEWS OPTIMISATION (AI OO)
               </h2>
             </div>
 
@@ -856,7 +858,7 @@ export default function ServicesSections() {
               Overviews when selecting their Surgeon. Appearing in these results
               is essential for visibility and Client Acquisition.
               <br />
-              Few practices have begun AI Overviews Optimisation (AI-OO) yet.
+              Few practices have begun AI Overviews Optimisation (AI OO) yet.
               Most Surgeons focus on outdated SEO tactics while the ground
               shifts beneath their feet. The first-mover advantage is closing
               rapidly. Get in now. Position yourself at the forefront with
@@ -1042,7 +1044,7 @@ export default function ServicesSections() {
               </div>
 
               <h2 className={styles.title}>
-                AI & LLM SEARCH ENGINE OPTIMISATION (AI-SEO)
+                AI & LLM SEARCH ENGINE OPTIMISATION (AI SEO)
               </h2>
             </div>
 
@@ -1219,17 +1221,17 @@ export default function ServicesSections() {
               Your Google Business
               Profile is your digital storefront. When Clients search for
               Surgeons in your area, your GBP appears prominently in Google
-              Search and Maps—often before your website. It's the first
+              Search and Maps often before your website. It's the first
               impression that determines whether they contact you or move on to
               a competitor. An optimised GBP displays compelling photos,
-              authentic reviews, accurate hours, and detailed services—all of
+              authentic reviews, accurate hours, and detailed services all of
               which build the trust so essential for Surgeons. Profiles with
               regular posts, timely review responses, and fresh content
               consistently outperform competitors in visibility and engagement.
               Most practices severely underutilise their GBP, treating it as a
               static listing rather than the dynamic marketing asset it truly
               is. The question is not whether you can afford to invest in
-              professional GBP optimisation—it's whether you can afford not to.
+              professional GBP optimisation it's whether you can afford not to.
             </p>
 
             <div className={styles.footer}>
@@ -1880,7 +1882,7 @@ export default function ServicesSections() {
                   className={styles.MoreServicesImageUltraWide}
                 />
               </div>
-              <h2 className={styles.title}>IMAGE GEO-TAG OPTIMISATION</h2>
+              <h2 className={styles.title}>IMAGE GEO TAG OPTIMISATION</h2>
             </div>
 
             <p className={styles.text}>
