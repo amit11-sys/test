@@ -10,6 +10,7 @@ import GoldStar from "./images/sergonup-brwonstar.png";
 import SilverMinus from "./images/SilverMinus.png";
 import Agency2 from "./images/sergonup-agency2.png";
 import SilverStar from "./images/sergonup-silverstar.png";
+import arrowLeft from "./images/arrowLeft.png";
 import PlatinumOffer from "./images/PlatinumOffer.svg";
 import WhatsApp from "./images/whatsapp.png";
 import SilverStar3 from "./images/silverFor2nd.png";
@@ -259,8 +260,8 @@ export default function ServicesSections() {
                 intervention. It’s too severe to guarantee Clients yet. We'll
                 rebuild over 2 months, paid after results. You'll typically see
                 at least 1 client a month during repair but none guaranteed.
-                Month 7 onwards, 10 clients a month.
-                Month 9, ROI up to 25:1. Unfurl your rope ladder!
+                Month 7 onwards, 10 clients a month. Month 9, ROI up to 25:1.
+                Unfurl your rope ladder!
               </p>
               <div
                 style={{ alignItems: "center" }}
@@ -306,7 +307,6 @@ export default function ServicesSections() {
                           <span>WILL TAKE MORE MONTHS TO FIX</span>
                         </div>
                       </div>
-                      
 
                       {/* <div className={styles.divider} /> */}
 
@@ -314,8 +314,8 @@ export default function ServicesSections() {
                         <span>EXTREMELY SEVERE WEBSITES</span>
                         <span>WILL TAKE MORE MONTHS TO FIX</span>
                       </div> */}
-                     
-                        {/* <div className={styles.imageContainer}>
+
+                      {/* <div className={styles.imageContainer}>
                   <Image
                     src={ClickMe}
                     width={494}
@@ -327,7 +327,7 @@ export default function ServicesSections() {
                        */}
                     </div>
                   </div>
-                     <button className={styles.orderBtn}>
+                  <button className={styles.orderBtn}>
                     <Image
                       src={WhatsApp}
                       alt="WhatsApp"
@@ -344,8 +344,6 @@ export default function ServicesSections() {
                     />
                   </button>
                 </div>
-
-              
               </div>
             </div>
 
@@ -728,7 +726,28 @@ export default function ServicesSections() {
             </div>
           </section>
         </>
+        <div className={styles.desktopServiceHeaderRow}>
+          {/* <button className={styles.backBtn}></button> */}
+          {/* <img src={backToMoreServices} alt="" /> */}
+          <div
+            style={{ paddingRight: "50px" }}
+            className={styles.imageContainer}
+          >
+            {/* <Image
+              src={backToMoreServices}
+              width={100}
+              height={100}
+              alt="icon"
+              className={styles.MoreServicesImageUltraWide}
+            /> */}
 
+            <div className={styles.ServiceMenubackToMoreServices}>
+              MORE SERVICE
+            </div>
+          </div>
+
+          {/* <h2 className={styles.moboAIOOHeaderRowtitle}>AI-OO</h2> */}
+        </div>
         <section className={styles.serviceSection}>
           <div className={styles.container}>
             <div className={styles.item}>
@@ -776,23 +795,34 @@ export default function ServicesSections() {
           </div>
         </section>
 
-        <div className={styles.moboAIOOHeaderRow}>
+        <div className={styles.desktopAIOOServiceHeaderRow}>
           {/* <button className={styles.backBtn}></button> */}
           {/* <img src={backToMoreServices} alt="" /> */}
-          <div
-            style={{ paddingRight: "50px" }}
-            className={styles.imageContainer}
-          >
-            <Image
-              src={backToMoreServices}
-              width={100}
-              height={100}
-              alt="icon"
-              className={styles.MoreServicesImageUltraWide}
-            />
-          </div>
+          <div className={styles.desktopAIOOHeaderMore}>
+            <div
+              // style={{ paddingRight: "50px" }}
+              className={styles.imageContainer}
+            >
+              {/* <div className={styles.wrapper}> */}
+              <button className={styles.desktopAIOOHeaderMorebutton}>
+                <span className={styles.desktopAIOOHeaderMoreicon}>
+                  <Image
+                    src={arrowLeft}
+                    width={100}
+                    height={100}
+                    alt="icon"
+                    // className={styles.MoreServicesImageUltraWide}
+                  />
+                </span>
+                <span className={styles.desktopAIOOHeaderMoretext}>
+                  MORE SERVICES MENU
+                </span>
+              </button>
+              {/* </div> */}
+            </div>
 
-          <h2 className={styles.moboAIOOHeaderRowtitle}>AI-OO</h2>
+            <h2 style={{ color: "#2F66FF" }}>AI-OO</h2>
+          </div>
         </div>
         <section className={styles.googleAiserviceSection}>
           <div className={styles.card}>
@@ -800,13 +830,13 @@ export default function ServicesSections() {
               {/* <button className={styles.backBtn}></button> */}
               {/* <img src={backToMoreServices} alt="" /> */}
               <div className={styles.imageContainer}>
-                <Image
+                {/* <Image
                   src={backToMoreServices}
                   width={100}
                   height={100}
                   alt="icon"
                   className={styles.MoreServicesImageUltraWide}
-                />
+                /> */}
               </div>
 
               <h2 className={styles.title}>
@@ -967,19 +997,48 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>AI-SEO</h2>
         </div>
+        <div className={styles.desktopAIOOServiceHeaderRow}>
+          {/* <button className={styles.backBtn}></button> */}
+          {/* <img src={backToMoreServices} alt="" /> */}
+          <div className={styles.desktopAIOOHeaderMore}>
+            <div
+              // style={{ paddingRight: "50px" }}
+              className={styles.imageContainer}
+            >
+              {/* <div className={styles.wrapper}> */}
+              <button className={styles.desktopAIOOHeaderMorebutton}>
+                <span className={styles.desktopAIOOHeaderMoreicon}>
+                  <Image
+                    src={arrowLeft}
+                    width={100}
+                    height={100}
+                    alt="icon"
+                    // className={styles.MoreServicesImageUltraWide}
+                  />
+                </span>
+                <span className={styles.desktopAIOOHeaderMoretext}>
+                  MORE SERVICES MENU
+                </span>
+              </button>
+              {/* </div> */}
+            </div>
+
+            <h2 style={{ color: "#2F66FF" }}>AI-SEO</h2>
+          </div>
+        </div>
         <section className={styles.serviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
               {/* <img src={backToMoreServices} alt="" /> */}
               <div className={styles.imageContainer}>
-                <Image
+                {/* <Image
                   src={backToMoreServices}
                   width={100}
                   height={100}
                   alt="icon"
                   className={styles.MoreServicesImageUltraWide}
-                />
+                /> */}
               </div>
 
               <h2 className={styles.title}>
@@ -1109,6 +1168,174 @@ export default function ServicesSections() {
             </div>
           </div>
           {/* </di> */}
+          <div className={styles.moboApplyImageINsectionsContainer}>
+            <Image
+              src={moboApply}
+              width={""}
+              height={""}
+              alt="icon"
+              className={styles.moboApplyImage}
+            />
+          </div>
+        </section>
+
+         {/* GOOGLE BUSINESS PROFILE (GBP) OPTIMISATION */}
+        <div className={styles.moboAIOOHeaderRow}>
+          {/* <button className={styles.backBtn}></button> */}
+          {/* <img src={backToMoreServices} alt="" /> */}
+          <div
+            style={{ paddingRight: "50px" }}
+            className={styles.imageContainer}
+          >
+            <Image
+              src={backToMoreServices}
+              width={100}
+              height={100}
+              alt="icon"
+              className={styles.MoreServicesImageUltraWide}
+            />
+          </div>
+
+          <h2 className={styles.moboAIOOHeaderRowtitle}>KO</h2>
+        </div>
+        <section className={styles.keywordsServiceSection}>
+          <div className={styles.card}>
+            <div className={styles.headerRow}>
+              {/* <button className={styles.backBtn}></button> */}
+              {/* <img src={backToMoreServices} alt="" /> */}
+              <div className={styles.imageContainer}>
+                <Image
+                  src={backToMoreServices}
+                  width={100}
+                  height={100}
+                  alt="icon"
+                  className={styles.MoreServicesImageUltraWide}
+                />
+              </div>
+              <h2 className={styles.title}> GOOGLE BUSINESS PROFILE (GBP) OPTIMISATION</h2>
+            </div>
+
+            <p className={styles.keywordText}>
+              Your Google Business
+              Profile is your digital storefront. When Clients search for
+              Surgeons in your area, your GBP appears prominently in Google
+              Search and Maps—often before your website. It's the first
+              impression that determines whether they contact you or move on to
+              a competitor. An optimised GBP displays compelling photos,
+              authentic reviews, accurate hours, and detailed services—all of
+              which build the trust so essential for Surgeons. Profiles with
+              regular posts, timely review responses, and fresh content
+              consistently outperform competitors in visibility and engagement.
+              Most practices severely underutilise their GBP, treating it as a
+              static listing rather than the dynamic marketing asset it truly
+              is. The question is not whether you can afford to invest in
+              professional GBP optimisation—it's whether you can afford not to.
+            </p>
+
+            <div className={styles.footer}>
+              <div className={styles.prices}>
+                <div className={styles.priceBlock}>
+                  <span className={styles.label}>THE FIRST MONTH:</span>
+                  <span className={styles.price}>
+                    <span className={styles.priceSpanFlex}>
+                      <span style={{ color: "#006633" }}>$</span>
+                      <span style={{ color: "#006633" }}>1283</span>
+                    </span>
+
+                    <span className={styles.priceSpanFlex}>
+                      <span>£</span>
+                      <span> 977</span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div className={styles.priceBlock}>
+                <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                <span className={styles.price}>
+                  <span className={styles.priceSpanFlex}>
+                    <span style={{ color: "#006633" }}>$</span>
+                    <span style={{ color: "#006633" }}>497</span>
+                  </span>
+                  <span className={styles.priceSpanFlex}>
+                    <span>£</span>
+                    <span>393</span>
+                  </span>
+                </span>
+              </div>
+
+              <div className={styles.imageContainer}>
+                <Image
+                  src={ClickMe}
+                  width={494}
+                  height={100}
+                  alt="icon"
+                  className={styles.imageUltraWide}
+                />
+              </div>
+            </div>
+          </div>
+          <div className={styles.moboMonthCardcontainer}>
+            {/* <div className={styles.moboMonthCardTop}>
+              <p style={{ textAlign: "center", marginBottom: 0 }}>
+                THE FIRST MONTH:
+              </p>
+              <div className={styles.otherfirstFooterInvestmentText}>
+                <span>$</span>
+                <br />
+                <span>5873</span>
+
+                <span>£</span>
+                <br />
+                <span>4407</span>
+              </div>
+            </div> */}
+            {/* <div className={styles.moboMonthCardTop}>
+              <p style={{ textAlign: "center", marginBottom: 0 }}>
+                THE FIRST MONTH:
+              </p>
+              <div className={styles.otherfirstFooterInvestmentText}>
+                <div>
+                  <span>$</span>
+
+                  <span>5873</span>
+                </div>
+
+                <div>
+                  <span>£</span>
+                  <br />
+                  <span>4407</span>
+                </div>
+              </div>
+            </div> */}
+            <div className={styles.box}>
+              <div className={styles.row}>
+                <span className={styles.label}>THE FIRST MONTH:</span>
+
+                <div className={styles.values}>
+                  <span className={styles.valueItem}>
+                    <span className={styles.currency}>$</span>1283
+                  </span>
+                  <span className={styles.valueItem}>
+                    <span className={styles.currency}>£</span>977
+                  </span>
+                </div>
+              </div>
+
+              <div className={styles.line}></div>
+
+              <div
+                style={{ paddingTop: "10px", paddingBottom: "10px" }}
+                className={styles.row}
+              >
+                <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+
+                <div className={styles.values}>
+                  <span className={styles.valueNumber}>497</span>
+                  <span className={styles.valueNumber}>393</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className={styles.moboApplyImageINsectionsContainer}>
             <Image
               src={moboApply}
