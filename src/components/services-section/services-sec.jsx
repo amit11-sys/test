@@ -1119,7 +1119,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>GBP</h2>
         </div>
-        <section className={styles.serviceSection}>
+        <section className={styles.BlackLinkserviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1285,7 +1285,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>BDL & C</h2>
         </div>
-        <section className={styles.serviceSection}>
+        <section className={styles.bussinessServiceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1450,7 +1450,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>KO</h2>
         </div>
-        <section className={styles.serviceSection}>
+        <section className={styles.keywordsServiceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1619,7 +1619,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>GTI-C</h2>
         </div>
-        <section className={styles.serviceSection}>
+        <section className={styles.imageGeoServiceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1788,7 +1788,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>CUT CC COSTS</h2>
         </div>
-        <section className={styles.serviceSection}>
+        <section className={styles.cardCostServiceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
