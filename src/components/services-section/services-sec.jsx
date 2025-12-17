@@ -1487,7 +1487,7 @@ export default function ServicesSections() {
               <h2 className={styles.title}>KEYWORDS OPTIMISATION</h2>
             </div>
 
-            <p className={styles.text}>
+            <p className={styles.keywordText}>
               When Clients search "Hair Transplant specialist Manchester,"
               strategic keywords are what determines whether your practice
               appears prominently or remains invisible. Keywords are the bridge

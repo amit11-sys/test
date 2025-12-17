@@ -737,6 +737,12 @@
   font-weight: 600;
   line-height: 32.35px;
 }
+.keywordText {
+  margin-top: 10px;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 32.35px;
+}
 
 .prices {
   display: flex;
