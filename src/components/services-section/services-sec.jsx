@@ -306,6 +306,7 @@ export default function ServicesSections() {
                           <span>WILL TAKE MORE MONTHS TO FIX</span>
                         </div>
                       </div>
+                      
 
                       {/* <div className={styles.divider} /> */}
 
@@ -313,11 +314,8 @@ export default function ServicesSections() {
                         <span>EXTREMELY SEVERE WEBSITES</span>
                         <span>WILL TAKE MORE MONTHS TO FIX</span>
                       </div> */}
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.imageContainer}>
+                     
+                        {/* <div className={styles.imageContainer}>
                   <Image
                     src={ClickMe}
                     width={494}
@@ -326,6 +324,28 @@ export default function ServicesSections() {
                     className={styles.imageUltraWide}
                   />
                 </div>
+                       */}
+                    </div>
+                  </div>
+                     <button className={styles.orderBtn}>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                    <span className={styles.applytext}>
+                      CLICK ME! <br />
+                      <span>TO ORDER</span>
+                    </span>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                  </button>
+                </div>
+
+              
               </div>
             </div>
 
@@ -1119,7 +1139,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>GBP</h2>
         </div>
-        <section className={styles.BlackLinkserviceSection}>
+        <section className={styles.serviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1285,7 +1305,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>BDL & C</h2>
         </div>
-        <section className={styles.bussinessServiceSection}>
+        <section className={styles.serviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1450,7 +1470,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>KO</h2>
         </div>
-        <section className={styles.keywordsServiceSection}>
+        <section className={styles.serviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1619,7 +1639,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>GTI-C</h2>
         </div>
-        <section className={styles.imageGeoServiceSection}>
+        <section className={styles.serviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -1788,7 +1808,7 @@ export default function ServicesSections() {
 
           <h2 className={styles.moboAIOOHeaderRowtitle}>CUT CC COSTS</h2>
         </div>
-        <section className={styles.cardCostServiceSection}>
+        <section className={styles.serviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}

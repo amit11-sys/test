@@ -339,7 +339,7 @@
   /* text-wrap: nowrap; */
 }
 .subtitle {
-  font-size: 50px;
+  font-size: 38px;
   font-weight: 900;
   margin: 0px;
   /* text-wrap: nowrap; */
@@ -404,7 +404,7 @@
 
 /* ==========Silver section styles=========== */
 .perMonthText {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 800;
   /* margin-top: 5px; */
   margin-bottom: 0px;
@@ -846,7 +846,7 @@
 }
 
 .BronzeSubtitle {
-  font-size: 55px;
+  font-size: 46px;
   font-weight: 900;
   margin: 0px;
   /* text-wrap: nowrap; */
@@ -858,6 +858,7 @@
     align-items: center;
     justify-content: center;
     gap: 3px;
+    text-wrap: nowrap;
     border: none;
     padding: 3px 2px;
     border-radius: 8px;
@@ -937,7 +938,7 @@
 
 .SilverStriptitle {
      font-weight: 900;
-    font-size: 28px;
+    font-size: 22px;
     color: #2f66ff;
     white-space: nowrap;
 }
@@ -955,7 +956,7 @@
     flex-direction: column;
     padding: 8px 14px;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 16px;
     color: #006633;
     text-align: center;
     line-height: 1.1;
