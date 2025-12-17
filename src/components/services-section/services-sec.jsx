@@ -987,7 +987,7 @@ export default function ServicesSections() {
               </h2>
             </div>
 
-            <p className={styles.text}>
+            <p className={styles.AiLLmtext}>
               AI Search Engines are reshaping how Clients discover Aesthetic and
               Restorative Surgeons. Platforms like ChatGPT, Perplexity, and
               Google's AI Overviews now answer millions of health queries daily.
