@@ -45,7 +45,7 @@ const cardsData = [
     imag1: GoldStar,
     imag2: Agency2,
     imag3: ClickMe,
-    desc: "You may have toxic backlinks, idling Google Business Profile (GBP) and sparse Directory listings. But you have only one website, which is an extremely astute decision. During a month of intensive AI-SEO repair, you can expect at least one Client (which should cover your investment in us) but none can be guaranteed because of our focus on repair. During your repair month, we will clean toxic backlinks, optimise your GBP, build quality Directory listings, and strengthen your site foundation. If you decide to continue on your Fast track to Platinum, then, repair done, we’ll focus on getting you 10 guaranteed Clients every month. No lock-in, continue monthly; pause or stop anytime. Hook up your tow-truck!",
+    desc: "You may have toxic backlinks, idling Google Business Profile (GBP) and sparse Directory listings. But you have only one website, which is an extremely astute decision. During a month of intensive AI-SEO repair, you can expect at least one Client (which should cover your investment in us) but none can be guaranteed because of our focus on repair. During your repair month, we will clean toxic backlinks, optimise your GBP, build quality Directory listings, and strengthen your site foundation. If you decide to continue on your Fast track to Platinum, then, repair done, we’ll focus on getting you 10 guaranteed Clients every month. No lock-in, continue monthly; pause or stop anytime. Hook up to your tow-truck!",
     url: "/services",
   },
   {
@@ -251,16 +251,12 @@ export default function ServicesSections() {
             <div className={styles.description}>
               <p className={styles.silverDesc}>
                 Fed up spending £10-20k monthly just to survive on Paid Ads,
-                with nothing certain? You're trapped at the bottom of a deep
-                hole, while competitors dominate above you, winning patients
-                you're paying for. Fragmented multi-website practices splinter
+                with nothing certain? You can’t be seen where prospects search, while competitors capture Clients, you're paying premium rates to reach. Fragmented multi-website practices splinter
                 your visibility. Your fractured presence confuses Google - it
                 can't tell who the real Surgeon is, so it penalises them ALL.
                 Your digital footprint is AGAINST you. This damage demands
                 intervention. It’s too severe to guarantee Clients yet. We'll
-                rebuild over 2 months, paid after results. You'll typically see
-                at least 1 client a month during repair but none guaranteed.
-                Month 7 onwards, 10 clients a month. Month 9, ROI up to 25:1.
+                rebuild over 2 months, paid after results. You'll typically see at least one Client a month during repair but none can be guaranteed. From Month 3 onwards, 10 clients a month. In Month 9,  ROI at least 25x.
                 Unfurl your rope ladder!
               </p>
               <div
@@ -279,7 +275,7 @@ export default function ServicesSections() {
                 <div className={styles.silverRescueContainer}>
                   <div className={styles.silverRescueText}>
                     <p className={styles.perMonthText}>
-                      per month for 2 months of repair, paid after results. In
+                      Per month for 2 months of repair, paid after results. In
                       the 3rd month you are guaranteed 10 Clients.
                     </p>
                   </div>
@@ -463,14 +459,11 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-                You may have toxic backlinks, idling Google Business Profile
-                (GBP) and sparse Directory listings. But you have only one
+                You may have toxic backlinks, idling Google Business Profile (GBP) and sparse Directory listings. But you have only one
                 website, which is an extremely astute decision. During a month
                 of intensive AI-SEO repair, you can expect at least one Client
                 (which should cover your investment in us) but none can be
-                guaranteed because of our focus on repair. During your remedial
-                month, we will clean toxic backlinks, optimise your GBP, build
-                quality Directory listings, and strengthen your site foundation.
+                guaranteed because of our focus on repair. During your remedial month, we will clean toxic backlinks, optimise your GBP, build quality Directory listings and strengthen your site's foundation.
                 If you decide to continue on your Fast track to Platinum, then,
                 repair done, we’ll focus on getting you 10 guaranteed Clients
                 every month. No lock-in, continue monthly; pause or stop
@@ -489,8 +482,7 @@ export default function ServicesSections() {
                 <div className={styles.silverRescueContainer}>
                   <div className={styles.goldRescueText}>
                     <p className={styles.GoldperMonthText}>
-                      For a month, paid after stats results. In the 2nd month
-                      you’ll get 10 Clients
+                      For a month, paid after the stats results. In the 2nd month, you’ll get 10 Clients.
                     </p>
                   </div>
                 </div>
@@ -620,10 +612,9 @@ export default function ServicesSections() {
                 for each Surgeon in your Clinic, up to six. How? From 25 years
                 of SEO mastery, now AI-powered, exclusively for Aesthetic
                 Surgeons. It’s our SIGNATURE offer, it encapsulates how we like
-                to be treated. £4,407 a month, plummets by 25% three times in
-                months 5, 6 and 7, to under £2k. No lock-in, continue
+                to be treated. £4.5k a month; plummets by 25% three times in months 5, 6 and 7, to under £2k. ROI from an amazing 9x, rockets to 25x. Continue
                 month-by-month, still get 10 Clients. Pause or stop anytime.
-                Ready for Lift Off? 3, 2, 1 . . . .
+                Ready for Lift Off? 3, 2, 1 . . .  An Ellipsis is a space and a dot, 3x, then a space.
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
@@ -726,7 +717,6 @@ export default function ServicesSections() {
             </div>
           </section>
         </>
-
 
         <div className={styles.desktopServiceHeaderRow}>
           {/* <button className={styles.backBtn}></button> */}
@@ -1181,7 +1171,7 @@ export default function ServicesSections() {
           </div>
         </section>
 
-         {/* GOOGLE BUSINESS PROFILE (GBP) OPTIMISATION */}
+        {/* GOOGLE BUSINESS PROFILE (GBP) OPTIMISATION */}
         <div className={styles.moboAIOOHeaderRow}>
           {/* <button className={styles.backBtn}></button> */}
           {/* <img src={backToMoreServices} alt="" /> */}
@@ -1214,19 +1204,21 @@ export default function ServicesSections() {
                   className={styles.MoreServicesImageUltraWide}
                 />
               </div>
-              <h2 className={styles.title}> GOOGLE BUSINESS PROFILE (GBP) OPTIMISATION</h2>
+              <h2 className={styles.title}>
+                {" "}
+                GOOGLE BUSINESS PROFILE (GBP) OPTIMISATION
+              </h2>
             </div>
 
             <p className={styles.keywordText}>
-              Your Google Business
-              Profile is your digital storefront. When Clients search for
-              Surgeons in your area, your GBP appears prominently in Google
-              Search and Maps often before your website. It's the first
-              impression that determines whether they contact you or move on to
-              a competitor. An optimised GBP displays compelling photos,
-              authentic reviews, accurate hours, and detailed services all of
-              which build the trust so essential for Surgeons. Profiles with
-              regular posts, timely review responses, and fresh content
+              Your Google Business Profile is your digital storefront. When
+              Clients search for Surgeons in your area, your GBP appears
+              prominently in Google Search and Maps often before your website.
+              It's the first impression that determines whether they contact you
+              or move on to a competitor. An optimised GBP displays compelling
+              photos, authentic reviews, accurate hours, and detailed services
+              all of which build the trust so essential for Surgeons. Profiles
+              with regular posts, timely review responses, and fresh content
               consistently outperform competitors in visibility and engagement.
               Most practices severely underutilise their GBP, treating it as a
               static listing rather than the dynamic marketing asset it truly
