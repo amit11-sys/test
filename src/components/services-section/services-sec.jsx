@@ -467,7 +467,7 @@ export default function ServicesSections() {
                 If you decide to continue on your Fast track to Platinum, then,
                 repair done, we’ll focus on getting you 10 guaranteed Clients
                 every month. No lock-in, continue monthly; pause or stop
-                anytime. Hook up your tow-truck!
+                anytime. Hook up to your tow-truck!
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
@@ -612,9 +612,9 @@ export default function ServicesSections() {
                 for each Surgeon in your Clinic, up to six. How? From 25 years
                 of SEO mastery, now AI-powered, exclusively for Aesthetic
                 Surgeons. It’s our SIGNATURE offer, it encapsulates how we like
-                to be treated. £4.5k a month; plummets by 25% three times in months 5, 6 and 7, to under £2k. ROI from an amazing 9x, rockets to 25x. Continue
-                month-by-month, still get 10 Clients. Pause or stop anytime.
-                Ready for Lift Off? 3, 2, 1 . . .  An Ellipsis is a space and a dot, 3x, then a space.
+                to be treated. £4.5k a month, plummets by 25% three times in months 5, 6 and 7, to under £2k. ROI from an amazing 9x, rockets to 25x. Continue
+                month-by-month, still getting 10 Clients. Pause or stop anytime.
+                Ready for Lift Off? 3, 2, 1 . . .
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
