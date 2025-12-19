@@ -87,7 +87,7 @@ export default function ServicesSections() {
                   <h2 className={styles.Bronzetitle}>BRONZE OFFER</h2>
                 </div>
 
-                <div className={styles.BronzetitleContainer}>
+                {/* <div className={styles.BronzetitleContainer}> */}
                   <h3 className={`${styles.subtitle} ${styles.BronzeSubtitle}`}>
                     IS YOUR WEBSITE <i>FIT?</i>
                   </h3>
@@ -101,7 +101,7 @@ export default function ServicesSections() {
                       className={`${styles.imageWide} ${styles.headerImg}`}
                     />
                   </div>
-                </div>
+                {/* </div> */}
 
                 <div className={styles.imageContainer}>
                   <button className={styles.orderBtn}>
@@ -223,10 +223,12 @@ export default function ServicesSections() {
 
                 <div className={styles.titleContainer}>
                   <h3 className={styles.subtitle}>
-                    <i>BURIED</i> DEEP IN A HOLE?
+                    <i>BURIED</i> DEEP IN A HOLE
                   </h3>
 
-                  <div className={styles.imageContainer}>
+                  <div className={styles.imageContainer} 
+                  // style={{marginLeft:"30px"}}
+                  >
                     <Image
                       src={OpImg}
                       width={150}
@@ -237,7 +239,9 @@ export default function ServicesSections() {
                   </div>
                 </div>
 
-                <div className={styles.imageContainer}>
+                <div className={styles.imageContainer} 
+                // style={{marginLeft:"10px", marginRight:"10px"}}
+                >
                   <Image
                     src={ClickMe}
                     width={494}
@@ -395,7 +399,7 @@ export default function ServicesSections() {
 
           <section className={styles.serviceSection}>
             <div className={styles.headingRow}>
-              <div className={styles.headingContent}>
+              <div className={styles.headingContentGold}>
                 <div className={styles.starImageContainer}>
                   <div className={styles.servicesRowImgContainer}>
                     <Image
@@ -417,7 +421,7 @@ export default function ServicesSections() {
                   </h2>
                 </div>
 
-                <div className={styles.goldtitleContainer}>
+                {/* <div className={styles.goldtitleContainer}> */}
                   <h3 className={styles.subtitle}>
                     <i>STUCK</i> IN A RUT?
                   </h3>
@@ -431,7 +435,7 @@ export default function ServicesSections() {
                       className={`${styles.imageWide} ${styles.headerImg}`}
                     />
                   </div>
-                </div>
+                {/* </div> */}
                 <div className={styles.mobogoldtitleContainer}>
                   <h3 className={styles.subtitle}>
                     <i>STUCK</i> IN A RUT?
@@ -472,7 +476,7 @@ export default function ServicesSections() {
                   </div>
                 </div>
 
-                <div className={styles.imageContainer}>
+                <div className={styles.imageContainer} style={{marginLeft:"20px"}}>
                   <Image
                     src={ClickMe}
                     width={494}
@@ -557,7 +561,7 @@ export default function ServicesSections() {
                 </div>
 
                 <div className={styles.platinumTitleContainer}>
-                  <h3 className={styles.subtitle}>
+                  <h3 className={styles.subtitle} style={{fontSize:"34px"}}>
                     GET 10 EXTRA <i>CLIENTS</i>
                   </h3>
 
@@ -615,7 +619,7 @@ export default function ServicesSections() {
                         For each month, for 3 of them,  then drops. All paid on Day 31
                       </p>
                     </div>
-                    <div>
+                    <div style={{marginBottom:"4px"}}>
                       <Image
                         src={PlatinumOffer}
                         width={494}

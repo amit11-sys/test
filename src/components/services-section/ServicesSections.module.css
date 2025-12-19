@@ -190,7 +190,7 @@
 /* DESCRIPTION BOX */
 .description {
   background: #33ffcc;
-  padding: 0px 10px 13px 10px;
+  padding: 0px 10px 0px 10px;
   border-radius: 12px;
   /* font-size: 1rem; */
   font-weight: 500;
@@ -262,12 +262,19 @@
   /* flex-wrap: wrap; */
   /* gap: 10px; */
 }
+.headingContentGold {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+}
 .titleContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
 }
 /* bronze offer section */
 .BronzetitleContainer {
@@ -282,7 +289,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 77px;
+  /* gap: 77px; */
 }
 .mobogoldtitleContainer {
   display: none;
@@ -332,7 +339,7 @@
   /* text-wrap: nowrap; */
 }
 .Bronzetitle {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -444,6 +451,7 @@
   gap: 36px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 .starImageContainer {
   display: flex;
@@ -660,8 +668,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  /* margin-top: 18px;
+  margin-bottom: 18px; */
 }
 .headerRow {
   display: flex;
@@ -828,9 +836,9 @@
   display: none;
 }
 
-.goldtitle {
-  font-size: 40px;
-}
+/* .goldtitle {
+  font-size: 25px;
+} */
 .silverTitle {
   font-size: 25px;
   font-weight: 900;
@@ -1051,6 +1059,21 @@
 /* ==================== */
 
 /* RESPONSIVE */
+@media (max-width:1245px){
+  .headingContentGold {
+    gap:40px;
+  }
+}
+@media (max-width:1125px){
+  .headingContentGold {
+    gap:30px;
+  }
+}
+@media (max-width:1109px){
+  .headingContentGold {
+    gap:20px;
+  }
+}
 @media (max-width: 768px) {
   .serviceSection {
     /* width: 90%; */
@@ -1124,6 +1147,9 @@
     margin-bottom: 0px;
     font-weight: 700;
     /* text-wrap: nowrap; */
+  }
+   .headingContentGold {
+    gap:10px;
   }
 }
 
@@ -1308,5 +1334,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 0px;
+  }
+  .headingContentGold {
+    gap:20px;
   }
 }
