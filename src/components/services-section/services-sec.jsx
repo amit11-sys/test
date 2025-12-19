@@ -128,16 +128,17 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-                A FREE, no-obligation website audit from a Cambridge graduate
-                who has optimised top-tier Surgeons' websites for over 25 years. From
-                Beverly Hills to Barcelona, the UAE and beyond. Tam Moudden left
-                IBM as a Data Analyst in the 90s to focus exclusively on SEO for
-                Cosmetic and Hair Restoration Surgeons. A full AI-SEO analysis
-                will reveal where you stand against your competitors. Tam's Semrush
-                AI-SEO expertise will show you the path to organic growth. Find
-                hidden opportunities your competitors are missing. See exactly
-                what's holding your practice back from page one rankings. Claim
-                your complimentary audit.
+                A free, no-obligation website audit from a Cambridge graduate
+                who has optimised top-tier surgeons' websites for over 25
+                years—from Beverly Hills to Barcelona, the UAE and beyond. Tam
+                Moudden left IBM as a Data Analyst in the 90s to focus
+                exclusively on SEO for cosmetic and hair restoration surgeons. A
+                full AI-powered SEO analysis will reveal where you stand against
+                your competitors. Tam's Semrush AI-SEO expertise will show you
+                the path to organic growth, find hidden opportunities your
+                competitors are missing and identify exactly what's holding your
+                practice back from page-one rankings. Expert tech analysis made
+                vividly clear. Claim your complimentary audit.
               </p>
 
               <div className={styles.contentContainer}>
@@ -250,14 +251,7 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.silverDesc}>
-                Fed up spending £10-20k monthly just to survive on Paid Ads,
-                with nothing certain? You can’t be seen where prospects search, while competitors capture Clients, that you're paying premium rates to reach. Fragmented multi-website practices splinter
-                your visibility. Your fractured presence confuses Google - it
-                can't tell who the real Surgeon is, so it penalises them ALL.
-                Your digital footprint is AGAINST you. This damage demands
-                intervention. It’s too severe to guarantee Clients yet. We'll
-                rebuild over 2 months, paid after results. You'll typically see at least one Client a month during repair but none can be guaranteed. From Month 3 onwards, you'll get 10 clients a month. In Month 9,  ROI at least 25x.
-                Unfurl your rope ladder!
+                Fed up spending £10-20k monthly just to survive on paid ads, with nothing certain? You can't be seen where prospects search, while competitors capture clients you're paying premium rates to reach. Fragmented multi-website practices splinter your visibility. Your fractured presence confuses Google—it can't tell who the real surgeon is, so it penalises them all. You've been badly advised. This damage demands intervention. It's too severe to guarantee clients yet. We'll rebuild over 2 months, paid after results. You'll typically see one client a month during repair but none guaranteed. From Month 3 you’ll get 10 clients a month. By Month 9 your ROI will be at least 25x. Unfurl your rope ladder!
               </p>
               <div
                 style={{ alignItems: "center" }}
@@ -275,8 +269,7 @@ export default function ServicesSections() {
                 <div className={styles.silverRescueContainer}>
                   <div className={styles.silverRescueText}>
                     <p className={styles.perMonthText}>
-                      Per month for 2 months of repair, paid after results. In
-                      the 3rd month, you are guaranteed 10 Clients.
+                      Per month for 2 months of repair, paid after results.  In the 3rd month you are guaranteed 10 Clients.
                     </p>
                   </div>
                   <div className={styles.silverImageContainer}>
@@ -459,15 +452,7 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-                You may have toxic backlinks, an idling Google Business Profile (GBP) and sparse Directory listings. But you have only one
-                website, which is an extremely astute decision. During a month
-                of intensive AI-SEO repair, you can expect at least one Client
-                (which should cover your investment in us) but none can be
-                guaranteed because of our focus on repair. During your remedial month, we will clean toxic backlinks, optimise your GBP, build quality Directory listings and strengthen your site's foundation.
-                If you decide to continue on your Fast track to Platinum, then,
-                repair done, we’ll focus on getting you 10 guaranteed Clients
-                every month. No lock-in, continue monthly; pause or stop
-                anytime. Hook up to your tow-truck!
+                You may have toxic backlinks, an inactive Google Business Profile (GBP) and sparse directory listings. But you have only one website, which is an extremely astute decision. During a month of intensive AI-SEO repair, you can expect at least one client (which should cover your investment in us) but none can be guaranteed because of our attention will be centred on repair. During this remedial month, we will clean toxic backlinks, optimise your GBP, build quality directory listings and strengthen your site's foundation. If you continue to Platinum after repair, we'll focus on getting you 10 guaranteed clients every month. No lock-in, continue monthly; pause or stop anytime. Hook up to your tow-truck!
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
@@ -482,7 +467,7 @@ export default function ServicesSections() {
                 <div className={styles.silverRescueContainer}>
                   <div className={styles.goldRescueText}>
                     <p className={styles.GoldperMonthText}>
-                      For a month, paid after the stats results. In the 2nd month, you’ll get 10 Clients.
+                      For a month, paid after stats results. In the 2nd months you’ll get 10 Clients
                     </p>
                   </div>
                 </div>
@@ -606,15 +591,7 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.desc}>
-                You qualify if your website is reasonably functional OR you've
-                completed our Silver or Gold Offers. We GUARANTEE you 10 CLIENTS
-                a month with NOTHING upfront. Pay after results. We can scale
-                for each Surgeon in your Clinic, up to six. How? From 25 years
-                of SEO mastery, now AI-powered, exclusively for Aesthetic
-                Surgeons. It’s our SIGNATURE offer, it encapsulates how we like
-                to be treated. £4.5k a month; plummets by 25% three times in months 5, 6 and 7, to under £2k. ROI from an amazing 9x, rockets to 25x. Continue
-                month-by-month, still getting 10 Clients. Pause or stop anytime.
-                Ready for Lift Off? 3, 2, 1 . . .
+                You qualify if your website is reasonably functional or you've completed our Silver or Gold offers. We GUARANTEE you 10 clients a month with NOTHING upfront. Pay after results. We can scale up to six surgeons in your clinic. How? From 25 years of SEO mastery, now AI-powered, exclusively for aesthetic surgeons. It's our signature offer - it encapsulates how we like to be treated. £4.5k a month, dropping by 25% in months 5, 6 and 7 to under £2k. Continue month by month, still getting 10 clients, while your ROI rockets from 9x to an incredible and steady 25x. Pause or stop anytime. Ready for lift off? 3, 2, 1, go for it!
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
@@ -635,7 +612,7 @@ export default function ServicesSections() {
                         style={{ marginBottom: 13 }}
                         className={styles.platiumperMonthText}
                       >
-                        For each month paid on DAY 31
+                        For each month, for 3 of them,  then drops. All paid on Day 31
                       </p>
                     </div>
                     <div>
@@ -832,27 +809,15 @@ export default function ServicesSections() {
               </div>
 
               <h2 className={styles.title}>
-                GOOGLE'S AI OVERVIEWS OPTIMISATION (AI OO)
+                GOOGLE'S AI OVERVIEWS OPTIMISATION
               </h2>
             </div>
 
             <p className={styles.text}>
-              Google's AI Overviews are transforming how Clients find Surgeons
-              like you. When someone searches for "Who's the leading Facelift
-              Surgeon near me?" its results appear ABOVE EVERYTHING ELSE,
-              including PAID ADS! It lists specific Surgeons by name, not just a
-              list of links. Yours needs to be one of them. Google's AI promotes
-              content that directly answers Clients’ questions, backed by
-              verified qualifications, peer-reviewed publications, and trusted
-              platforms. More and more Clients are relying on Google’s AI
-              Overviews when selecting their Surgeon. Appearing in these results
-              is essential for visibility and Client Acquisition.
+              Google's AI Overviews are transforming how Clients find Surgeons like you. When someone searches for "Who's the leading Facelift Surgeon near me?" its results appear ABOVE EVERYTHING ELSE, including PAID ADS! It lists specific Surgeons by name, not just a list of links. Yours needs to be one of them.
+Google's AI promotes content that directly answers Clients’ questions, backed by verified qualifications, peer-reviewed publications, and trusted platforms. More and more Clients are relying on Google's AI Overviews when selecting their Surgeon. Appearing in these results is essential for visibility and Client Acquisition.
               <br />
-              Few practices have begun AI Overviews Optimisation (AI OO) yet.
-              Most Surgeons focus on outdated SEO tactics while the ground
-              shifts beneath their feet. The first-mover advantage is closing
-              rapidly. Get in now. Position yourself at the forefront with
-              Surge-on Up’s specialised AI-OO service.
+              Few practices have begun AI Overviews Optimisation (AI-OO) yet. Most Surgeons focus on outdated SEO tactics while the ground shifts beneath their feet. The first-mover advantage is closing rapidly. Get in now. Position yourself at the forefront with Surge-on Up's specialised AI-OO service.
             </p>
 
             <div className={styles.footer}>
@@ -862,12 +827,12 @@ export default function ServicesSections() {
                   <span className={styles.price}>
                     <span className={styles.priceSpanFlex}>
                       <span style={{ color: "#006633" }}>$</span>
-                      <span style={{ color: "#006633" }}>1283</span>
+                      <span style={{ color: "#006633" }}>1307</span>
                     </span>
 
                     <span className={styles.priceSpanFlex}>
                       <span>£</span>
-                      <span> 977</span>
+                      <span> 974</span>
                     </span>
                   </span>
                 </div>
@@ -877,11 +842,11 @@ export default function ServicesSections() {
                 <span className={styles.price}>
                   <span className={styles.priceSpanFlex}>
                     <span style={{ color: "#006633" }}>$</span>
-                    <span style={{ color: "#006633" }}>497</span>
+                    <span style={{ color: "#006633" }}>643</span>
                   </span>
                   <span className={styles.priceSpanFlex}>
                     <span>£</span>
-                    <span>393</span>
+                    <span>487</span>
                   </span>
                 </span>
               </div>
@@ -936,10 +901,10 @@ export default function ServicesSections() {
 
                 <div className={styles.values}>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>$</span>1283
+                    <span className={styles.currency}>$</span>1307
                   </span>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>£</span>977
+                    <span className={styles.currency}>£</span>974
                   </span>
                 </div>
               </div>
@@ -953,8 +918,8 @@ export default function ServicesSections() {
                 <span className={styles.label}>SUBSEQUENT MONTHS:</span>
 
                 <div className={styles.values}>
-                  <span className={styles.valueNumber}>497</span>
-                  <span className={styles.valueNumber}>393</span>
+                  <span className={styles.valueNumber}>643</span>
+                  <span className={styles.valueNumber}>487</span>
                 </div>
               </div>
             </div>
@@ -1034,26 +999,18 @@ export default function ServicesSections() {
               </div>
 
               <h2 className={styles.title}>
-                AI & LLM SEARCH ENGINE OPTIMISATION (AI SEO)
+                AI & LLM SEARCH ENGINE OPTIMISATION
               </h2>
             </div>
 
             <p className={styles.AiLLmtext}>
-              AI Search Engines are reshaping how Clients discover Aesthetic and
-              Restorative Surgeons. Platforms like ChatGPT, Perplexity, and
-              Google's AI Overviews now answer millions of health queries daily.
+              AI Search Engines are reshaping how Clients discover Aesthetic and Restorative Surgeons. Platforms like ChatGPT, Perplexity, and Google's AI Overviews now answer millions of health queries daily.
               <br />
-              When someone asks for "the best nose surgeon near me," AI doesn't
-              just produce a list of links; it provides direct recommendations
-              with context.
+              When someone asks for "the best nose surgeon near me," AI doesn't just produce a list of links; it provides direct recommendations with context.
               <br />
-              Being featured in AI responses is the new frontier of digital
-              visibility. AI engines prioritise authoritative, structured
-              content that directly answers Client questions. They pull from
-              verified sources, reviews, and detailed service descriptions.
+Being featured in AI responses is the new frontier of digital visibility. AI engines prioritise authoritative, structured content that directly answers Client questions. They pull from verified sources, reviews, and detailed service descriptions.
               <br />
-              Become prominent in this rapidly growing segment of potential
-              Clients who trust AI for research, with Surge-on Ups AI-SEO offer.
+              Become prominent in this rapidly growing segment of potential Clients who trust AI for research, with Surge-on Ups AI-SEO offer.
             </p>
 
             <div className={styles.footer}>
@@ -1063,12 +1020,12 @@ export default function ServicesSections() {
                   <span className={styles.price}>
                     <span className={styles.priceSpanFlex}>
                       <span style={{ color: "#006633" }}>$</span>
-                      <span style={{ color: "#006633" }}>1283</span>
+                      <span style={{ color: "#006633" }}>1307</span>
                     </span>
 
                     <span className={styles.priceSpanFlex}>
                       <span>£</span>
-                      <span> 977</span>
+                      <span> 974</span>
                     </span>
                   </span>
                 </div>
@@ -1078,11 +1035,11 @@ export default function ServicesSections() {
                 <span className={styles.price}>
                   <span className={styles.priceSpanFlex}>
                     <span style={{ color: "#006633" }}>$</span>
-                    <span style={{ color: "#006633" }}>497</span>
+                    <span style={{ color: "#006633" }}>643</span>
                   </span>
                   <span className={styles.priceSpanFlex}>
                     <span>£</span>
-                    <span>393</span>
+                    <span>487</span>
                   </span>
                 </span>
               </div>
@@ -1137,10 +1094,10 @@ export default function ServicesSections() {
 
               <div className={styles.values}>
                 <span className={styles.valueItem}>
-                  <span className={styles.currency}>$</span>1283
+                  <span className={styles.currency}>$</span>1307
                 </span>
                 <span className={styles.valueItem}>
-                  <span className={styles.currency}>£</span>977
+                  <span className={styles.currency}>£</span>974
                 </span>
               </div>
             </div>
@@ -1154,8 +1111,8 @@ export default function ServicesSections() {
               <span className={styles.label}>SUBSEQUENT MONTHS:</span>
 
               <div className={styles.values}>
-                <span className={styles.valueNumber}>497</span>
-                <span className={styles.valueNumber}>393</span>
+                <span className={styles.valueNumber}>643</span>
+                <span className={styles.valueNumber}>487</span>
               </div>
             </div>
           </div>
@@ -1211,19 +1168,9 @@ export default function ServicesSections() {
             </div>
 
             <p className={styles.keywordText}>
-              Your Google Business Profile is your digital storefront. When
-              Clients search for Surgeons in your area, your GBP appears
-              prominently in Google Search and Maps often before your website.
-              It's the first impression that determines whether they contact you
-              or move on to a competitor. An optimised GBP displays compelling
-              photos, authentic reviews, accurate hours, and detailed services
-              all of which build the trust so essential for Surgeons. Profiles
-              with regular posts, timely review responses, and fresh content
-              consistently outperform competitors in visibility and engagement.
-              Most practices severely underutilise their GBP, treating it as a
-              static listing rather than the dynamic marketing asset it truly
-              is. The question is not whether you can afford to invest in
-              professional GBP optimisation it's whether you can afford not to.
+              Your Google Business Profile is your digital storefront. When Clients search for Surgeons in your area, your GBP appears prominently in Google Search and Maps—often before your website. It's the first impression that determines whether they contact you or move on to a competitor.
+An optimised GBP displays compelling photos, authentic reviews, accurate hours, and detailed services—all of which build the trust so essential for Surgeons. Profiles with regular posts, timely review responses, and fresh content consistently outperform competitors in visibility and engagement.<br></br>
+Most practices severely underutilise their GBP, treating it as a static listing rather than the dynamic marketing asset it truly is. The question is not whether you can afford to invest in professional GBP optimisation—it's whether you can afford not to.
             </p>
 
             <div className={styles.footer}>
@@ -1233,12 +1180,12 @@ export default function ServicesSections() {
                   <span className={styles.price}>
                     <span className={styles.priceSpanFlex}>
                       <span style={{ color: "#006633" }}>$</span>
-                      <span style={{ color: "#006633" }}>1283</span>
+                      <span style={{ color: "#006633" }}>1307</span>
                     </span>
 
                     <span className={styles.priceSpanFlex}>
                       <span>£</span>
-                      <span> 977</span>
+                      <span> 974</span>
                     </span>
                   </span>
                 </div>
@@ -1248,11 +1195,11 @@ export default function ServicesSections() {
                 <span className={styles.price}>
                   <span className={styles.priceSpanFlex}>
                     <span style={{ color: "#006633" }}>$</span>
-                    <span style={{ color: "#006633" }}>497</span>
+                    <span style={{ color: "#006633" }}>643</span>
                   </span>
                   <span className={styles.priceSpanFlex}>
                     <span>£</span>
-                    <span>393</span>
+                    <span>487</span>
                   </span>
                 </span>
               </div>
@@ -1307,10 +1254,10 @@ export default function ServicesSections() {
 
                 <div className={styles.values}>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>$</span>1283
+                    <span className={styles.currency}>$</span>1307
                   </span>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>£</span>977
+                    <span className={styles.currency}>£</span>974
                   </span>
                 </div>
               </div>
@@ -1324,8 +1271,8 @@ export default function ServicesSections() {
                 <span className={styles.label}>SUBSEQUENT MONTHS:</span>
 
                 <div className={styles.values}>
-                  <span className={styles.valueNumber}>497</span>
-                  <span className={styles.valueNumber}>393</span>
+                  <span className={styles.valueNumber}>643</span>
+                  <span className={styles.valueNumber}>487</span>
                 </div>
               </div>
             </div>
@@ -1372,23 +1319,11 @@ export default function ServicesSections() {
             </div>
 
             <p className={styles.text}>
-              Domain Authority (DA) is the arbiter of ranking. It is the single
-              most important AI-SEO metric. If your DA is high, no one can
-              outrank you unless their DA is even higher. A high DA means Google
-              trusts your website. It will rank you highly and add pizazz to
-              your Client Acquisition.
+              Domain Authority (DA) is the arbiter of ranking. It is the single most important AI-SEO metric. If your DA is high, no one can outrank you unless their DA is even higher. A high DA means Google trusts your website. It will rank you highly and add pizazz to your Client Acquisition.
               <br />
-              Backlinks build DA. You need quality links from high-authority
-              medical sites, trusted publications, and reputable directories.
-              Each backlink is a "vote of confidence" that tells Google your
-              practice is credible and authoritative. But toxic backlinks, from
-              low DA sites, like spam directories, unrelated industries and link
-              farms, actively destroy your DA and repel Clients.
+              Backlinks build DA. You need quality links from high-authority medical sites, trusted publications, and reputable directories. Each backlink is a "vote of confidence" that tells Google your practice is credible and authoritative. But toxic backlinks, from low DA sites, like spam directories, unrelated industries and link farms, actively destroy your DA and repel Clients.
               <br />
-              We audit your entire backlink profile. Systematically remove toxic
-              ones that poison your DA and build strategic connections with
-              authoritative medical sources. Giving you clean, high-quality
-              backlinks that will elevate your DA and bring you Clients.
+              We audit your entire backlink profile. Systematically remove toxic ones that poison your DA and build strategic connections with authoritative medical sources. Giving you clean, high-quality backlinks that will elevate your DA and bring you Clients.
               <br />
             </p>
 
@@ -1399,12 +1334,12 @@ export default function ServicesSections() {
                   <span className={styles.price}>
                     <span className={styles.priceSpanFlex}>
                       <span style={{ color: "#006633" }}>$</span>
-                      <span style={{ color: "#006633" }}>1283</span>
+                      <span style={{ color: "#006633" }}>1307</span>
                     </span>
 
                     <span className={styles.priceSpanFlex}>
                       <span>£</span>
-                      <span> 977</span>
+                      <span> 974</span>
                     </span>
                   </span>
                 </div>
@@ -1414,11 +1349,11 @@ export default function ServicesSections() {
                 <span className={styles.price}>
                   <span className={styles.priceSpanFlex}>
                     <span style={{ color: "#006633" }}>$</span>
-                    <span style={{ color: "#006633" }}>497</span>
+                    <span style={{ color: "#006633" }}>643</span>
                   </span>
                   <span className={styles.priceSpanFlex}>
                     <span>£</span>
-                    <span>393</span>
+                    <span>487</span>
                   </span>
                 </span>
               </div>
@@ -1538,23 +1473,10 @@ export default function ServicesSections() {
             </div>
 
             <p className={styles.text}>
-              Business Directory Listings and Citations amplify your online
-              authority and visibility. Directory listings are complete profiles
-              on platforms like Yell, Cyclex, and 118. They showcase your
-              practice with photos, services, reviews, and contact details,
-              helping Clients choose you over competitors. Citations are your
-              practice name, address, and phone number (NAP) appearing
-              consistently across the web. Search engines use these to verify
-              legitimacy and boost local rankings. Together, they create
-              powerful visibility. Consistent citations build search engine
-              trust, while optimised listings convert researching Clients into
-              booked consultations.
+              Business Directory Listings and Citations amplify your online authority and visibility. Directory listings are complete profiles on platforms like Yell, Cyclex, and 118. They showcase your practice with photos, services, reviews, and contact details, helping Clients choose you over competitors.
+Citations are your practice name, address, and phone number (NAP) appearing consistently across the web. Search engines use these to verify legitimacy and boost local rankings. Together, they create powerful visibility. Consistent citations build search engine trust, while optimised listings convert researching Clients into booked consultations.
               <br />
-              Many Surgeons have incomplete or inconsistent listings scattered
-              across the web, diluting their authority and confusing search
-              engines. We audit every listing, correct them and ensure both are
-              complete, accurate, and strategically optimised to maximise your
-              local dominance for Clients.
+              Many Surgeons have incomplete or inconsistent listings scattered across the web, diluting their authority and confusing search engines. We audit every listing, correct them and ensure both are complete, accurate, and strategically optimised to maximise your local dominance for Clients.
             </p>
 
             <div className={styles.footer}>
@@ -1564,12 +1486,12 @@ export default function ServicesSections() {
                   <span className={styles.price}>
                     <span className={styles.priceSpanFlex}>
                       <span style={{ color: "#006633" }}>$</span>
-                      <span style={{ color: "#006633" }}>1283</span>
+                      <span style={{ color: "#006633" }}>1307</span>
                     </span>
 
                     <span className={styles.priceSpanFlex}>
                       <span>£</span>
-                      <span> 977</span>
+                      <span> 974</span>
                     </span>
                   </span>
                 </div>
@@ -1579,11 +1501,11 @@ export default function ServicesSections() {
                 <span className={styles.price}>
                   <span className={styles.priceSpanFlex}>
                     <span style={{ color: "#006633" }}>$</span>
-                    <span style={{ color: "#006633" }}>497</span>
+                    <span style={{ color: "#006633" }}>643</span>
                   </span>
                   <span className={styles.priceSpanFlex}>
                     <span>£</span>
-                    <span>393</span>
+                    <span>487</span>
                   </span>
                 </span>
               </div>
@@ -1638,10 +1560,10 @@ export default function ServicesSections() {
 
                 <div className={styles.values}>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>$</span>1283
+                    <span className={styles.currency}>$</span>1307
                   </span>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>£</span>977
+                    <span className={styles.currency}>£</span>974
                   </span>
                 </div>
               </div>
@@ -1655,8 +1577,8 @@ export default function ServicesSections() {
                 <span className={styles.label}>SUBSEQUENT MONTHS:</span>
 
                 <div className={styles.values}>
-                  <span className={styles.valueNumber}>497</span>
-                  <span className={styles.valueNumber}>393</span>
+                  <span className={styles.valueNumber}>643</span>
+                  <span className={styles.valueNumber}>487</span>
                 </div>
               </div>
             </div>
@@ -1709,20 +1631,10 @@ export default function ServicesSections() {
             </div>
 
             <p className={styles.keywordText}>
-              When Clients search "Hair Transplant specialist Manchester,"
-              strategic keywords are what determines whether your practice
-              appears prominently or remains invisible. Keywords are the bridge
-              between what Clients search for and whether they find you. We
-              identify high-value keywords your ideal Clients actually use, then
-              integrate them naturally throughout your website content, titles,
-              descriptions, and service pages. Effective keyword strategy
-              balances search volume against competition. It targets terms where
-              you can dominate the rankings and attract qualified Clients who
-              are ready to book consultations.
+              When Clients search "Hair Transplant specialist Manchester," strategic keywords are what determines whether your practice appears prominently or remains invisible. Keywords are the bridge between what Clients search for and whether they find you.
+We identify high-value keywords your ideal Clients actually use, then integrate them naturally throughout your website content, titles, descriptions, and service pages. Effective keyword strategy balances search volume against competition. It targets terms where you can dominate the rankings and attract qualified Clients who are ready to book consultations.
               <br />
-              Most Surgeons guess at keywords or ignore them entirely. We use
-              data-driven research to position you exactly where your next
-              Clients are searchin
+              Most Surgeons guess at keywords or ignore them entirely. We use data-driven research to position you exactly where your next Clients are searching.
             </p>
 
             <div className={styles.footer}>
@@ -1732,12 +1644,12 @@ export default function ServicesSections() {
                   <span className={styles.price}>
                     <span className={styles.priceSpanFlex}>
                       <span style={{ color: "#006633" }}>$</span>
-                      <span style={{ color: "#006633" }}>1283</span>
+                      <span style={{ color: "#006633" }}>1307</span>
                     </span>
 
                     <span className={styles.priceSpanFlex}>
                       <span>£</span>
-                      <span> 977</span>
+                      <span> 974</span>
                     </span>
                   </span>
                 </div>
@@ -1747,11 +1659,11 @@ export default function ServicesSections() {
                 <span className={styles.price}>
                   <span className={styles.priceSpanFlex}>
                     <span style={{ color: "#006633" }}>$</span>
-                    <span style={{ color: "#006633" }}>497</span>
+                    <span style={{ color: "#006633" }}>643</span>
                   </span>
                   <span className={styles.priceSpanFlex}>
                     <span>£</span>
-                    <span>393</span>
+                    <span>487</span>
                   </span>
                 </span>
               </div>
@@ -1806,10 +1718,10 @@ export default function ServicesSections() {
 
                 <div className={styles.values}>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>$</span>1283
+                    <span className={styles.currency}>$</span>1307
                   </span>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>£</span>977
+                    <span className={styles.currency}>£</span>974
                   </span>
                 </div>
               </div>
@@ -1823,8 +1735,8 @@ export default function ServicesSections() {
                 <span className={styles.label}>SUBSEQUENT MONTHS:</span>
 
                 <div className={styles.values}>
-                  <span className={styles.valueNumber}>497</span>
-                  <span className={styles.valueNumber}>393</span>
+                  <span className={styles.valueNumber}>643</span>
+                  <span className={styles.valueNumber}>487</span>
                 </div>
               </div>
             </div>
@@ -1878,21 +1790,10 @@ export default function ServicesSections() {
             </div>
 
             <p className={styles.text}>
-              Image Geo-Tagging strengthens your local search presence by
-              embedding location data directly into your practice photos. When
-              properly geo-tagged, your images help search engines verify your
-              physical location, reinforcing your connection to specific
-              geographic areas and boosting local rankings significantly.
+              Image Geo-Tagging strengthens your local search presence by embedding location data directly into your practice photos. When properly Geo tagged, your images help search engines verify your physical location, reinforcing your connection to specific geographic areas and boosting local rankings significantly.
               <br />
-              Geo-tagged images appear in location-based searches like "Facelift
-              Surgeon London" or "Breast augmentation specialist Manchester,"
-              creating additional visibility channels beyond traditional search
-              results and reaching Clients through Google Images. Mobile users
-              searching "near me" benefit most from geo-tagged content, as
-              devices prioritise location-verified images. We embed precise GPS
-              coordinates into every image across your website and directories,
-              ensuring maximum local SEO impact and geographic authority for
-              your practice.
+              Geo-tagged images appear in location-based searches like "Facelift Surgeon London" or "Breast augmentation specialist Manchester," creating additional visibility channels beyond traditional search results and reaching Clients through Google Images. Mobile users searching "near me" benefit most from geo-tagged content, as devices prioritise location-verified images.
+We embed precise GPS coordinates into every image across your website and directories, ensuring maximum local SEO impact and geographic authority for your practice.
             </p>
 
             <div className={styles.footer}>
@@ -1902,12 +1803,12 @@ export default function ServicesSections() {
                   <span className={styles.price}>
                     <span className={styles.priceSpanFlex}>
                       <span style={{ color: "#006633" }}>$</span>
-                      <span style={{ color: "#006633" }}>1283</span>
+                      <span style={{ color: "#006633" }}>1307</span>
                     </span>
 
                     <span className={styles.priceSpanFlex}>
                       <span>£</span>
-                      <span> 977</span>
+                      <span> 974</span>
                     </span>
                   </span>
                 </div>
@@ -1917,11 +1818,11 @@ export default function ServicesSections() {
                 <span className={styles.price}>
                   <span className={styles.priceSpanFlex}>
                     <span style={{ color: "#006633" }}>$</span>
-                    <span style={{ color: "#006633" }}>497</span>
+                    <span style={{ color: "#006633" }}>643</span>
                   </span>
                   <span className={styles.priceSpanFlex}>
                     <span>£</span>
-                    <span>393</span>
+                    <span>487</span>
                   </span>
                 </span>
               </div>
@@ -1976,10 +1877,10 @@ export default function ServicesSections() {
 
                 <div className={styles.values}>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>$</span>1283
+                    <span className={styles.currency}>$</span>1307
                   </span>
                   <span className={styles.valueItem}>
-                    <span className={styles.currency}>£</span>977
+                    <span className={styles.currency}>£</span>974
                   </span>
                 </div>
               </div>
@@ -1993,8 +1894,8 @@ export default function ServicesSections() {
                 <span className={styles.label}>SUBSEQUENT MONTHS:</span>
 
                 <div className={styles.values}>
-                  <span className={styles.valueNumber}>497</span>
-                  <span className={styles.valueNumber}>393</span>
+                  <span className={styles.valueNumber}>643</span>
+                  <span className={styles.valueNumber}>487</span>
                 </div>
               </div>
             </div>
@@ -2047,14 +1948,9 @@ export default function ServicesSections() {
             </div>
 
             <div className={styles.text}>
-              Sick of credit card fees eating your profits? Some UK healthcare
-              practices spend £20,000 annually just collecting payments. That's
-              money better invested in your practice, facilities, and Client
-              experience.
+              Sick of credit card fees eating your profits? Some UK healthcare practices spend £20,000 annually just collecting payments. That's money better invested in your practice, facilities, and Client experience.
               <br />
-              A secure bank-to-bank transfer app transfers funds in 7 seconds
-              with no setup costs, no machines, and NO processing fees. Major
-              banks approve it.
+              A secure bank-to-bank transfer app transfers funds in 7 seconds with no setup costs, no machines, and NO processing fees. Major banks approve it. 
               <br />
               <p
                 style={{
@@ -2071,13 +1967,9 @@ export default function ServicesSections() {
                   className={styles.MoreServicesCutYourCardImageUltraWide}
                 />
               </p>
-              For a modest monthly subscription of less than £100, you eliminate
-              transaction fees forever. Month-to-month commitment with no
-              long-term contract.
+             For a modest monthly subscription of less than £100, you eliminate transaction fees forever. Month-to-month commitment with no long-term contract.
               <br />
-              Stop funding your processor's profits. Keep more of every Client
-              payment. Get your free, no-obligation demonstration and see the
-              savings for yourself.
+              Stop funding your processor's profits. Keep more of every Client payment. Get your free, no-obligation demonstration and see the savings for yourself.
             </div>
 
             <div className={styles.footer}>
