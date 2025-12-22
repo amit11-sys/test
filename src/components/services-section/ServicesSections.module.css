@@ -227,6 +227,15 @@
   font-size: 25px;
   line-height: 40px;
 }
+.bronzedesc {
+      background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+}
 .silverDesc {
   background: #33ffcc;
   /* padding: 20px; */

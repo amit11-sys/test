@@ -167,7 +167,7 @@ export default function ServicesSections() {
             </div>
 
             <div className={styles.description}>
-              <p className={styles.desc}>
+              <p className={styles.bronzedesc}>
                 A free, no-obligation website audit from a Cambridge graduate
                 who has optimised top-tier surgeons' websites for over 25
                 years—from Beverly Hills to Barcelona, the UAE and beyond. Tam
