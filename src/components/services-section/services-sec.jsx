@@ -28,7 +28,7 @@ export default function ServicesSections() {
     <>
       <div className={styles.wrapper}>
         <>
-          <section className={styles.serviceSection}>
+          <section className={styles.GraphserviceSection}>
            
         <div>
           <Image className={styles.GraphServiceImage}  src={ServiceGraph} alt="ServiceGraph" />
