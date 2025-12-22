@@ -10,63 +10,36 @@ import Img7 from "./images/img7.jpg";
 import Image from "next/image";
 import Footer from "@/components/footer/footer";
 
-
 export default function AboutRobin() {
   return (
     <div className={styles.AboutRobinMainContainer}>
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img1}
-            alt="Logo"
-            fluid
-            style={{ width: "180px", height: "120px" }}
-          />
-          <Image
-            src={Img2}
-            alt="Logo"
-            fluid
-            style={{ width: "100px", height: "50px" }}
-          />
+      <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img1} alt="logo" className={styles.profileImg} />
+          <Image src={Img2} alt="Logo" className={styles.smallLogo} />
         </div>
-        <h3>Robin and John in Verona</h3>
-        <div className={styles.AboutRobinSecText}>
-          <h3>
-            Robin was the Chief Makeup Artist on “Inspector Morse”. He worked on
-            30 of them.
-          </h3>
-          <h4>
-            When Robin made John Thaw up for the first time, John asked him what
-            was the last thing he’d worked on. Self aggrandisement was the
-            Film-Biz norm but despite having a Bond under his belt, Robin
-            replied, candidly,,“ Mini-cabbing, John”. His honesty led to a long
-            working friendship together. John offered him all the remaining 32
-            episodes, apart from the one in Australia, which wasn’t in his gift.
-          </h4>
-        </div>
-      </div>
 
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img3}
-            alt="Logo"
-            fluid
-            style={{ width: "180px", height: "120px" }}
-          />
-          <Image
-            src={Img4}
-            alt="Logo"
-            fluid
-            style={{ width: "100px", height: "100px" }}
-          />
-        </div>
-        <h3>
-          The Microsoft Network Account at SITEL A Nokia 5146 from Mobiles
-          Direct
-        </h3>
-        <div className={styles.AboutRobinSecText}>
+        <h3 className={styles.cardTitle}>Robin and John in Verona</h3>
+
+        <p className={styles.cardText}>
           <h3>
+            Robin was the Chief Makeup Artist on “Inspector Morse”, working on 30 of the 33 episodes.
+          </h3>
+         When he made John Thaw up for the first time, John asked what he'd worked on last. Self-aggrandisement was the norm in the film industry but despite having a Bond film under his belt, Robin replied candidly, "Mini-cabbing, John." John replied, “Is that a new Mini-Series?” “No, John I’ve been cabbing to make ends meet.” His honesty forged a lasting working friendship. John offered him all 32 remaining episodes—except the Australian one, due to travel costs.
+        </p>
+      </div>
+  
+    <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img3} alt="logo" className={styles.profileImg} />
+          <Image src={Img4} alt="Logo" className={styles.smallLogo} />
+        </div>
+
+        <h3 className={styles.cardTitle}>The Microsoft Network Account at SITEL A Nokia 5146 from Mobiles
+          Direct</h3>
+
+        <p className={styles.cardText}>
+           <h3>
             Robin worked on the fledgling Internet and rode the crest of the
             mobile phone wave
           </h3>
@@ -80,27 +53,19 @@ export default function AboutRobin() {
             and Customer details in Excel and email Claims every day. He saved
             them £40k pa.
           </h4>
-        </div>
+        </p>
       </div>
-
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img5}
-            alt="Logo"
-            fluid
-            style={{ width: "180px", height: "120px" }}
-          />
-          <Image
-            src={Img6}
-            alt="Logo"
-            fluid
-            style={{ width: "100px", height: "50px" }}
-          />
+    
+        <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img5} alt="logo" className={styles.profileImg} />
+          <Image src={Img6} alt="Logo" className={styles.smallLogo} />
         </div>
-        <h3>A mug saying “I am a genius”</h3>
-        <div className={styles.AboutRobinSecText}>
-          <h3>
+
+        <h3 className={styles.cardTitle}>A mug saying “I am a genius”</h3>
+
+        <p className={styles.cardText}>
+            <h3>
             This was a gift from his favourite Manager on completion of his
             initial task
           </h3>
@@ -112,27 +77,19 @@ export default function AboutRobin() {
             flagged subset and email it in seconds. She was so pleased, that in
             an unforgettable and endearing gesture, she gave him the mug above.
           </h4>
-        </div>
+        </p>
       </div>
-
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img7}
-            alt="Logo"
-            fluid
-            style={{ width: "140px", height: "140px" }}
-          />
-          <Image
-            src={Img6}
-            alt="Logo"
-            fluid
-            style={{ width: "100px", height: "50px" }}
-          />
+    
+      <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img7} alt="logo" className={styles.profileImg} />
+          <Image src={Img6} alt="Logo" className={styles.smallLogo} />
         </div>
-        <h3>David Brennan ex-CEO, LeasePLan UK</h3>
-        <div className={styles.AboutRobinSecText}>
-          <h3>
+
+        <h3 className={styles.cardTitle}>David Brennan ex-CEO, LeasePLan UK</h3>
+
+        <p className={styles.cardText}>
+           <h3>
             David was the LP UK Boss when Robin worked in the Data Management
             Team
           </h3>
@@ -144,8 +101,9 @@ export default function AboutRobin() {
             training and practice - he did it all. A person you can trust and
             who everyone liked. I recommend him 100%.”
           </h4>
-        </div>
+        </p>
       </div>
+      
     </div>
   );
 }

@@ -8,69 +8,81 @@ import Image from "next/image";
 import Footer from "@/components/footer/footer";
 import Link from "next/link";
 
+export default function AboutPage() {
+  return (
+    <>
+    
 
-export default function AboutPage(){
-    return (
-      <div className={styles.AboutMainContainer}>
-        <h2>ABOUT</h2>
+      <div className={styles.wrapper}>
+        <h2 className={styles.aboutHeading}>ABOUT</h2>
+
         <Container fluid>
-          <div className={styles.AboutSec1Container}>
+          <div className={styles.AboutCardsWrapper}>
             <Row>
+              {/* ROBIN CARD */}
               <Col lg={6}>
-                <div className={styles.AboutSec1}>
-                  <div className={styles.ImageContainer}>
-                    <Image src={RobinProfile} alt="Logo" fluid />
+                <div className={styles.AboutSection}>
+                  <div className={styles.topImageRow}>
                     <Image
-                      src={Logo}
-                      alt="Logo"
-                      fluid
-                      style={{ width: "138px", height: "94px" }}
+                      src={RobinProfile}
+                      alt="Robin Grantham"
+                      className={styles.profileImg}
                     />
+                    <Image src={Logo} alt="Logo" className={styles.smallLogo} />
                   </div>
-                  <h3>Robin Grantham, CEO, Surge-on Up</h3>
-                  <div className={styles.AboutSec1Text}>
-                    <h3>Robin Grantham is both Creator and Tech</h3>
-                    <h4>
-                      A Visionary CEO and BAFTA-Nominated Film Makeup Artist of
-                      25 years, he is used to dealing one-on-one with Hollywood
-                      high-flyers. He aced a programming exam with 100% and DJs
-                      on the Net .
-                    </h4>
-                  </div>
-                  <Link href={"/about/about-robin"}>
-                    <button>Learn more about Robin</button>
-                  </Link>
+
+                  <h3 className={styles.cardTitle}>
+                    Robin Grantham, CEO of Surge-on Up
+                  </h3>
+
+                  <p className={styles.cardText}>
+                    Robin is a BAFTA-nominated film makeup artist with a
+                    sculpture degree and 25 years on Hollywood productions. He
+                    built AI systems in the 1980s, scored 100% ‘Cannot be
+                    improved!’ on City & Guilds C Programming, then delivered
+                    measurable results in corporate roles. He handles client
+                    relations, business strategy, graphics and copywriting.
+                    <Link href="/about/about-robin" className={styles.moreBtn}>
+                      MORE
+                    </Link>
+                  </p>
                 </div>
               </Col>
+
+              {/* TAM CARD */}
+
               <Col lg={6}>
-                <div className={styles.AboutSec1}>
-                  <div className={styles.ImageContainer}>
-                    <Image src={TamProfile} alt="Logo" fluid />
+                <div className={styles.AboutSection}>
+                  <div className={styles.topImageRow}>
                     <Image
-                      src={Logo}
-                      alt="Logo"
-                      fluid
-                      style={{ width: "138px", height: "94px" }}
+                      src={TamProfile}
+                      alt="Tam Moudden"
+                      className={styles.profileImg}
                     />
+                    <Image src={Logo} alt="Logo" className={styles.smallLogo} />
                   </div>
-                  <h3>Tam Moudden, Tech Director, Surge-on Up</h3>
-                  <div className={styles.AboutSec1Text}>
-                    <h3>Tam Moudden is THE Web IASEO Specialist</h3>
-                    <h4>
-                      An Optimisation Master par excellence. He has a BA in
-                      Computer Science from Cambridge and 25 years experience
-                      helping Aesthetic Surgeons, from Beverly Hills to
-                      Barcelona and beyond.
-                    </h4>
-                  </div>
-                  <Link href={"/about/about-tam"}>
-                    <button>Learn more about Tam</button>
-                  </Link>
+
+                  <h3 className={styles.cardTitle}>
+                    am Moudden, Technical Director of Surge-on Up
+                  </h3>
+
+                  <p className={styles.cardText}>
+                    Tam is an accredited Semrush AI-SEO analyst and THE
+                    Aesthetic Website Optimisation Master par excellence. He has
+                    a degree in Computer Science from Cambridge and 25 years
+                    experience optimising renowned Aesthetic Surgeons from
+                    Beverly Hills to Barcelona, the UAE and beyond, with his
+                    unique AI-SEO Client Acquisition System.
+                    <Link href="/about/about-tam" className={styles.moreBtn}>
+                      MORE
+                    </Link>
+                  </p>
                 </div>
               </Col>
             </Row>
           </div>
         </Container>
       </div>
-    );
+    </>
+  );
 }

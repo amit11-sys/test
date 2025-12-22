@@ -11,58 +11,45 @@ import Img8 from "./images/Img8.jpg";
 import Image from "next/image";
 import Footer from "@/components/footer/footer";
 
-
 export default function AboutTam() {
   return (
     <div className={styles.AboutRobinMainContainer}>
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img1}
-            alt="Logo"
-            fluid
-            style={{ width: "150px", height: "160px" }}
-          />
-          <Image
-            src={Img2}
-            alt="Logo"
-            fluid
-            style={{ width: "100px", height: "50px" }}
-          />
+      <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img1} alt="logo" className={styles.profileImg} />
+          <Image src={Img2} alt="Logo" className={styles.smallLogo} />
         </div>
-        <h3>Dr Richard Chaffoo, California Hair</h3>
-        <div className={styles.AboutRobinSecText}>
+
+        <h3 className={styles.cardTitle}>
+          Dr Richard Chaffoo, California Hair
+        </h3>
+
+        <p className={styles.cardText}>
           <h3>
-            Richard is one of the few Aesthetic Surgeons ever to be Triple-Board
-            Certified
+            Is one of the few Aesthetic Surgeons ever to be Triple-Board Certified
           </h3>
           <h4>
             He is the top Beverly Hills and La Jolla, San Diego Aesthetic
-            Surgeon. Tam optimised his website and helped select his logo.<br/>
+            Surgeon. Tam optimised his website and helped select his logo.
+            <br />
             “We’ve worked with Tam for several years. He is extremely
             professional in his approach to our website and online presence. His
             unparalleled SEO strategies have expanded our businesses.”
           </h4>
-        </div>
+        </p>
       </div>
 
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img3}
-            alt="Logo"
-            fluid
-            style={{ width: "150px", height: "160px" }}
-          />
-          <Image
-            src={Img4}
-            alt="Logo"
-            fluid
-            style={{ width: "120px", height: "120px" }}
-          />
+      <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img3} alt="logo" className={styles.profileImg} />
+          <Image src={Img4} alt="Logo" className={styles.smallLogo} />
         </div>
-        <h3>Dr Zachary Farris, ZF Plastic Surgery</h3>
-        <div className={styles.AboutRobinSecText}>
+
+        <h3 className={styles.cardTitle}>
+          Dr Zachary Farris, ZF Plastic Surgery
+        </h3>
+
+        <p className={styles.cardText}>
           <h3>Zachary is an influential Double-Certified Aesthetic Surgeon</h3>
           <h4>
             He is based in Dallas Texas and is approved to perform both Cosmetic
@@ -72,67 +59,39 @@ export default function AboutTam() {
             is the first Christmas I haven’t been worried about business leads
             for the New Year. My Diary is completely full!”
           </h4>
-        </div>
+        </p>
       </div>
 
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img5}
-            alt="Logo"
-            fluid
-            style={{ width: "130px", height: "100px" }}
-          />
-          <Image
-            src={Img6}
-            alt="Logo"
-            fluid
-            style={{ width: "100px", height: "100px" }}
-          />
+      <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img5} alt="logo" className={styles.profileImg} />
+          <Image src={Img6} alt="Logo" className={styles.smallLogo} />
         </div>
-        <h3>Membership of Semrush and Yext</h3>
-        <div className={styles.AboutRobinSecText}>
-          <h3>Tam is a comprehensive and consumate SEO Professsional</h3>
+
+        <h3 className={styles.cardTitle}>Membership of Semrush and Yext</h3>
+
+        <p className={styles.cardText}>
+          <h3>Google Analytics is useful and free but its data is a month in arrears. </h3>
           <h4>
-            Google Analytics is good. it’s free but its data is a month old.
-            Semrush provides live traffic and many informative tools, for
-            Keywords, Backlinks and Competitors. Tam is a certified Semrush
-            Technical SEO Analyst. He aced four of their exams, including AI, in
-            2024. It costs £900 pa but is invaluable He is also a Member of
-            Yext. It costs £500 pa but allows us to offer our Clients extra
-            Business Listings at no added cost.
+            Semrush provides live traffic data and informative tools for keywords, backlinks and competitor analysis. Tam is a certified Semrush Technical AI-SEO Analyst, having aced four of their exams in early 2025, including AI. At £900 annually, it's invaluable. He is also a member of Yext (£500 annually), which allows us to offer our Clients additional business listings at no extra cost
           </h4>
-        </div>
+        </p>
       </div>
 
-      <div className={styles.AboutRobinSec}>
-        <div className={styles.ImageContainer}>
-          <Image
-            src={Img7}
-            alt="Logo"
-            fluid
-            style={{ width: "220px", height: "120px" }}
-          />
-          <Image
-            src={Img8}
-            alt="Logo"
-            fluid
-            style={{ width: "220px", height: "50px" }}
-          />
+      <div className={styles.AboutSection}>
+        <div className={styles.topImageRow}>
+          <Image src={Img7} alt="logo" className={styles.profileImg} />
+          <Image  src={Img8} alt="Logo" className={styles.VoyageLAsmallLogo} />
         </div>
-        <h3>VoyageLA</h3>
-        <div className={styles.AboutRobinSecText}>
-          <h3>“VoyageLA” is a Niche Los Angeles Magazine</h3>
+
+        <h3 className={styles.cardTitle}>VoyageLA</h3>
+
+        <p className={styles.cardText}>
+          <h3>A niche Californian magazine, VoyageLA, plans to interview Tam.</h3>
           <h4>
-            A niche Californian magazine, VoyageLA, plans to interview Tam in
-            2025. It is based in Culver City, once home to the legendary MGM
-            Film Studios, close to Beverly Hills and Hollywood. Founded a decade
-            ago it celebrates Individuals. The interview is one in their
-            Inspiring Stories series, that spotlight creative and innovative LA
-            denizens. It introduces trailblazing Entrepreneurs and Artists to
-            its young, edgy audience.
+          They are based in Culver City—once home to the legendary MGM Studios and close to Beverly Hills and Hollywood. It was founded a decade ago to celebrate individuals. The interview is part of their Inspiring Stories series, spotlighting creative and innovative LA denizens. It introduces trailblazing entrepreneurs and artists to a young, edgy audience.
           </h4>
-        </div>
+        </p>
       </div>
     </div>
   );
