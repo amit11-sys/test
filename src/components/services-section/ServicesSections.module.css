@@ -1,4 +1,8 @@
+
+
 /* WRAPPER: holds all sections */
+
+
 .wrapper {
   width: 100%;
   padding: 0px 0;
@@ -1057,6 +1061,37 @@
 }
 
 /* ==================== */
+
+@keyframes bronzePulseGrow {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+   
+  }
+
+  50% {
+    transform: scale(1.10);
+    opacity: 0.20;         
+   
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+   
+  }
+}
+
+.starGlow {
+  animation: bronzePulseGrow 4s ease-in-out reverse infinite;
+  transform-origin: center;
+  will-change: transform;
+}
+/* .serviceSections:hover .starGlow {
+  cursor: pointer;
+  animation: bronzePulseGrow 4s ease-in-out infinite;
+} */
+
 
 /* RESPONSIVE */
 @media (max-width:1245px){

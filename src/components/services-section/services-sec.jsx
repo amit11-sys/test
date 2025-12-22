@@ -27,7 +27,7 @@ import SvBtn from "./images/serviceButton.png";
 //     imag1: BrownStar,
 //     imag2: PowerImg,
 //     imag3: ClickMe,
-//     desc: "FREE, no-obligation website audit from a Cambridge graduate who has optimized top surgeons' websites for over 25 years. From Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left IBM as a Data Analyst in the 90s to focus exclusively on SEO for Cosmetic and Hair Restoration Surgeons. A full AI-SEO analysis will reveal where you stand against competitors. Tam's Semrush AI-SEO expertise will show you the path to organic growth. Claim your complimentary audit.",
+//     desc: "FREE, no-obligation website audit from a Cambridge graduate who has optimized top surgeons' websites for over 25 years. From Beverly Hills to Barcelona, the UAE and beyond! Tam Moudden left IBM as a Data Analyst in the 90s to focus exclusively on SEO for Cosmetic and Hair Restoration surgeons. A full AI-SEO analysis will reveal where you stand against competitors. Tam's Semrush AI-SEO expertise will show you the path to organic growth. Claim your complimentary audit.",
 //     url: "/services",
 //   },
 //   {
@@ -36,7 +36,7 @@ import SvBtn from "./images/serviceButton.png";
 //     imag1: SilverStar3,
 //     imag2: OpImg,
 //     imag3: ClickMe,
-//     desc: "Fed up spending £10-20k monthly just to survive on Paid Ads, with nothing certain? You're trapped at the bottom of a deep hole, while competitors dominate above you, winning patients you're paying for Fragmented multi-website practices splinter your visibility. Your fractured presence confuses Google - it can't tell who the real Surgeon is, so it penalises them ALL. Your digital footprint is AGAINST you. This damage demands intervention. It’s too severe to guarantee Clients yet. We'll rebuild over 2 months, paid in arrears. You'll typically see at least 1 Client during repair but none guaranteed. Month 3+: 10 clients monthly, under £2k Month 9 - ROI 9-25:1. Unfurl your rope ladderr!",
+//     desc: "Fed up spending £10-20k monthly just to survive on Paid Ads, with nothing certain? You're trapped at the bottom of a deep hole, while competitors dominate above you, winning patients you're paying for Fragmented multi-website practices splinter your visibility. Your fractured presence confuses Google - it can't tell who the real Surgeon is, so it penalises them ALL. Your digital footprint is AGAINST you. This damage demands intervention. It’s too severe to guarantee clients yet. We'll rebuild over 2 months, paid in arrears. You'll typically see at least 1 Client during repair but none guaranteed. Month 3+: 10 clients monthly, under £2k Month 9 - ROI 9-25:1. Unfurl your rope ladderr!",
 //     url: "/services",
 //   },
 //   {
@@ -45,7 +45,7 @@ import SvBtn from "./images/serviceButton.png";
 //     imag1: GoldStar,
 //     imag2: Agency2,
 //     imag3: ClickMe,
-//     desc: "You may have toxic backlinks, idling Google Business Profile (GBP) and sparse Directory listings. But you have only one website, which is an extremely astute decision. During a month of intensive AI-SEO repair, you can expect at least one Client (which should cover your investment in us) but none can be guaranteed because of our focus on repair. During your repair month, we will clean toxic backlinks, optimise your GBP, build quality Directory listings, and strengthen your site foundation. If you decide to continue on your Fast track to Platinum, then, repair done, we’ll focus on getting you 10 guaranteed Clients every month. No lock-in, continue monthly; pause or stop anytime. Hook up to your tow-truck!",
+//     desc: "You may have toxic backlinks, idling Google Business Profile (GBP) and sparse Directory listings. But you have only one website, which is an extremely astute decision. During a month of intensive AI-SEO repair, you can expect at least one Client (which should cover your investment in us) but none can be guaranteed because of our focus on repair. During your repair month, we will clean toxic backlinks, optimise your GBP, build quality Directory listings, and strengthen your site foundation. If you decide to continue on your Fast track to Platinum, then, repair done, we’ll focus on getting you 10 guaranteed clients every month. No lock-in, continue monthly; pause or stop anytime. Hook up to your tow-truck!",
 //     url: "/services",
 //   },
 //   {
@@ -54,7 +54,7 @@ import SvBtn from "./images/serviceButton.png";
 //     imag1: SilverStar,
 //     imag2: wolf,
 //     imag3: ClickMe,
-//     desc: "You qualify if your website is reasonably functional OR you've completed our Silver or Gold Offers. We GUARANTEE you 10 CLIENTS a month with NOTHING upfront. Pay after results. We can scale for each Surgeon in your Clinic, up to six. How? From an AI-SEO Client Acquisition system exclusively for Aesthetic Surgeons. It’s our SIGNATURE offer, it encapsulates how we like to be treated.£4,407 a month, plummets by 25% three times in months 5, 6 and 7, to under £2k.  No lock-in. continue one month at a time; pause or stop at any time. Ready for Lift Off? 3, 2, 1 . . .",
+//     desc: "You qualify if your website is reasonably functional OR you've completed our Silver or Gold Offers. We GUARANTEE you 10 CLIENTS a month with NOTHING upfront. Pay after results. We can scale for each Surgeon in your Clinic, up to six. How? From an AI-SEO Client Acquisition system exclusively for Aesthetic surgeons. It’s our SIGNATURE offer, it encapsulates how we like to be treated.£4,407 a month, plummets by 25% three times in months 5, 6 and 7, to under £2k.  No lock-in. continue one month at a time; pause or stop at any time. Ready for Lift Off? 3, 2, 1 . . .",
 //     url: "/services",
 //   },
 // ];
@@ -73,14 +73,14 @@ export default function ServicesSections() {
                     <Image
                       src={BrownStar}
                       alt="icon"
-                      className={styles.imageNormal}
+                      className={`${styles.imageNormal} ${styles.starGlow}`}
                     />
                     <Image
                       src={PowerImg}
                       width={150}
                       height={100}
                       alt="icon"
-                      className={styles.imageWide}
+                      className={`${styles.imageWide} ${styles.starGlow} `}
                     />
                   </div>
 
@@ -205,7 +205,7 @@ export default function ServicesSections() {
                     <Image
                       src={SilverStar3}
                       alt="icon"
-                      className={styles.imageNormal}
+                      className={`  ${styles.imageNormal} ${styles.starGlow}`}
                     />
                     <Image
                       src={OpImg}
@@ -255,7 +255,7 @@ export default function ServicesSections() {
 
             <div className={styles.description}>
               <p className={styles.silverDesc}>
-                Fed up spending £10-20k monthly just to survive on paid ads, with nothing certain? You can't be seen where prospects search, while competitors capture clients you're paying premium rates to reach. Fragmented multi-website practices splinter your visibility. Your fractured presence confuses Google—it can't tell who the real surgeon is, so it penalises them all. You've been badly advised. This damage demands intervention. It's too severe to guarantee clients yet. We'll rebuild over 2 months, paid after results. You'll typically see one client a month during repair but none guaranteed. From Month 3 you’ll get 10 clients a month. By Month 9 your ROI will be at least 25x. Unfurl your rope ladder!
+                Fed up spending £10-20k monthly just to survive on paid ads, with nothing certain? You can't be seen where prospects search, while competitors capture clients you're paying premium rates to reach. Fragmented multi-website practices splinter your visibility. Your fractured presence confuses Google—it can't tell who the real surgeon is, so it penalises them all. You've been badly advised. This damage demands intervention. It's too severe to guarantee clients yet. We'll rebuild over 2 months, paid after results. You'll typically see one client a month during repair but none guaranteed. From Month 3 we'll get you 10 clients a month. By Month 9 your ROI will be at least 25x. Unfurl your rope ladder!
               </p>
               <div
                 style={{ alignItems: "center" }}
@@ -273,7 +273,7 @@ export default function ServicesSections() {
                 <div className={styles.silverRescueContainer}>
                   <div className={styles.silverRescueText}>
                     <p className={styles.perMonthText}>
-                      Per month for 2 months of repair, paid after results.  In the 3rd month you are guaranteed 10 Clients.
+                      Per month for 2 months of repair, paid after results.In the 3rd month, we guarantee you 10 clients.
                     </p>
                   </div>
                   <div className={styles.silverImageContainer}>
@@ -378,7 +378,7 @@ export default function ServicesSections() {
 
                     <div className={styles.otherSecondFooterInvestmentText}>
                       <p>monthly for 2 months of repairs, then</p>
-                      <p>monthly for 10 guaranteed Clients!</p>
+                      <p>monthly for 10 guaranteed clients!</p>
                     </div>
                   </div>
                 </div>
@@ -405,7 +405,7 @@ export default function ServicesSections() {
                     <Image
                       src={GoldStar}
                       alt="icon"
-                      className={styles.imageNormal}
+                      className={`${styles.imageNormal} ${styles.starGlow}`}
                     />
                     <Image
                       src={Agency2}
@@ -471,7 +471,7 @@ export default function ServicesSections() {
                 <div className={styles.silverRescueContainer}>
                   <div className={styles.goldRescueText}>
                     <p className={styles.GoldperMonthText}>
-                      For a month, paid after stats results. In the 2nd months you’ll get 10 Clients
+                      For a month, paid after stats results. In the 2nd months, you’ll get 10 clients
                     </p>
                   </div>
                 </div>
@@ -516,7 +516,7 @@ export default function ServicesSections() {
 
                     <div className={styles.otherSecondFooterInvestmentText}>
                       <p>for a month of repairs, then monthly</p>
-                      <p>for 10 guaranteed Clients ongoing!</p>
+                      <p>for 10 guaranteed clients ongoing!</p>
                     </div>
                   </div>
                 </div>
@@ -544,7 +544,7 @@ export default function ServicesSections() {
                     <Image
                       src={SilverStar}
                       alt="icon"
-                      className={styles.imageNormal}
+                      className={`${styles.imageNormal} ${styles.starGlow}`}
                     />
                     <Image
                       src={wolf}
@@ -682,7 +682,7 @@ export default function ServicesSections() {
 
                     <div className={styles.otherSecondFooterInvestmentText}>
                       <p>per month, no lock in. If you continue,</p>
-                      <p>get 10 guaranteed Clients ongoing!</p>
+                      <p>get 10 guaranteed clients ongoing!</p>
                     </div>
                   </div>
                 </div>
@@ -818,10 +818,10 @@ export default function ServicesSections() {
             </div>
 
             <p className={styles.text}>
-              Google's AI Overviews are transforming how Clients find Surgeons like you. When someone searches for "Who's the leading Facelift Surgeon near me?" its results appear ABOVE EVERYTHING ELSE, including PAID ADS! It lists specific Surgeons by name, not just a list of links. Yours needs to be one of them.
-Google's AI promotes content that directly answers Clients’ questions, backed by verified qualifications, peer-reviewed publications, and trusted platforms. More and more Clients are relying on Google's AI Overviews when selecting their Surgeon. Appearing in these results is essential for visibility and Client Acquisition.
+              Google's AI Overviews are transforming how clients find surgeons like you. When someone searches for "Who's the leading Facelift Surgeon near me?" its results appear ABOVE EVERYTHING ELSE, including PAID ADS! It lists specific surgeons by name, not just a list of links. Yours needs to be one of them.
+Google's AI promotes content that directly answers clients’ questions, backed by verified qualifications, peer-reviewed publications, and trusted platforms. More and more clients are relying on Google's AI Overviews when selecting their Surgeon. Appearing in these results is essential for visibility and Client Acquisition.
               <br />
-              Few practices have begun AI Overviews Optimisation (AI-OO) yet. Most Surgeons focus on outdated SEO tactics while the ground shifts beneath their feet. The first-mover advantage is closing rapidly. Get in now. Position yourself at the forefront with Surge-on Up's specialised AI-OO service.
+              Few practices have begun AI Overviews Optimisation (AI-OO) yet. Most surgeons focus on outdated SEO tactics while the ground shifts beneath their feet. The first-mover advantage is closing rapidly. Get in now. Position yourself at the forefront with Surge-on Up's specialised AI-OO service.
             </p>
 
             <div className={styles.footer}>
@@ -1008,13 +1008,13 @@ Google's AI promotes content that directly answers Clients’ questions, backed 
             </div>
 
             <p className={styles.AiLLmtext}>
-              AI Search Engines are reshaping how Clients discover Aesthetic and Restorative Surgeons. Platforms like ChatGPT, Perplexity, and Google's AI Overviews now answer millions of health queries daily.
+              AI Search Engines are reshaping how clients discover Aesthetic and Restorative surgeons. Platforms like ChatGPT, Perplexity, and Google's AI Overviews now answer millions of health queries daily.
               <br />
               When someone asks for "the best nose surgeon near me," AI doesn't just produce a list of links; it provides direct recommendations with context.
               <br />
 Being featured in AI responses is the new frontier of digital visibility. AI engines prioritise authoritative, structured content that directly answers Client questions. They pull from verified sources, reviews, and detailed service descriptions.
               <br />
-              Become prominent in this rapidly growing segment of potential Clients who trust AI for research, with Surge-on Ups AI-SEO offer.
+              Become prominent in this rapidly growing segment of potential clients who trust AI for research, with Surge-on Ups AI-SEO offer.
             </p>
 
             <div className={styles.footer}>
@@ -1172,8 +1172,8 @@ Being featured in AI responses is the new frontier of digital visibility. AI eng
             </div>
 
             <p className={styles.keywordText}>
-              Your Google Business Profile is your digital storefront. When Clients search for Surgeons in your area, your GBP appears prominently in Google Search and Maps—often before your website. It's the first impression that determines whether they contact you or move on to a competitor.
-An optimised GBP displays compelling photos, authentic reviews, accurate hours, and detailed services—all of which build the trust so essential for Surgeons. Profiles with regular posts, timely review responses, and fresh content consistently outperform competitors in visibility and engagement.<br></br>
+              Your Google Business Profile is your digital storefront. When clients search for surgeons in your area, your GBP appears prominently in Google Search and Maps—often before your website. It's the first impression that determines whether they contact you or move on to a competitor.
+An optimised GBP displays compelling photos, authentic reviews, accurate hours, and detailed services—all of which build the trust so essential for surgeons. Profiles with regular posts, timely review responses, and fresh content consistently outperform competitors in visibility and engagement.<br></br>
 Most practices severely underutilise their GBP, treating it as a static listing rather than the dynamic marketing asset it truly is. The question is not whether you can afford to invest in professional GBP optimisation—it's whether you can afford not to.
             </p>
 
@@ -1325,9 +1325,9 @@ Most practices severely underutilise their GBP, treating it as a static listing 
             <p className={styles.text}>
               Domain Authority (DA) is the arbiter of ranking. It is the single most important AI-SEO metric. If your DA is high, no one can outrank you unless their DA is even higher. A high DA means Google trusts your website. It will rank you highly and add pizazz to your Client Acquisition.
               <br />
-              Backlinks build DA. You need quality links from high-authority medical sites, trusted publications, and reputable directories. Each backlink is a "vote of confidence" that tells Google your practice is credible and authoritative. But toxic backlinks, from low DA sites, like spam directories, unrelated industries and link farms, actively destroy your DA and repel Clients.
+              Backlinks build DA. You need quality links from high-authority medical sites, trusted publications, and reputable directories. Each backlink is a "vote of confidence" that tells Google your practice is credible and authoritative. But toxic backlinks, from low DA sites, like spam directories, unrelated industries and link farms, actively destroy your DA and repel clients.
               <br />
-              We audit your entire backlink profile. Systematically remove toxic ones that poison your DA and build strategic connections with authoritative medical sources. Giving you clean, high-quality backlinks that will elevate your DA and bring you Clients.
+              We audit your entire backlink profile. Systematically remove toxic ones that poison your DA and build strategic connections with authoritative medical sources. Giving you clean, high-quality backlinks that will elevate your DA and bring you clients.
               <br />
             </p>
 
@@ -1477,10 +1477,10 @@ Most practices severely underutilise their GBP, treating it as a static listing 
             </div>
 
             <p className={styles.text}>
-              Business Directory Listings and Citations amplify your online authority and visibility. Directory listings are complete profiles on platforms like Yell, Cyclex, and 118. They showcase your practice with photos, services, reviews, and contact details, helping Clients choose you over competitors.
-Citations are your practice name, address, and phone number (NAP) appearing consistently across the web. Search engines use these to verify legitimacy and boost local rankings. Together, they create powerful visibility. Consistent citations build search engine trust, while optimised listings convert researching Clients into booked consultations.
+              Business Directory Listings and Citations amplify your online authority and visibility. Directory listings are complete profiles on platforms like Yell, Cyclex, and 118. They showcase your practice with photos, services, reviews, and contact details, helping clients choose you over competitors.
+Citations are your practice name, address, and phone number (NAP) appearing consistently across the web. Search engines use these to verify legitimacy and boost local rankings. Together, they create powerful visibility. Consistent citations build search engine trust, while optimised listings convert researching clients into booked consultations.
               <br />
-              Many Surgeons have incomplete or inconsistent listings scattered across the web, diluting their authority and confusing search engines. We audit every listing, correct them and ensure both are complete, accurate, and strategically optimised to maximise your local dominance for Clients.
+              Many surgeons have incomplete or inconsistent listings scattered across the web, diluting their authority and confusing search engines. We audit every listing, correct them and ensure both are complete, accurate, and strategically optimised to maximise your local dominance for clients.
             </p>
 
             <div className={styles.footer}>
@@ -1635,10 +1635,10 @@ Citations are your practice name, address, and phone number (NAP) appearing cons
             </div>
 
             <p className={styles.keywordText}>
-              When Clients search "Hair Transplant specialist Manchester," strategic keywords are what determines whether your practice appears prominently or remains invisible. Keywords are the bridge between what Clients search for and whether they find you.
-We identify high-value keywords your ideal Clients actually use, then integrate them naturally throughout your website content, titles, descriptions, and service pages. Effective keyword strategy balances search volume against competition. It targets terms where you can dominate the rankings and attract qualified Clients who are ready to book consultations.
+              When clients search "Hair Transplant specialist Manchester," strategic keywords are what determines whether your practice appears prominently or remains invisible. Keywords are the bridge between what clients search for and whether they find you.
+We identify high-value keywords your ideal clients actually use, then integrate them naturally throughout your website content, titles, descriptions, and service pages. Effective keyword strategy balances search volume against competition. It targets terms where you can dominate the rankings and attract qualified clients who are ready to book consultations.
               <br />
-              Most Surgeons guess at keywords or ignore them entirely. We use data-driven research to position you exactly where your next Clients are searching.
+              Most surgeons guess at keywords or ignore them entirely. We use data-driven research to position you exactly where your next clients are searching.
             </p>
 
             <div className={styles.footer}>
@@ -1796,7 +1796,7 @@ We identify high-value keywords your ideal Clients actually use, then integrate 
             <p className={styles.text}>
               Image Geo-Tagging strengthens your local search presence by embedding location data directly into your practice photos. When properly Geo tagged, your images help search engines verify your physical location, reinforcing your connection to specific geographic areas and boosting local rankings significantly.
               <br />
-              Geo-tagged images appear in location-based searches like "Facelift Surgeon London" or "Breast augmentation specialist Manchester," creating additional visibility channels beyond traditional search results and reaching Clients through Google Images. Mobile users searching "near me" benefit most from geo-tagged content, as devices prioritise location-verified images.
+              Geo-tagged images appear in location-based searches like "Facelift Surgeon London" or "Breast augmentation specialist Manchester," creating additional visibility channels beyond traditional search results and reaching clients through Google Images. Mobile users searching "near me" benefit most from geo-tagged content, as devices prioritise location-verified images.
 We embed precise GPS coordinates into every image across your website and directories, ensuring maximum local SEO impact and geographic authority for your practice.
             </p>
 
