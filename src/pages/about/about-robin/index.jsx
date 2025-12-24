@@ -13,7 +13,7 @@ import Footer from "@/components/footer/footer";
 export default function AboutRobin() {
   return (
     <div className={styles.AboutRobinMainContainer}>
-      <div className={styles.AboutSection}>
+      <div className={styles.robinJohnAboutSection}>
         <div className={styles.topImageRow}>
           <Image src={Img1} alt="logo" className={styles.profileImg} />
           <Image src={Img2} alt="Logo" className={styles.smallLogo} />
