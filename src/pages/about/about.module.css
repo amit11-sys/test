@@ -91,8 +91,8 @@
 
 /* ================new newe============== */
 .wrapper {
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
   padding: 20px 0;
   font-family: "Poppins", sans-serif !important;
 }
@@ -120,11 +120,11 @@
 }
 
 .aboutHeading {
-  font-size: 28px;
-  font-weight: 800;
-  color: #006633;
-  margin-bottom: 25px;
-  text-align: center;
+      font-size: 43px;
+    font-weight: 800;
+    color: #006633;
+    margin: 10px 0px;
+    text-align: center;
 }
 
 .AboutCardsWrapper {
@@ -146,10 +146,20 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 15px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   background-color: white;
   padding: 10px;
   border-radius: 15px;
+}
+.topImagecontainer {
+     display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 52px;
+    /* margin-bottom: 10px; */
+    background-color: white;
+    /* padding: 10px; */
+    /* border-radius: 15px; */
 }
 
 .profileImg {
@@ -159,12 +169,12 @@
 }
 
 .smallLogo {
-  width: 90px;
+  width: 141px;
   height: auto;
 }
 
 .cardTitle {
-  font-size: 16px;
+  font-size: 23px;
   font-weight: 700;
   color: #ffffff;
   text-align: center;
@@ -172,33 +182,45 @@
 }
 
 .cardText {
-  position: relative;
-  font-size: 20px;
-  font-weight: 500;
-  color: #2a38ff;
-  background-color: #22ffd9;
-  border-radius: 10px;
-  line-height: 1.5;
-  padding: 10px;
-  margin-bottom: 0px;
+     position: relative;
+    font-size: 23px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 10px;
+    line-height: 31.5px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.robinCardText {
+       position: relative;
+    font-size: 21.5px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 23px;
+    line-height: 32px;
+    padding: 5px;
+    margin-bottom: 0px;
 }
 
 .moreBtn {
-  /* background: #2a38ff; */
-  border: 1px solid #3366ff;
-  color: #2a38ff;
-  background:white;
-  margin-left: 10px;
-  padding: 1px 10px;
-  position: absolute;
-  bottom: 4px;
-  right: 4px;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;
-  transition: 0.2s;
+      /* background: #2a38ff; */
+    border: 1px solid #3366ff;
+    color: #2a38ff;
+    background: white;
+    margin-left: 5px;
+    margin-right: 21px;
+    padding: 0px 4px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .moreBtn:hover {

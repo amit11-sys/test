@@ -18,24 +18,27 @@ export default function AboutPage() {
 
         <Container fluid>
           <div className={styles.AboutCardsWrapper}>
-            <Row>
+            <Row >
               {/* ROBIN CARD */}
-              <Col lg={6}>
+              <Col  lg={6}>
                 <div className={styles.AboutSection}>
                   <div className={styles.topImageRow}>
+                    <div className={styles.topImagecontainer}>
+
                     <Image
                       src={RobinProfile}
                       alt="Robin Grantham"
                       className={styles.profileImg}
                     />
                     <Image src={Logo} alt="Logo" className={styles.smallLogo} />
+                    </div>
                   </div>
 
-                  <h3 className={styles.cardTitle}>
+                  <h3 style={{marginBottom:0}} className={styles.cardTitle}>
                     Robin Grantham, CEO of Surge-on Up
                   </h3>
 
-                  <p className={styles.cardText}>
+                  <p className={styles.robinCardText}>
                     Robin is a BAFTA-nominated film makeup artist with a
                     sculpture degree and 25 years on Hollywood productions. He
                     built AI systems in the 1980s, scored 100% ‘Cannot be
@@ -54,16 +57,19 @@ export default function AboutPage() {
               <Col lg={6}>
                 <div className={styles.AboutSection}>
                   <div className={styles.topImageRow}>
+                    <div className={styles.topImagecontainer}>
+
                     <Image
                       src={TamProfile}
                       alt="Tam Moudden"
                       className={styles.profileImg}
                     />
                     <Image src={Logo} alt="Logo" className={styles.smallLogo} />
+                    </div>
                   </div>
 
-                  <h3 className={styles.cardTitle}>
-                    am Moudden, Technical Director of Surge-on Up
+                  <h3 style={{marginBottom:0}} className={styles.cardTitle}>
+                    Tam Moudden, Technical Director of Surge-on Up
                   </h3>
 
                   <p className={styles.cardText}>
