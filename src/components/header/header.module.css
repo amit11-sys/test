@@ -13,10 +13,11 @@
 
 .fullWidthContainer {
        width: 100%;
-    padding-top: 20px;
+    padding-top: 20px;  
     /* padding-left: 20px; */
     /* padding: 20px 20px 0px 20px; */
     /* padding-right: 20px; */
+    margin-bottom: 30px;
 }
 
 .HeaderMain{
@@ -50,9 +51,6 @@
     padding: 0; /* ✅ No extra padding */
 }
 
-.menuItemSec1 {
-    /* ✅ Ye top se attach rahega automatically */
-}
 
 .menuItemSec ul{
     margin: 0;

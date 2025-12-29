@@ -124,7 +124,7 @@ export default function Contact() {
               <span
                 style={{ margin: "0px", fontWeight: "700", fontSize: "29px" }}
               >
-                If you are a client and you have an AISEO issue we’ll resolve it
+                If you are a Client and you have an AISEO issue we’ll resolve it
                 with in 24 hours, no charge
               </span>
             </div>

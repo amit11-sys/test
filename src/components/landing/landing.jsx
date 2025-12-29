@@ -13,7 +13,7 @@ export default function Landing({handleScroll}) {
              Surge-on Up fuses Robin Grantham's business acumen with Tam Moudden's SEO expertise. We specialise in AI-SEO and Google AI Overviews (AI-OO) optimisation for Aesthetic Surgeons.
             </span>
             <span className={`${styles.para2} ${styles.span2}`}>
-              Robin Grantham is the CEO of Surge-on Up. His 25 years up close and personal with Hollywood Stars and a British TV National Treasure, plus a BAFTA nomination, mean he understands the exacting standards and client service expectations that high-flying Aesthetic Surgeons need.
+              Robin Grantham is the CEO of Surge-on Up. His 25 years up close and personal with Hollywood Stars and a British TV National Treasure, plus a BAFTA nomination, mean he understands the exacting standards and Client service expectations that high-flying Aesthetic Surgeons need.
             </span>
             <span className={`${styles.para3} ${styles.span3}`}>
               Tam has a Cambridge Computer Science Degree and 25 years exclusively serving elite Aesthetic Surgeons from Beverly Hills to Barcelona the UAE and beyond. His tested and honed Client Acquisition system delivers new Clients in 30 days, not the 3-6 months others promise.

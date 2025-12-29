@@ -16,7 +16,7 @@ export default function Footer() {
         <Row>
           <div className={styles.FooterMainSec}>
             <Link href="/privacy">
-              <h1 style={{ textAlign: "start", fontSize: "120px" }}>PRV</h1>
+              <h1 className={styles.bigText} >PRV</h1>
             </Link>
 
             <Link href="https://www.facebook.com/surgeonup1/" target="_blank">
@@ -45,7 +45,7 @@ export default function Footer() {
             </Link>
 
             <Link href="/terms-of-service">
-              <h1 style={{ fontSize: "120px" }}>TOS</h1>
+              <h1 className={styles.bigText} >TOS</h1>
             </Link>
           </div>
         </Row>
@@ -61,15 +61,7 @@ export default function Footer() {
               }}
             >
               <div
-                style={{
-                  color: "white",
-                  fontStyle: "initial",
-                  fontSize: "34px",
-                  fontWeight: "900",
-                  paddingLeft:'4px',
-                  textTransform:'uppercase',
-                  
-                }}
+                className={styles.midText}
               >
                 Surgeons Only{" "}
               </div>
@@ -83,24 +75,15 @@ export default function Footer() {
               >
               44 7356 075 678
               </span>
-              <div
-                style={{ color: "white", fontSize: "34px", fontWeight: "900" }}
-              >
+             <div className={styles.midText}>
+
                 {" "}
                 NO SUPPLIERS
               </div>
             </div>
           </Col>
           <Col lg={12}>
-            <h3
-              style={{
-                textAlign: "start",
-                fontSize: "34px",
-                fontStyle: "italic",
-                fontWeight: "900",
-                paddingLeft:'4px'
-              }}
-            >
+          <h3 className={styles.bottomText}>
               Copyright Robin Grantham & Surge-on up 2025 All rights reserved
             </h3>
           </Col>

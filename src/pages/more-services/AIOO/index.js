@@ -36,7 +36,7 @@ export default function MoreServices() {
             </p>{' '}
             <p className="m-0 leading-tight md:text-lg md:leading-[1.1]">
               As search evolves, AI Overviews will dominate discovery. When
-              someone searches &quot;best facelift surgeon&quot;, Google&apos;s
+              someone searches &quot;best facelift Surgeon&quot;, Google&apos;s
               AI blends &ldquo;mentions&rdquo; from all authoritative sources.
               You must be among them.
             </p>

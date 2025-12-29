@@ -36,7 +36,7 @@ export default function MoreServices() {
             </p>{' '}
             <p className="m-0 leading-tight md:text-lg md:leading-[1.1]">
               They answer millions of health queries daily. When someone asks,
-              &quot;Best rhinoplasty surgeon near me,&quot; AI doesn&apos;t just
+              &quot;Best rhinoplasty Surgeon near me,&quot; AI doesn&apos;t just
               give a list of websites. It offers recommendations with context.
             </p>
             <p className="m-0 leading-tight md:text-lg md:leading-[1.1]">

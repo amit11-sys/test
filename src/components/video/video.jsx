@@ -5,7 +5,7 @@ export default function Video() {
   return (
     <div className={styles.videoContainer}>
        <div className={styles.container}>
-      <h3 className={`${styles.title} ${styles?.step4}`}>Real clients in 30 days. Guaranteed.</h3>
+      <h3 className={`${styles.title} ${styles?.step4}`}>Real Clients in 30 days. Guaranteed.</h3>
         <div className={`${styles.videoWrapper} ${styles.step5}`}>
         <video 
           className={styles.video} 

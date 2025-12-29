@@ -43,7 +43,7 @@ export default function AboutPage() {
                     sculpture degree and 25 years on Hollywood productions. He
                     built AI systems in the 1980s, scored 100% ‘Cannot be
                     improved!’ on City & Guilds C Programming, then delivered
-                    measurable results in corporate roles. He handles client
+                    measurable results in corporate roles. He handles Client
                     relations, business strategy, graphics and copywriting.
                     <Link href="/about/about-robin" className={styles.moreBtn}>
                       MORE
