@@ -17,8 +17,8 @@ export default function AboutPage() {
         <h2 className={styles.aboutHeading}>ABOUT</h2>
 
         <Container fluid>
-          <div className={styles.AboutCardsWrapper}>
-            <Row >
+          <div className={styles.robinJohnAboutSection}>
+            <Row  >
               {/* ROBIN CARD */}
               <Col  lg={6}>
                 <div className={styles.AboutSection}>
@@ -62,7 +62,7 @@ export default function AboutPage() {
                     <Image
                       src={TamProfile}
                       alt="Tam Moudden"
-                      className={styles.profileImg}
+                      className={styles.tamprofileImg}
                     />
                     <Image src={Logo} alt="Logo" className={styles.smallLogo} />
                     </div>
