@@ -3,9 +3,9 @@ import styles from "./aboutrobin.module.css";
 import Img1 from "./images/img1.png";
 import Img2 from "./images/img2.png";
 import Img3 from "./images/img3.png";
-import Img4 from "./images/img4.jpg";
+import Img4 from "./images/img4.png";
 import Img5 from "./images/img5.jpg";
-import Img6 from "./images/img6.jpg";
+import Img6 from "./images/img6.png";
 import Img7 from "./images/img7.jpg";
 import Image from "next/image";
 import Footer from "@/components/footer/footer";
@@ -93,7 +93,7 @@ export default function AboutRobin() {
 
       <div className={styles.robinJohnAboutSection}>
         <div className={styles.topImageRow}>
-          <Image src={Img7} alt="logo" className={styles.profileImg} />
+          <Image src={Img7} alt="logo" className={styles.davidProfileImg} />
           <Image src={Img6} alt="Logo" className={styles.smallLogo} />
         </div>
 

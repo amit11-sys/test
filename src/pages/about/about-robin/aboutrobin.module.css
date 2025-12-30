@@ -91,7 +91,7 @@
   width: 100%;
   margin: 20px auto 60px auto;
   background: #ffffff;
- border-radius: 44px;
+  border-radius: 44px;
   margin-bottom: 20px;
   padding: 24px;
   color: #3366ff;
@@ -133,18 +133,23 @@
 }
 
 .topImageRow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 137px;
-    /* margin-bottom: 10px; */
-    background-color: white;
-    padding: 10px;
-    border-radius: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 137px;
+  /* margin-bottom: 10px; */
+  background-color: white;
+  padding: 10px;
+  border-radius: 33px;
 }
 
 .profileImg {
-  width: 160px;
+  width: 255px;
+  height: auto;
+  border-radius: 10px;
+}
+.davidProfileImg {
+  width: 148px;
   height: auto;
   border-radius: 10px;
 }
@@ -182,64 +187,64 @@
   margin-bottom: 0;
 }
 .sitelCardTitle {
-      font-size: 27px;
-    font-weight: 700;
-    margin-bottom: 0;
-    color: #ffffff;
-    text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-align: center;
 }
 .robinJohncardTitle {
-     font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 0;
-    color: #ffffff;
-    text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-align: center;
 }
 
 .leaseplanCardText {
-       position: relative;
-    font-size: 25px;
-    font-weight: 500;
-    color: #2a38ff;
-    background-color: #22ffd9;
-    border-radius: 33px;
-    /* line-height: 38px; */
-    padding: 0px 15px;
-    margin-bottom: 0px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  color: #2a38ff;
+  background-color: #22ffd9;
+  border-radius: 33px;
+  /* line-height: 38px; */
+  padding: 0px 15px;
+  margin-bottom: 0px;
 }
 .cardText {
-       position: relative;
-    font-size: 26px;
-    font-weight: 500;
-    color: #2a38ff;
-    background-color: #22ffd9;
-    border-radius: 33px;
-    /* line-height: 38px; */
-    padding: 0px 15px;
-    margin-bottom: 0px;
+  position: relative;
+  font-size: 26px;
+  font-weight: 500;
+  color: #2a38ff;
+  background-color: #22ffd9;
+  border-radius: 33px;
+  /* line-height: 38px; */
+  padding: 0px 15px;
+  margin-bottom: 0px;
 }
 .sitelCardText {
-       position: relative;
-    font-size: 25px;
-    font-weight: 500;
-    color: #2a38ff;
-    background-color: #22ffd9;
-    border-radius: 33px;
-    /* line-height: 38px; */
-    padding: 0px 15px;
-    margin-bottom: 0px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  color: #2a38ff;
+  background-color: #22ffd9;
+  border-radius: 33px;
+  /* line-height: 38px; */
+  padding: 0px 15px;
+  margin-bottom: 0px;
 }
 .cardTextHeader {
-      position: relative;
-    font-size: 30px;
-    font-weight: 800;
-    color: #2a38ff;
-    background-color: #22ffd9;
-    border-radius: 33px;
-    text-align: center;
-    line-height: 1.5;
-    /* padding: 10px; */
-    margin-bottom: 0px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 800;
+  color: #2a38ff;
+  background-color: #22ffd9;
+  border-radius: 33px;
+  text-align: center;
+  line-height: 1.5;
+  /* padding: 10px; */
+  margin-bottom: 0px;
 }
 
 .moreBtn {

@@ -14,19 +14,27 @@ import Footer from "@/components/footer/footer";
 export default function AboutTam() {
   return (
     <div className={styles.AboutRobinMainContainer}>
-      <div className={styles.AboutSection}>
-        <div className={styles.topImageRow}>
-          <Image src={Img1} alt="logo" className={styles.profileImg} />
+      <div className={styles.robinJohnAboutSection}>
+        <div className={styles.richardtopImageRow}>
+          <Image src={Img1} alt="logo" className={styles.richardProfileImg} />
           <Image src={Img2} alt="Logo" className={styles.smallLogo} />
         </div>
 
-        <h3 className={styles.cardTitle}>
+        <h3 className={styles.rechardCardTitle}>
           Dr Richard Chaffoo, California Hair
         </h3>
 
-        <p className={styles.cardText}>
-          <h3>
-            Is one of the few Aesthetic Surgeons ever to be Triple-Board Certified
+        <div className={styles.cardText}>
+          <h3
+            style={{
+              marginBottom: 0,
+              fontWeight: 800,
+              textAlign: "center",
+              fontSize: "29px",
+            }}
+          >
+            Is one of the few Aesthetic Surgeons ever to be Triple-Board
+            Certified
           </h3>
           <h4>
             He is the top Beverly Hills and La Jolla, San Diego Aesthetic
@@ -36,10 +44,10 @@ export default function AboutTam() {
             professional in his approach to our website and online presence. His
             unparalleled SEO strategies have expanded our businesses.”
           </h4>
-        </p>
+        </div>
       </div>
 
-      <div className={styles.AboutSection}>
+      <div className={styles.robinJohnAboutSection}>
         <div className={styles.topImageRow}>
           <Image src={Img3} alt="logo" className={styles.profileImg} />
           <Image src={Img4} alt="Logo" className={styles.smallLogo} />
@@ -49,8 +57,17 @@ export default function AboutTam() {
           Dr Zachary Farris, ZF Plastic Surgery
         </h3>
 
-        <p className={styles.cardText}>
-          <h3>Zachary is an influential Double-Certified Aesthetic Surgeon</h3>
+        <div className={styles.cardText}>
+          <h3
+            style={{
+              marginBottom: 0,
+              fontWeight: 800,
+              textAlign: "center",
+              fontSize: "29px",
+            }}
+          >
+            Zachary is an influential Double-Certified Aesthetic Surgeon
+          </h3>
           <h4>
             He is based in Dallas Texas and is approved to perform both Cosmetic
             and Hair Restoration procedures. RealSelf says he is one of the top
@@ -59,10 +76,10 @@ export default function AboutTam() {
             is the first Christmas I haven’t been worried about business leads
             for the New Year. My Diary is completely full!”
           </h4>
-        </p>
+        </div>
       </div>
 
-      <div className={styles.AboutSection}>
+      <div className={styles.robinJohnAboutSection}>
         <div className={styles.topImageRow}>
           <Image src={Img5} alt="logo" className={styles.profileImg} />
           <Image src={Img6} alt="Logo" className={styles.smallLogo} />
@@ -70,28 +87,61 @@ export default function AboutTam() {
 
         <h3 className={styles.cardTitle}>Membership of Semrush and Yext</h3>
 
-        <p className={styles.cardText}>
-          <h3>Google Analytics is useful and free but its data is a month in arrears. </h3>
-          <h4>
-            Semrush provides live traffic data and informative tools for keywords, backlinks and competitor analysis. Tam is a certified Semrush Technical AI-SEO Analyst, having aced four of their exams in early 2025, including AI. At £900 annually, it's invaluable. He is also a member of Yext (£500 annually), which allows us to offer our Clients additional business listings at no extra cost
+        <div className={styles.cardText}>
+          <h3
+            style={{
+              marginBottom: 0,
+              fontWeight: 800,
+              textAlign: "center",
+              fontSize: "29px",
+            }}
+          >
+            Google Analytics is useful and free but its data is a month in
+            arrears.{" "}
+          </h3>
+          <h4 style={{ marginBottom: 0, fontSize: "29px", lineHeight: "32px" }}>
+            Semrush provides live traffic data and informative tools for
+            keywords, backlinks and competitor analysis. Tam is a certified
+            Semrush Technical AI-SEO Analyst, having aced four of their exams in
+            early 2025, including AI. At £900 annually, it's invaluable. He is
+            also a member of Yext (£500 annually), which allows us to offer our
+            Clients additional business listings at no extra cost
           </h4>
-        </p>
+        </div>
       </div>
 
-      <div className={styles.AboutSection}>
+      <div className={styles.robinJohnAboutSection}>
         <div className={styles.topImageRow}>
-          <Image src={Img7} alt="logo" className={styles.profileImg} />
-          <Image  src={Img8} alt="Logo" className={styles.VoyageLAsmallLogo} />
+          <Image src={Img7} alt="logo" className={styles.VoyageLAprofileImg} />
+          <Image src={Img8} alt="Logo" className={styles.VoyageLAsmallLogo} />
         </div>
 
         <h3 className={styles.cardTitle}>VoyageLA</h3>
 
-        <p className={styles.cardText}>
-          <h3>A niche Californian magazine, VoyageLA, plans to interview Tam.</h3>
-          <h4>
-          They are based in Culver City—once home to the legendary MGM Studios and close to Beverly Hills and Hollywood. It was founded a decade ago to celebrate individuals. The interview is part of their Inspiring Stories series, spotlighting creative and innovative LA denizens. It introduces trailblazing entrepreneurs and artists to a young, edgy audience.
+        <div className={styles.cardText}>
+          <h3
+            style={{
+              marginBottom: 21,
+              fontWeight: 800,
+              textAlign: "center",
+              fontSize: "29px",
+            }}
+          >
+            A niche Californian magazine, VoyageLA, plans to interview Tam.
+          </h3>
+          <h4
+            style={{
+              fontSize: "29px",
+            }}
+          >
+            They are based in Culver City—once home to the legendary MGM Studios
+            and close to Beverly Hills and Hollywood. It was founded a decade
+            ago to celebrate individuals. The interview is part of their
+            Inspiring Stories series, spotlighting creative and innovative LA
+            denizens. It introduces trailblazing entrepreneurs and artists to a
+            young, edgy audience.
           </h4>
-        </p>
+        </div>
       </div>
     </div>
   );
