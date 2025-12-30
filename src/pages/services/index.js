@@ -18,7 +18,7 @@ export default function Service() {
     <div className={styles.left}></div>
     <h2 className={styles.center}>Services</h2>
     <div className={styles.right}>
-      <Link href="/more-services">
+      <Link href="services/more-services">
         <Image
           src="/more-services.png"
           alt="More services"

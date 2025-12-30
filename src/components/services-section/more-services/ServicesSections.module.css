@@ -271,8 +271,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0px 8px;
+  justify-content: space-around;
   /* flex-wrap: wrap; */
   /* gap: 10px; */
 }
@@ -460,36 +459,12 @@
   width: 100%;
 }
 .imageContainer {
-  display: flex;
-  /* flex-direction: column; */
-  gap: 36px;
-  align-items: center;
-  justify-content: center;
-  /* margin-bottom: 8px; */
-}
-.bronzeimageContainer {
-  display: flex;
-  /* flex-direction: column; */
-  gap: 36px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-.goldimageContainer {
-  display: flex;
-  /* flex-direction: column; */
-  gap: 36px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-.platinumimageContainer {
-  display: flex;
-  /* flex-direction: column; */
-  gap: 36px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
+     display: flex;
+    /* flex-direction: column; */
+    gap: 36px;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px 4px 0px;
 }
 .starImageContainer {
   display: flex;
@@ -779,15 +754,17 @@
 
 .text {
   margin-top: 0px;
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 32.35px;
+  margin-bottom: 0px;
 }
 .AiLLmtext {
   margin-top: -3px;
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 32.35px;
+   margin-bottom: 0px;
 }
 .keywordText {
   margin-top: 0px;
@@ -1046,10 +1023,14 @@
   /* align-items: end; */
 }
 .desktopAIOOHeaderMore h2 {
-  font-size: 33px;
-  color: #2f66ff;
-  font-weight: 800;
-  margin-bottom: 0px;
+     font-size: 33px;
+    color: #2f66ff;
+    font-weight: 800;
+    display: flex;
+    margin-bottom: 0px;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 /* .wrapper {

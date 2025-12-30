@@ -22,14 +22,14 @@ export default function AboutRobin() {
         <h3 className={styles.cardTitle}>Robin and John in Verona</h3>
 
         <p className={styles.cardText}>
-          <h3>
+          <p style={{fontWeight:700 ,fontSize: "128%",marginBottom:0}} >
             Robin was the Chief Makeup Artist on “Inspector Morse”, working on 30 of the 33 episodes.
-          </h3>
+          </p>
          When he made John Thaw up for the first time, John asked what he'd worked on last. Self-aggrandisement was the norm in the film industry but despite having a Bond film under his belt, Robin replied candidly, "Mini-cabbing, John." John replied, “Is that a new Mini-Series?” “No, John I’ve been cabbing to make ends meet.” His honesty forged a lasting working friendship. John offered him all 32 remaining episodes—except the Australian one, due to travel costs.
         </p>
       </div>
   
-    <div className={styles.AboutSection}>
+    <div className={styles.robinJohnAboutSection}>
         <div className={styles.topImageRow}>
           <Image src={Img3} alt="logo" className={styles.profileImg} />
           <Image src={Img4} alt="Logo" className={styles.smallLogo} />
