@@ -90,6 +90,159 @@
     height: 70 !important;
 }
 
+
+/* ============= new=========== */
+
+.wrapper {
+  width: 100%;
+  padding: 20px 0;
+  font-family: "Poppins", sans-serif !important;
+}
+.heroPrivacyImageSec {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.privacySection {
+  width: 100%;
+  margin: 0 auto 60px auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 23px;
+  color: #3366ff;
+  font-family: "Poppins", sans-serif;
+  background-color: #3366ff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  /* Smooth fade-in */
+  /* opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards; */
+}
+.mainHeaderPrivacy {
+  color: #006633;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+/* Outer card */
+.privacyCOCSection {
+  background-color: #33ffcc;
+  border-radius: 18px;
+  padding: 26px 28px;
+  box-sizing: border-box;
+
+  /* thick purple outline like the screenshot */
+  /* box-shadow: 0 0 0 12px rgba(73, 32, 183, 1) inset; */
+  /* make a subtle external shadow to lift it off the page */
+  outline: 10px solid rgba(73, 32, 183, 0.03);
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.privacyCard {
+  width: 100%;
+  background: #22ffd9; /* turquoise */
+  
+  border-radius: 25px;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacyInner {
+  text-align: center;
+  color: #2a38ff;
+}
+
+.privacyHeading {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pledgeBadge {
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #3366ff;
+  color: #22ffd9;
+  margin-bottom: 20px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 2px solid #2a38ff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.line {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+.privacyHeader {
+  color: #006633;
+  font-size: 25px;
+  
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+
+.privacyHeader .title {
+  color: #3366FF;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+.privacyHeader .subtitle {
+  color: #3366FF;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+
+.privacyCOCImagefooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
     .TosMainSection h1 {

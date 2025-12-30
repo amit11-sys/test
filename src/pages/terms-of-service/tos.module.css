@@ -1,34 +1,103 @@
-.TosMainSection{
-    background-color: #FFFFCC;
-    text-align: center;
-    font-family: "Poppins", sans-serif !important; 
+/* WRAPPER: holds all sections */
+
+.TosMainSection {
+  background-color: #ffffcc;
+  text-align: center;
+  font-family: "Poppins", sans-serif !important;
 }
 
-.TosMainSection h1{
-    color: #006633;
-    font-size: 48px;
-    font-weight: 800;
-    text-align: center;
-    -webkit-text-stroke: 1px #3366ff;
-    text-transform: uppercase;
+.TosMainSection h1 {
+  color: #006633;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
 }
 
-.TosTextContainer{
-    border: 5px solid #006633;
-    border-radius: 5px;
-    padding: 40px;
-    margin: 10px;
+.TosTextContainer2 {
+  border: 5px solid #006633;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 10px;
+  text-align: left;
 }
 
-.TosTextContainer2{
-    border: 5px solid #006633;
-    border-radius: 5px;
-    padding: 40px;
-    margin: 10px;
-    text-align: left;
+.COCImageSec {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.TosCOCSection{
+.TosTextContainer2 p {
+  color: #3366ff;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.TosTextContainer2 li {
+  color: #3366ff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.TosTextContainer2 h1,
+.TosTextContainer2 h2,
+.TosTextContainer2 h3,
+.TosTextContainer2 h4,
+.TosTextContainer2 h5,
+.TosTextContainer2 h6 {
+  color: #006633;
+  font-size: 44px;
+  font-weight: 700;
+}
+.RobinImg,
+.TamImg {
+  width: 250 !important;
+  height: 310 !important;
+}
+.BarImg {
+  width: 500 !important;
+  height: 70 !important;
+}
+
+/* =====new===============new== */
+.wrapper {
+  width: 100%;
+  padding: 20px 0;
+  font-family: "Poppins", sans-serif !important;
+}
+.TosSection {
+  width: 100%;
+  margin: 0 auto 60px auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 23px;
+  color: #3366ff;
+  font-family: "Poppins", sans-serif;
+  background-color: #3366ff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  /* Smooth fade-in */
+  /* opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards; */
+}
+
+.mainHeaderTerm {
+  color: #006633;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+
+/* .TosCOCSection{
     background-color: #33FFCC;
     border: 3px solid #3366ff;
     border-radius: 4px;
@@ -49,200 +118,336 @@
     color: #3366ff;
     font-weight: 800;
     font-size: 38px;
+} */
+
+/* .TosTextContainer{
+    border: 5px solid #006633;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 10px;
+} */
+
+/* Tos.module.css */
+
+.TosTextContainer {
+  box-sizing: border-box;
 }
 
-.COCImageSec{
-    margin: 20px 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+/* Outer card */
+.TosCOCSection {
+  background-color: #33ffcc;
+  border-radius: 18px;
+  padding: 26px 28px;
+  box-sizing: border-box;
+
+  /* thick purple outline like the screenshot */
+  /* box-shadow: 0 0 0 12px rgba(73, 32, 183, 1) inset; */
+  /* make a subtle external shadow to lift it off the page */
+  outline: 10px solid rgba(73, 32, 183, 0.03);
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.TosTextContainer2 p{
-    color: #3366ff;
-    font-size: 38px;
-    font-weight: 600;
+/* Title */
+.h2 {
+  color: #3366ff; /* deep purple */
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 4px 0 8px;
+  font-size: 18px;
+  text-align: center;
 }
 
-.TosTextContainer2 li{
-    color: #3366ff;
-    font-size: 28px;
-    font-weight: 600;
+/* Badge row — places the rounded badge under the small title like the screenshot */
+.badgeRow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
-.TosTextContainer2 h1,
-.TosTextContainer2 h2,
-.TosTextContainer2 h3,
-.TosTextContainer2 h4,
-.TosTextContainer2 h5,
-.TosTextContainer2 h6 {
-    color: #006633;
-    font-size: 44px;
-    font-weight: 700;
+/* Rounded small pill badge */
+.badge {
+  background: #3366ff;
+  color: #9ef0de;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 13px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
 }
-.RobinImg, .TamImg{
-    width: 250 !important;
-    height: 310 !important;
+
+/* Pledge lines container */
+.content {
+  width: 86%;
+  max-width: 820px;
+  margin-top: 8px;
+  text-align: center;
+  color: #3366ff; /* darker purple text */
+  border: #0336cf;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.45;
+  letter-spacing: 0.15px;
+  margin-bottom: 6px;
 }
-.BarImg{
-    width: 500 !important;
-    height: 70 !important;
+
+/* make the first few lines a touch larger visually (matching image balance) */
+.content p {
+  margin: 6px 0;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.tosContent {
+  background-color: #33ffcc;
+}
+
+.tosHeader {
+  color: #006633;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+
+.tosHeader .title {
+  color: #006633;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+.tosHeader .subtitle {
+  color: #006633;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-text-stroke: 1px #3366ff;
+  text-transform: uppercase;
+}
+
+.TosCOCImagefooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.moboCOCImageSec{
+  display: none;
+}
+.hideMoboCOCImageSec{
+  display: none;
+}
+
+/* small responsive tweaks */
+@media (max-width: 640px) {
+  .TosCOCSection {
+    padding: 18px;
+    
+    border-radius: 14px;
+  }
+  .h2 {
+    font-size: 16px;
+  }
+  .badge {
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+  .content {
+    font-size: 12px;
+    width: 92%;
+  }
+  .mainHeaderTerm {
+    font-size: 30px;
+  }
 }
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
-    .TosMainSection h1 {
-        font-size: 32px;
-        -webkit-text-stroke: 0.5px #3366ff;
-        padding: 10px;
-    }
+  .TosMainSection h1 {
+    font-size: 32px;
+    -webkit-text-stroke: 0.5px #3366ff;
+    padding: 10px;
+  }
 
-    .TosTextContainer,
-    .TosTextContainer2 {
-        border-width: 3px;
-        padding: 20px 15px;
-        margin: 10px 5px;
-    }
+  .TosTextContainer,
+  .TosTextContainer2 {
+    border-width: 3px;
+    padding: 20px 15px;
+    margin: 10px 5px;
+  }
 
-    .TosCOCSection {
-        border-width: 2px;
-        padding: 10px 5px;
-    }
+  .TosCOCSection {
+    border-width: 2px;
+    padding: 10px 5px;
+  }
 
-    .TosCOCSection h2 {
-        font-size: 28px;
-        padding: 0 10px;
-    }
+  .TosCOCSection h2 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
 
-    .TosCOCSection h1 {
-        font-size: 24px;
-    }
+  .TosCOCSection h1 {
+    font-size: 24px;
+  }
 
-    .TosCOCSection p {
-        font-size: 18px;
-        padding: 5px 10px;
-    }
+  .TosCOCSection p {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  /* 
+  .COCImageSec {
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 0;
+  } */
 
-    .COCImageSec {
-        flex-direction: column;
-        gap: 15px;
-        margin: 15px 0;
-    }
+  /* .COCImageSec img {
+    max-width: 100%;
+    height: auto;
+  } */
 
-    .COCImageSec img {
-        max-width: 100%;
-        height: auto;
-    }
+  .TosTextContainer2 p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
 
-    .TosTextContainer2 p {
-        font-size: 18px;
-        line-height: 1.6;
-    }
+  .TosTextContainer2 li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
 
-    .TosTextContainer2 li {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 8px;
-    }
+  .TosTextContainer2 h1,
+  .TosTextContainer2 h2,
+  .TosTextContainer2 h3,
+  .TosTextContainer2 h4,
+  .TosTextContainer2 h5,
+  .TosTextContainer2 h6 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 
-    .TosTextContainer2 h1,
-    .TosTextContainer2 h2,
-    .TosTextContainer2 h3,
-    .TosTextContainer2 h4,
-    .TosTextContainer2 h5,
-    .TosTextContainer2 h6 {
-        font-size: 22px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
+  .TosTextContainer2 ul,
+  .TosTextContainer2 ol {
+    padding-left: 25px;
+  }
 
-    .TosTextContainer2 ul,
-    .TosTextContainer2 ol {
-        padding-left: 25px;
-    }
 }
 
 /* Extra small mobile devices */
 @media screen and (max-width: 480px) {
-    .TosMainSection h1 {
-        font-size: 24px;
-    }
+  .TosMainSection h1 {
+    font-size: 24px;
+  }
 
-    .TosTextContainer,
-    .TosTextContainer2 {
-        padding: 15px 10px;
-        margin: 8px 3px;
-    }
+  .TosTextContainer,
+  .TosTextContainer2 {
+    padding: 15px 10px;
+    margin: 8px 3px;
+  } 
+   /* .TosSection {
+    padding: 0px;
+  } */
+  .moboCOCImageSec{
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hideMoboCOCImageSec{
+  display: flex;
+}
 
-    .TosCOCSection h2 {
-        font-size: 22px;
-    }
+  .TosCOCSection h2 {
+    font-size: 22px;
+  }
 
-    .TosCOCSection h1 {
-        font-size: 20px;
-    }
+  .TosCOCSection h1 {
+    font-size: 20px;
+  }
 
-    .TosCOCSection p {
-        font-size: 16px;
-    }
+  .TosCOCSection p {
+    font-size: 16px;
+  }
 
-    .TosTextContainer2 p {
-        font-size: 16px;
-    }
+  .TosTextContainer2 p {
+    font-size: 16px;
+  }
 
-    .TosTextContainer2 li {
-        font-size: 14px;
-    }
+  .TosTextContainer2 li {
+    font-size: 14px;
+  }
 
-    .TosTextContainer2 h1,
-    .TosTextContainer2 h2,
-    .TosTextContainer2 h3,
-    .TosTextContainer2 h4,
-    .TosTextContainer2 h5,
-    .TosTextContainer2 h6 {
-        font-size: 18px;
-    }
+  .TosTextContainer2 h1,
+  .TosTextContainer2 h2,
+  .TosTextContainer2 h3,
+  .TosTextContainer2 h4,
+  .TosTextContainer2 h5,
+  .TosTextContainer2 h6 {
+    font-size: 18px;
+  }
+  .COCImageSec img {
+    min-width: 100px;
+    height: auto;
+  }
+   .TosSection {
+    padding: 0px;
+    gap: 0px;
+  }
+  .hideMoboCOCImageSec2{
+    display: none;
+  }
 }
 
 /* Tablet landscape */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .TosMainSection h1 {
-        font-size: 40px;
-    }
+  .TosMainSection h1 {
+    font-size: 40px;
+  }
 
-    .TosCOCSection h2 {
-        font-size: 38px;
-    }
+  .TosCOCSection h2 {
+    font-size: 38px;
+  }
 
-    .TosCOCSection p {
-        font-size: 28px;
-    }
+  .TosCOCSection p {
+    font-size: 28px;
+  }
 
-    .TosTextContainer2 p {
-        font-size: 28px;
-    }
+  .TosTextContainer2 p {
+    font-size: 28px;
+  }
 
-    .TosTextContainer2 li {
-        font-size: 22px;
-    }
-    .COCImageSec {
-        flex-direction: column;
-        gap: 15px;
-        margin: 15px 0;
-    }
+  .TosTextContainer2 li {
+    font-size: 22px;
+  }
+  /* .COCImageSec {
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 0;
+  } */
 
-    .COCImageSec img {
-        max-width: 100%;
-        height: auto;
-    }
+  .COCImageSec img {
+    min-width: 100px;
+    height: auto;
+  }
 
-    .TosTextContainer2 h1,
-    .TosTextContainer2 h2,
-    .TosTextContainer2 h3,
-    .TosTextContainer2 h4,
-    .TosTextContainer2 h5,
-    .TosTextContainer2 h6 {
-        font-size: 32px;
-    }
+  .TosTextContainer2 h1,
+  .TosTextContainer2 h2,
+  .TosTextContainer2 h3,
+  .TosTextContainer2 h4,
+  .TosTextContainer2 h5,
+  .TosTextContainer2 h6 {
+    font-size: 32px;
+  }
 }
