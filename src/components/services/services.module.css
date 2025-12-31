@@ -224,6 +224,237 @@
     font-weight: bold;
 }
 
+/* =====new css  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.green{
+    color: #006633;
+}
+
+.serviceDailog{
+   word-spacing: 3px;
+}
+
+.section2 {
+  transform: translateY(20px);
+}
+
+.mainLandingBody{
+    padding-bottom: 80px;
+    background-color: #3366FF;
+    padding: 0px 20px;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    border-radius: 20px;
+}
+
+@media (min-width: 771px) {
+  .mainLandingBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.serviceDailog{
+    color: #33FFCC;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.mainLandingBody h4{
+    text-align: center;
+    padding-top: 9px;
+}
+
+/* Fade Up Animation */
+.sericeBox {
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px 12px;
+    color: #3366FF;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* Animation properties (FASTER) */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-out;
+}
+
+.sericeBox.animate {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.svHeadingSec{
+    background-color: white;
+    border-radius: 15px;
+    height: 127px;
+}
+
+.svBtnDiv{
+    margin-top: 20px;   
+}
+.svBtnDiv img{
+    width: 100% !important;
+    height: 50px !important;
+}
+
+.sericeBox h3, .sericeBox h4{
+    margin: 0px 5px;
+    font-weight: 800;
+}
+
+.sericeBox h4{
+    font-size: 1.4em;
+}
+
+.sericeBox h5{
+    display: inline-block;
+    margin: 0px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.sericeBox h6{
+    margin: 0px;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.svDesc {
+    background-color: #33FFCC;
+    border-radius: 15px;
+    text-align: left !important;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+    min-height: 200px !important;
+    max-height: 200px !important;
+    height: 100% !important;
+    margin-top: 12px;
+}
+
+.svDesc h6{
+    text-align: center !important;
+}
+
+.svDesc p{
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.sericeBox img{
+    height: 70px;
+    width: 80px;
+    margin: 0px 5px;
+}
+
+.s1Image{
+    height: 60px !important;
+    width: 65px !important;
+    margin: 0px 5px;
+}
+
+.s1Image1{
+    height: 60px !important;
+    width: 150px !important;
+    margin: 0px 5px;
+}
+
+/* Mobile Boxes */
+.sericeBox2{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center !important;
+    color: #3366FF;
+    font-family: "Poppins", sans-serif;
+    min-height: 400px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-out;
+}
+
+.sericeBox2.animate {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.sericeBox2 h3, .sericeBox2 h4{
+    margin: 0px 5px;
+    font-weight: 800;
+}
+
+.sericeBox2 h4{
+    margin: 6px 0px;
+}
+
+.sericeBox2 h5{
+    display: inline-block;
+    margin: 0px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.sericeBox2 h6{
+    margin: 0px;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.sericeBox2 p{
+    padding: 4px 12px !important;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-align: center !important;
+    margin: 0px !important;
+}
+
+.sericeBox2 img{
+    height: 55px;
+    width: 80px;
+    margin: 0px 5px;
+}
+
+.flagBarImage{
+    margin: 0px !important;
+    height: 25px !important;
+    width: 100% !important;
+}
+
+.mblImgSec{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.mblImgAgnImg{
+    width: 100px !important;
+}
+
+.mblImgOPImg{
+    width: 100% !important;
+    height: 100px;
+}
+
+.svDesc{
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+/* MEDIA QUERIES — UNCHANGED */
+/* (everything below remains exactly as you provided) */
+
+
+
+
 /* MEDIA QUERIES */
 
 /* Mobile Full Screen */

@@ -30,6 +30,39 @@ export default function Contact() {
             </div>
           </div>
           <div className={styles.boxTextContainer}>
+            <div className={styles.secondBox}>
+              <span
+                style={{
+                  margin: "0px",
+                  fontWeight: "500",
+                  fontSize: "25px",
+                  fontWeight: "700",
+                }}
+              >
+                LIKE A FREE CONSULTATION?
+              </span>
+              <Link href={"https://calendly.com/robin-grantham-surgeonup"}>
+                {" "}
+                <Image
+                  src={ChatWithRobin}
+                  alt="Logo"
+                  width={130}
+                  height={100}
+                  className={styles.activeLinks}
+                />
+              </Link>
+              <span
+                style={{
+                  margin: "0px",
+                  fontWeight: "600",
+                  fontSize: "24px",
+                  fontWeight: "700",
+                  textAlign: "start",
+                }}
+              >
+                BOOK A SCHEDULED 15 MIN SLOT
+              </span>
+            </div>
             <div className={styles.firstBox}>
               <span
                 style={{
@@ -87,39 +120,7 @@ export default function Contact() {
                 we can chat about anything you like
               </span>
             </div>
-            <div className={styles.secondBox}>
-              <span
-                style={{
-                  margin: "0px",
-                  fontWeight: "500",
-                  fontSize: "25px",
-                  fontWeight: "700",
-                }}
-              >
-                LIKE A FREE CONSULTATION?
-              </span>
-              <Link href={"https://calendly.com/robin-grantham-surgeonup"}>
-                {" "}
-                <Image
-                  src={ChatWithRobin}
-                  alt="Logo"
-                  width={130}
-                  height={100}
-                  className={styles.activeLinks}
-                />
-              </Link>
-              <span
-                style={{
-                  margin: "0px",
-                  fontWeight: "600",
-                  fontSize: "24px",
-                  fontWeight: "700",
-                  textAlign: "start",
-                }}
-              >
-                BOOK A SCHEDULED 15 MIN SLOT
-              </span>
-            </div>
+            
             <div className={styles.thirdBox}>
               <span
                 style={{ margin: "0px", fontWeight: "700", fontSize: "29px" }}

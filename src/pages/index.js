@@ -35,15 +35,15 @@ export default function Home() {
 
   // Auto scroll → first Services, then Video
   useEffect(() => {
-    // After 41 sec scroll to Services
+    // After ~20.5 sec scroll to Services (FASTER)
     const timer1 = setTimeout(() => {
       scrollToServices();
-    }, 41000);
+    }, 25500);
 
-    // After 60 sec scroll to Video
+    // After ~25 sec scroll to Video (FASTER)
     const timer2 = setTimeout(() => {
       scrollToVideo();
-    }, 50000); // Change time according to your need
+    }, 40000);
 
     return () => {
       clearTimeout(timer1);
@@ -55,8 +55,14 @@ export default function Home() {
     <>
       <Head>
         <title>SurgeonUp - AI-SEO & Google AI Overviews Optimization for Aesthetic Surgeons</title>
-        <meta name="description" content="SurgeonUp specializes in AI-SEO and Google AI Overviews (AI-OO) optimization for Aesthetic Surgeons. Guaranteed 10 new Clients in 30 days with no upfront cost. Expert SEO services from Beverly Hills to Barcelona." />
-        <meta name="keywords" content="AI-SEO, Google AI Overviews, Aesthetic Surgeons SEO, AI-OO optimization, Surgeon marketing, medical SEO, Client acquisition, SEO for Surgeons" />
+        <meta
+          name="description"
+          content="SurgeonUp specializes in AI-SEO and Google AI Overviews (AI-OO) optimization for Aesthetic Surgeons. Guaranteed 10 new Clients in 30 days with no upfront cost. Expert SEO services from Beverly Hills to Barcelona."
+        />
+        <meta
+          name="keywords"
+          content="AI-SEO, Google AI Overviews, Aesthetic Surgeons SEO, AI-OO optimization, Surgeon marketing, medical SEO, Client acquisition, SEO for Surgeons"
+        />
         <meta property="og:title" content="SurgeonUp - AI-SEO & Google AI Overviews Optimization for Aesthetic Surgeons" />
         <meta property="og:description" content="Guaranteed 10 new Clients in 30 days. Specializing in AI-SEO and Google AI Overviews optimization for Aesthetic Surgeons. No upfront cost." />
         <meta property="og:url" content="https://surgeonup.com/" />
@@ -67,6 +73,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://surgeonup.com/" />
       </Head>
+
       <Landing handleScroll={scrollToServices} />
 
       <div ref={servicesRef} id="services-section">

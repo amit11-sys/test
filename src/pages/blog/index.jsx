@@ -41,7 +41,7 @@ export default function AboutPage() {
 
                   <div className={styles.blogCardText}>
                     <div className={styles.blogCardTextHeader}>
-                      <h1 style={{fontSize:"53px",textAlign:"center",fontWeight:"800",marginTop:"11px",lineHeight:"26px"}}>COMMING SOON</h1>
+                      <h1 style={{fontSize:"53px",textAlign:"center",fontWeight:"800",marginTop:"11px",lineHeight:"26px"}}>COMING SOON</h1>
                       <p style={{fontSize:"26px",width:"44%",margin:"auto",marginTop:"30px",textAlign:"center",fontWeight:"600",lineHeight:"36px"}}>
                         We're preparing valuable insights and resources for
                         elite Aesthetic Surgeons. Check back soon!

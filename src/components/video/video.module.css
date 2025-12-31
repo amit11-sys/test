@@ -61,14 +61,14 @@
   opacity: 0;
   transform: translateY(0);
   animation: fadeUp 5s ease-out forwards;
-  animation-delay: 52s;
+  animation-delay: 42s;
 }
 
 .step5 {
   opacity: 0;
   transform: translateY(0);
   animation: fadeUp 1.5s ease-out forwards;
-  animation-delay: 55s;
+  animation-delay: 48s;
 }
 
 .video {
@@ -87,6 +87,11 @@
 .video::-webkit-scrollbar {
   display: none; /* WebKit browsers (Chrome, Safari, Edge) */
 }
+
+
+/* =========New cSS ==== */
+
+
 
 /* Responsive */
 @media screen and (max-width: 1200px) {

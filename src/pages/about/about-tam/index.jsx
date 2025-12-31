@@ -3,11 +3,11 @@ import styles from "./abouttam.module.css";
 import Img1 from "./images/Img1.png";
 import Img2 from "./images/Img2.png";
 import Img3 from "./images/Img3.jpg";
-import Img4 from "./images/Img4.jpg";
-import Img5 from "./images/Img5.jpg";
-import Img6 from "./images/Img6.jpg";
+import Img4 from "./images/Img4.png";
+import Img5 from "./images/Img5.png";
+import Img6 from "./images/Img6.png";
 import Img7 from "./images/Img7.jpg";
-import Img8 from "./images/Img8.jpg";
+import Img8 from "./images/Img8.png";
 import Image from "next/image";
 import Footer from "@/components/footer/footer";
 
@@ -121,7 +121,7 @@ export default function AboutTam() {
         <div className={styles.cardText}>
           <h3
             style={{
-              marginBottom: 21,
+              marginBottom: 13,
               fontWeight: 800,
               textAlign: "center",
               fontSize: "29px",

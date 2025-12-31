@@ -136,7 +136,7 @@
   justify-content: center;
   align-items: center;
   gap: 67px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   background-color: white;
   padding: 10px;
   border-radius: 33px;
@@ -183,6 +183,7 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
+  margin-bottom: 0;
 }
 .rechardCardTitle {
   font-size: 30px;
