@@ -87,9 +87,9 @@ export default function Header() {
                     <a href="/about" onClick={() => setIsMusicSelected(false)}>About</a>
                   </li>
                   <li
-                    className={isMenuItemActive("/pdfBlogs") ? styles.active : ""}
+                    className={isMenuItemActive("/blog") ? styles.active : ""}
                   >
-                    <a href="/pdfBlogs" onClick={() => setIsMusicSelected(false)}>Blog</a>
+                    <a href="/blog" onClick={() => setIsMusicSelected(false)}>Blog</a>
                   </li>
                   <li
                     className={isMenuItemActive("/contact") ? styles.active : ""}
