@@ -1178,6 +1178,9 @@
     padding: 25px;
     gap: 8px;
   }
+.GraphserviceSection{
+  display: none;
+}
   .googleAiserviceSection {
     /* width: 90%; */
     padding: 25px;
@@ -1273,6 +1276,9 @@
     font-weight: bold;
     color: #3366ff;
   }
+  .GraphserviceSection{
+  display: none;
+}
   .MoreServicesCutYourCardImageUltraWide {
     width: 285px;
     height: auto;

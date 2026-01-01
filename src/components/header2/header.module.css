@@ -284,12 +284,20 @@
     .menuItemSec li {
         font-size: 1.2em;
     }
+    .stickyHeader {
+   
+  height: 60px;
+}
 }
 
 @media (max-width: 700px) {
     .menuItemSec li {
         font-size: 1.1em;
     }
+    .stickyHeader {
+   
+    height: 60px;
+}
 }
 
 /* Mobile Devices */
@@ -313,6 +321,10 @@
         margin-left: 8px;
         margin-right: 8px;
     }
+    .stickyHeader {
+   
+     height: 60px;
+}
     .container2 {
         margin: 0px 5px;
     }
@@ -332,7 +344,10 @@
     .container2 {
         margin: 0px 5px;
     }
-
+.stickyHeader {
+   
+     height: 60px;
+}
     .menuItemSec{
         margin-top: -2px;
     }
@@ -361,6 +376,10 @@
     .menuItemSec li a{
         -webkit-text-stroke: 0.2px #006633;
     }
+    .stickyHeader {
+   
+    height: 60px;
+}
     .musicnoteIcon {
         width: 10px;
         height: 10px;
@@ -391,6 +410,10 @@
         margin-right: 6px;
 
     }
+    .stickyHeader {
+   
+    height: 60px;
+}
     .container2 {
         margin: 0px 3px;
     }
@@ -419,10 +442,18 @@
     .menuItemSec{
         margin-top: -2px;
     }
+    .stickyHeader {
+   
+     height: 60px;
+}
 }
 
 @media (max-width: 380px) {
     .menuItemSec li {
         font-size: 0.55em !important;
     }
+    .stickyHeader {
+   
+    height: 60px;
+}
 }
