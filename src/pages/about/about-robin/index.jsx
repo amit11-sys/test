@@ -75,7 +75,7 @@ export default function AboutRobin() {
 
         <h3 className={styles.leaseplanCardTitle}>A mug saying “I am a genius”</h3>
 
-        <div className={styles.leaseplanCardText}>
+        <div className={styles.MugCardText}>
           <p className={styles.cardTextHeader}>
             This was a gift from his favourite Manager on completion of his
             initial task
@@ -99,7 +99,7 @@ export default function AboutRobin() {
 
         <h3 className={styles.cardTitle}>David Brennan ex-CEO, LeasePLan UK</h3>
 
-        <div className={styles.cardText}>
+        <div className={styles.leaseplanCardText}>
           <p style={{marginBottom:0, marginTop:0, fontWeight:800, textAlign:"center"}}>
             David was the LP UK Boss when Robin worked in the Data Management
             Team

@@ -45,7 +45,13 @@ export default function Privacy() {
             <h2 className={styles.subtitle}>PRIVACY</h2>
             <p className={styles.updated}>Last updated: 3 November 2025</p>
           </div>
-          <div className={""}>
+          <div
+            style={{
+              fontSize: "22px",
+              fontWeight: 600,
+            }}
+            className={""}
+          >
             <p>
               Welcome to Surge-on Up! We're committed to protecting your
               privacy. This policy explains how we collect, use, and share your
@@ -220,12 +226,11 @@ export default function Privacy() {
             </p>
           </div>
 
-            <div>
-
-              <div className={styles.privacyCOCImagefooter}>
-                <Image src={tosFooter} alt="Logo" width={600} height={300} />
-              </div>
+          <div>
+            <div className={styles.privacyCOCImagefooter}>
+              <Image src={tosFooter} alt="Logo" width={600} height={300} />
             </div>
+          </div>
         </div>
       </section>
 

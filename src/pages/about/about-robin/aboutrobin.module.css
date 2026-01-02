@@ -201,7 +201,7 @@
   text-align: center;
 }
 
-.leaseplanCardText {
+.MugCardText {
   position: relative;
   font-size: 25px;
   font-weight: 500;
@@ -223,9 +223,20 @@
   padding: 0px 15px;
   margin-bottom: 0px;
 }
-.sitelCardText {
+.leaseplanCardText {
   position: relative;
   font-size: 25px;
+  font-weight: 500;
+  color: #2a38ff;
+  background-color: #22ffd9;
+  border-radius: 33px;
+  /* line-height: 38px; */
+  padding: 0px 15px;
+  margin-bottom: 0px;
+}
+.sitelCardText {
+  position: relative;
+  font-size: 23px;
   font-weight: 500;
   color: #2a38ff;
   background-color: #22ffd9;
