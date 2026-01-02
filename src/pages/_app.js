@@ -4,6 +4,8 @@ import Footer from "@/components/footer/footer";
 import styles from "../styles/Home.module.css";
 import { MusicProvider } from "../context/MusicContext";
 import WelcomeMusicPopup from "../click/WelcomeMusicPopup/WelcomeMusicPopup";
+// pages/_app.tsx
+import "aos/dist/aos.css";
 
 export default function App({ Component, pageProps }) {
   return (
