@@ -165,6 +165,62 @@ export default function ServicesSections() {
                   </button>
                 </div>
               </div>
+               {/* mobile herder  */}
+              <div className={styles.mobileheadingContent}>
+                <div className={styles.mobilestarImageContainer}>
+
+                  <h2 className={styles.mobileBronzetitle}>BRONZE OFFER</h2>
+                  <div className={styles.mobileservicesRowImgContainer}>
+                    <Image
+                      src={BrownStar}
+                      alt="icon"
+                      className={`${styles.imageNormal} ${styles.starGlow}`}
+                    />
+                    <Image
+                      src={PowerImg}
+                      width={150}
+                      height={100}
+                      alt="icon"
+                      className={`${styles.imageWide} ${styles.starGlow} `}
+                    />
+                  </div>
+                </div>
+
+                {/* <div className={styles.BronzetitleContainer}> */}
+                <h3 className={`${styles.subtitle} ${styles.mobileBronzeSubtitle}`}>
+                  IS YOUR WEBSITE <i>FIT?</i>
+                </h3>
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <Image
+                    src={PowerImg}
+                    width={150}
+                    height={100}
+                    alt="icon"
+                    className={`${styles.imageWide} ${styles.headerImg}`}
+                  />
+                </div> */}
+                {/* </div> */}
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <button className={styles.orderBtn}>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                    <span className={styles.applytext}>
+                      CLICK ME! <br />
+                      <span>TO ORDER</span>
+                    </span>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                  </button>
+                </div> */}
+              </div>
 
               {/* end */}
             </div>
@@ -315,7 +371,65 @@ export default function ServicesSections() {
                   />
                 </div>
               </div>
+
+               {/* mobile herder  */}
+              <div className={styles.mobileheadingContent}>
+                <div className={styles.mobilestarImageContainer}>
+
+                  <h2 className={styles.mobileBronzetitle}>SILVER SOS RESCUE</h2>
+                  <div className={styles.mobileservicesRowImgContainer}>
+                    <Image
+                      src={SilverStar3}
+                      alt="icon"
+                      className={`${styles.imageNormal} ${styles.starGlow}`}
+                    />
+                    <Image
+                      src={OpImg}
+                      width={150}
+                      height={100}
+                      alt="icon"
+                      className={`${styles.imageWide} ${styles.starGlow} `}
+                    />
+                  </div>
+                </div>
+
+                {/* <div className={styles.BronzetitleContainer}> */}
+                <h3 className={` ${styles.mobileBronzeSubtitle}`}>
+                 <i>BURIED</i> DEEP IN A HOLE?
+                </h3>
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <Image
+                    src={PowerImg}
+                    width={150}
+                    height={100}
+                    alt="icon"
+                    className={`${styles.imageWide} ${styles.headerImg}`}
+                  />
+                </div> */}
+                {/* </div> */}
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <button className={styles.orderBtn}>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                    <span className={styles.applytext}>
+                      CLICK ME! <br />
+                      <span>TO ORDER</span>
+                    </span>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                  </button>
+                </div> */}
+              </div>
             </div>
+            
 
             <div className={styles.description}>
               <p className={styles.silverDescDesktop}>
@@ -495,7 +609,7 @@ export default function ServicesSections() {
 
           <section className={styles.serviceSection}>
             <div className={styles.headingRow}>
-              <div className={styles.headingContentGold}>
+              <div className={styles.headingContent}>
                 <div className={styles.starImageContainer}>
                   <div className={styles.servicesRowImgContainer}>
                     <Image
@@ -548,6 +662,63 @@ export default function ServicesSections() {
                   />
                 </div>
               </div>
+                    {/* mobile herder  */}
+              <div className={styles.mobileheadingContent}>
+                <div className={styles.mobilestarImageContainer}>
+
+                  <h2 className={styles.mobileBronzetitle}>GOLD OFFER</h2>
+                  <div className={styles.mobileservicesRowImgContainer}>
+                    <Image
+                      src={SilverStar3}
+                      alt="icon"
+                      className={`${styles.imageNormal} ${styles.starGlow}`}
+                    />
+                    <Image
+                      src={OpImg}
+                      width={150}
+                      height={100}
+                      alt="icon"
+                      className={`${styles.imageWide} ${styles.starGlow} `}
+                    />
+                  </div>
+                </div>
+
+                {/* <div className={styles.BronzetitleContainer}> */}
+                <h3 className={` ${styles.mobileBronzeSubtitle}`}>
+                 <i>STUCK</i>  IN A RUT?
+                </h3>
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <Image
+                    src={PowerImg}
+                    width={150}
+                    height={100}
+                    alt="icon"
+                    className={`${styles.imageWide} ${styles.headerImg}`}
+                  />
+                </div> */}
+                {/* </div> */}
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <button className={styles.orderBtn}>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                    <span className={styles.applytext}>
+                      CLICK ME! <br />
+                      <span>TO ORDER</span>
+                    </span>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                  </button>
+                </div> */}
+              </div>  
+
             </div>
 
             <div className={styles.description}>
@@ -721,6 +892,62 @@ export default function ServicesSections() {
                     className={styles.imageUltraWide}
                   />
                 </div>
+              </div>
+                {/* mobile herder  */}
+              <div className={styles.mobileheadingContent}>
+                <div className={styles.mobilestarImageContainer}>
+
+                  <h2 className={styles.mobileBronzetitle}>PLATINUM OFFER</h2>
+                  <div className={styles.mobileservicesRowImgContainer}>
+                    <Image
+                      src={SilverStar}
+                      alt="icon"
+                      className={`${styles.imageNormal} ${styles.starGlow}`}
+                    />
+                    <Image
+                      src={wolf}
+                      width={150}
+                      height={100}
+                      alt="icon"
+                      className={`${styles.imageWide} ${styles.starGlow} `}
+                    />
+                  </div>
+                </div>
+
+                {/* <div className={styles.BronzetitleContainer}> */}
+                <h3 className={` ${styles.mobileBronzeSubtitle}`}>
+                  10 CLIENTS A MONTH
+                </h3>
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <Image
+                    src={PowerImg}
+                    width={150}
+                    height={100}
+                    alt="icon"
+                    className={`${styles.imageWide} ${styles.headerImg}`}
+                  />
+                </div> */}
+                {/* </div> */}
+
+                {/* <div className={styles.mobileimageContainer}>
+                  <button className={styles.orderBtn}>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                    <span className={styles.applytext}>
+                      CLICK ME! <br />
+                      <span>TO ORDER</span>
+                    </span>
+                    <Image
+                      src={WhatsApp}
+                      alt="WhatsApp"
+                      className={styles.clickApplyIcon}
+                    />
+                  </button>
+                </div> */}
               </div>
             </div>
 

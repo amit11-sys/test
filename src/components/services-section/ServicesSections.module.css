@@ -316,6 +316,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: #ffffff;
   gap: 10px;
   border-radius: 20px;
@@ -332,13 +333,13 @@
   /* flex-wrap: wrap; */
   /* gap: 10px; */
 }
-.headingContentGold {
+/* .headingContent {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 80px;
-}
+} */
 .titleContainer {
   display: flex;
   flex-direction: row;
@@ -951,7 +952,7 @@
   font-size: 27px;
 }
 .platinumimageUltraWide {
-  width: 348px;
+  /* width: 348px; */
   height: auto;
 }
 .platinumRescueText {
@@ -1186,7 +1187,29 @@
 .platinumImageMobile {
   display: none;
 }
+.mobileBronzetitle{
+      font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: none;
+}
+.mobileheadingContent{
+  width: 100%;
+}
 
+.mobileBronzeSubtitle{
+      font-size: 18px;
+    
+    display: none;
+}
+.mobileservicesRowImgContainer{
+    display: none;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /* ==================== */
 
 @keyframes bronzePulseGrow {
@@ -1227,17 +1250,21 @@
     gap: 30px;
   }
 }
-@media (max-width: 1109px) {
+@media (min-width: 1109px) {
   .headingContentGold {
     gap: 20px;
   }
+
 }
 @media (max-width: 768px) {
   .serviceSection {
     /* width: 90%; */
-    padding: 25px;
+    padding: 16px;
     margin-bottom: 22px;
     gap: 8px;
+  }
+  .headingContent{
+    display: none;
   }
   .GraphserviceSection {
     display: none;
@@ -1351,6 +1378,7 @@
   .platinumImageMobile {
     display: block;
   }
+
   .headingContentGold {
     gap: 0;
     flex-wrap: wrap;
@@ -1367,6 +1395,30 @@
   .desktopAIOOServiceHeaderRow {
     display: none;
   }
+  .mobileBronzetitle{
+      font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+}
+.mobileBronzeSubtitle{
+          font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+}
+.headingContent{
+  display: none;
+}
+.mobileservicesRowImgContainer{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 }
 @media (max-width: 1024px) {
   .contentContainer {
@@ -1530,9 +1582,10 @@
     margin-left: 30px;
   }
   .subtitle {
-    font-size: 22px;
+    font-size: 28px;
     margin: 0;
   }
+  
   .moboplatinumTitleContainer {
     display: flex;
     flex-direction: row;
@@ -1571,7 +1624,7 @@
   }
   .headingContent {
     width: 100%;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
