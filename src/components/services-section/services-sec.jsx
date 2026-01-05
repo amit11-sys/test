@@ -170,10 +170,10 @@ export default function ServicesSections() {
             </div>
 
             <div className={styles.description}>
-              <p className={styles.bronzedesc}>
+              <p className={styles.bronzedescDesktop}>
                 A free, no-obligation website audit from a Cambridge graduate
                 who has optimised top-tier surgeons' websites for over 25
-                years—from Beverly Hills to Barcelona, the UAE and beyond. Tam
+                years—from Beverly Hills to Barcelona, the UAE and beyond! Tam
                 Moudden left IBM as a Data Analyst in the 90s to focus
                 exclusively on SEO for cosmetic and hair restoration surgeons. A
                 full AI-powered SEO analysis will reveal where you stand against
@@ -183,6 +183,24 @@ export default function ServicesSections() {
                 practice back from ranking on page one. We’ll tell you who your
                 three closest ranked rivals are. This is expert tech analysis
                 made vividly clear.
+              </p>
+              <p className={styles.bronzedescMobile}>
+                A free, no-obligation website audit from a Cambridge graduate
+                who has optimised top-tier surgeons' websites for over 25
+                years—from Beverly Hills to Barcelona, the UAE and beyond!
+                <span style={{ marginTop: 10, display: "block" }}>
+                  Tam Moudden was an IBM Data Analyst for 8 years but left to be
+                  an SEO Pioneer as it emerged in the 90s. He has devoted
+                  himself to SEO and AI exclusively for Cosmetic and Hair
+                  Restoration Surgeons ever since.
+                </span>
+                <span style={{ marginTop: 10, display: "block" }}>
+                  A complete AI-SEO analysis will reveal where you stand against
+                  your competitors. Tam's expertise in Semrush statistics will
+                  show you the path to digital dominance. Why wait? Its free and
+                  absolutely no obligation whatsoever. Tap below to claim your
+                  complimentary audit now!
+                </span>
               </p>
 
               <div className={styles.contentContainer}>
@@ -266,7 +284,7 @@ export default function ServicesSections() {
                 </div>
 
                 <div className={styles.titleContainer}>
-                  <h3 className={styles.subtitle}>
+                  <h3 className={styles.silverSubtitle}>
                     <i>BURIED</i> DEEP IN A HOLE
                   </h3>
 
@@ -300,7 +318,7 @@ export default function ServicesSections() {
             </div>
 
             <div className={styles.description}>
-              <p className={styles.silverDesc}>
+              <p className={styles.silverDescDesktop}>
                 Fed up spending £10-20k monthly just to survive on paid ads,
                 with nothing certain? You can't be seen where prospects search,
                 while competitors capture the exact Clients you're paying
@@ -313,6 +331,24 @@ export default function ServicesSections() {
                 one Client a month during repair but none guaranteed. From Month
                 3 we’ll get you 10 Clients a month. By Month 9 your ROI will be
                 at least 25x. Unfurl your rope ladder!
+              </p>
+              <p className={styles.silverDescMobile}>
+                Fed up spending £10-20k monthly just to survive on Paid Ads?
+                You're trapped while rivals dominate above you, winning clients
+                you're paying to reach.
+                <span style={{ marginTop: 10, display: "block" }}>
+                  Multi-website practices make it worse. Your splintered
+                  presence confuses Google - it penalises them ALL. We'll
+                  rebuild over 2 months with intensive AI-SEO work. Expect at
+                  least 1 client a month during repairs but none can be
+                  guaranteed. You’ll get 10 guaranteed clients a month in just 8
+                  weeks’ time.
+                </span>
+                <span style={{ marginTop: 10, display: "block" }}>
+                  Break free from the Paid Ads cycle. Build yourself a
+                  sustainable organic presence with a ROI of up to 25:1 for less
+                  than £2k eventually. Unfurl your rope ladder!
+                </span>
               </p>
               <div
                 style={{ alignItems: "center" }}
@@ -411,9 +447,9 @@ export default function ServicesSections() {
               </div>
 
               <div className={styles.description}>
-                <div className={styles.footerFirstInvestmentText}>
+                {/* <div className={styles.footerFirstInvestmentText}>
                   Y o u r i n v e s t m e n t i s
-                </div>
+                </div> */}
 
                 <div className={styles.footerSecontInvestmentText}>
                   <div
@@ -435,8 +471,10 @@ export default function ServicesSections() {
                     </div>
 
                     <div className={styles.otherSecondFooterInvestmentText}>
-                      <p>monthly for 2 months of repairs, then</p>
-                      <p>monthly for 10 guaranteed Clients!</p>
+                      <p>
+                        Monthly for 2 months of repairs, then monthly for 10
+                        guaranteed Clients!
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -513,7 +551,7 @@ export default function ServicesSections() {
             </div>
 
             <div className={styles.description}>
-              <p className={styles.desc}>
+              <p className={styles.descDesktop}>
                 You may have toxic backlinks, an inactive Google Business
                 Profile (GBP) and sparse directory listings. But you have only
                 one website, which is an extremely astute decision. During a
@@ -526,6 +564,24 @@ export default function ServicesSections() {
                 Platinum after repair, we'll focus on getting you 10 guaranteed
                 Clients every month. No lock-in, continue monthly; pause or stop
                 anytime. Hook up to your tow-truck!
+              </p>
+              <p className={styles.descMobile}>
+                You may have toxic backlinks, idling Google Business Profile
+                (GBP) and sparse Directory listings. But you have only one
+                website, which is an extremely astute decision.
+                <span style={{ marginTop: 10, display: "block" }}>
+                  During a month of intensive AI-SEO repair, you can expect at
+                  least one Client (should cover your investment) but none can
+                  be guaranteed we’ll be our focus is on repair. We will clean
+                  toxic backlinks, optimise your GBP, build quality Directory
+                  listings, and strengthen your site foundation.
+                </span>
+                <span style={{ marginTop: 10, display: "block" }}>
+                  Once repair is done, if you continue on your Fast track to
+                  Platinum, we'll focus on getting you 10 guaranteed Clients a
+                  month No lock-in, continue each month; pause or stop anytime.
+                  We're your tow-truck, hook up now!
+                </span>
               </p>
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
@@ -564,9 +620,9 @@ export default function ServicesSections() {
             {/* Mobile footer */}
             <div className={styles.moboDescriptionContainer}>
               <div className={styles.description}>
-                <div className={styles.footerFirstInvestmentText}>
+                {/* <div className={styles.footerFirstInvestmentText}>
                   Y o u r i n v e s t m e n t i s
-                </div>
+                </div> */}
 
                 <div className={styles.footerSecontInvestmentText}>
                   <div
@@ -588,8 +644,10 @@ export default function ServicesSections() {
                     </div>
 
                     <div className={styles.otherSecondFooterInvestmentText}>
-                      <p>for a month of repairs, then monthly</p>
-                      <p>for 10 guaranteed Clients ongoing!</p>
+                      <p>
+                        For a month of repairs, then 10 Clients o month with
+                        falling investment
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -667,9 +725,43 @@ export default function ServicesSections() {
             </div>
 
             <div className={styles.description}>
-              <p className={styles.desc}>
-               You qualify if your website is reasonably functional or you've completed our Silver or Gold offers. We GUARANTEE you 10 Clients a month with NOTHING upfront. Pay after results. We can scale up to six surgeons in your clinic. How? From 25 years of SEO mastery, now AI-powered, exclusively for aesthetic surgeons. It's our signature offer - it encapsulates how we like to be treated. £4.5k a month, dropping by 25% in months 5, 6 and 7 to under £2k. Continue month by month, still getting 10 Clients, while your ROI rockets from 9x to an incredible and steady 25x. Pause or stop anytime. Ready for lift off? 3, 2, 1, go for it!
+              <p className={styles.descPlatinum}>
+                You qualify if your website is reasonably functional or you've
+                completed our Silver or Gold offers. We GUARANTEE you 10 Clients
+                a month with NOTHING upfront. Pay after results. We can scale up
+                to six surgeons in your clinic. How? From 25 years of SEO
+                mastery, now AI-powered, exclusively for aesthetic surgeons.
+                It's our signature offer - it encapsulates how we like to be
+                treated. £4.5k a month, dropping by 25% in months 5, 6 and 7 to
+                under £2k. Continue month by month, still getting 10 Clients,
+                while your ROI rockets from 9x to an incredible and steady 25x.
+                Pause or stop anytime. Ready for lift off? 3, 2, 1, go for it!
               </p>
+              <p className={styles.bronzedescMobile}>
+                You qualify if your website is functional OR you've completed
+                our Silver or Gold Offers.
+                <span style={{ marginTop: 10, display: "block" }}>
+                  We GUARANTEE 10 CLIENTS a month with NOTHING upfront, paid
+                  after results. Scale for each Surgeon in your Clinic, up to
+                  six. Our SIGNATURE AI-SEO system for Aesthetic Surgeons - it
+                  encapsulates how we like to be treated.
+                </span>
+                <span style={{ marginTop: 10, display: "block" }}>
+                  £4,407 monthly, plummets 25% three times (months 5-7) to under
+                  £2k. No lock-in; pause or stop anytime. Light the blue touch
+                  paper!
+                </span>
+              </p>
+              <div className={styles.platinumImageMobile} style={{ marginBottom: "4px" }}>
+                      <Image
+                        src={PlatinumOffer}
+                        width={494}
+                        height={200}
+                        alt="icon"
+                        className={`${styles.SilverimageUltraWide} ${styles.platinumimageUltraWide}`}
+                      />
+                    </div>
+
               <div className={styles.contentContainer}>
                 <div className={styles.icons}>
                   <div className={styles.dollar}>
@@ -730,9 +822,9 @@ export default function ServicesSections() {
             {/* Mobile footer */}
             <div className={styles.moboDescriptionContainer}>
               <div className={styles.description}>
-                <div className={styles.footerFirstInvestmentText}>
+                {/* <div className={styles.footerFirstInvestmentText}>
                   Y o u r i n v e s t m e n t i s
-                </div>
+                </div> */}
 
                 <div className={styles.footerSecontInvestmentText}>
                   <div
@@ -755,8 +847,10 @@ export default function ServicesSections() {
                     </div>
 
                     <div className={styles.otherSecondFooterInvestmentText}>
-                      <p>per month, no lock in. If you continue,</p>
-                      <p>get 10 guaranteed Clients ongoing!</p>
+                      <p>
+                        Per month, no lock in. If you continue, you get 10
+                        Clients a month for less money{" "}
+                      </p>
                     </div>
                   </div>
                 </div>

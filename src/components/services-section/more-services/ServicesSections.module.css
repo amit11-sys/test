@@ -556,10 +556,10 @@
 }
 
 .footerFirstInvestmentText {
-  letter-spacing: 0px;
-  font-size: 20px;
-  font-weight: 900;
-  text-align: center;
+     letter-spacing: 1px;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
 }
 
 .otherSecondFooterInvestmentText {
