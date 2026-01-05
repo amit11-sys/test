@@ -126,7 +126,7 @@ import Landing from "@/components/landing/landing";
 import Services from "@/components/services/services";
 import Video from "@/components/video/video";
 import { useRef, useEffect, useState } from "react";
-import GdprBanner from "@/components/gdprBanner/gdprBanner";
+import GdprBanner from "../components/gdprBanner/gdprBanner";
 import AOS from "aos";
 
 export default function Home() {
