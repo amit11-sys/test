@@ -18,42 +18,30 @@ export default function TOS() {
         <Image src={TamImg} alt="Logo" width={250} height={310} />
       </div>
 
-      <section className={styles.TosSection}>
-        {/* <div className={styles.TosTextContainer}>
-          <div className={styles.TosCOCSection}>
-            <h2>OUR CODE OF CONDUCT</h2>
-            <h1>WE PLEDGE:</h1>
-            <p>We will act with 100% integrity</p>
-            <p>We will always be honest and ethical</p>
-            <p>What we say will be correct and truthful</p>
-            <p>We will treat you with respect. We are cheerful.</p>
-            <p>We won’t pressure you to buy any of our services.</p>
-            <p>But they are always here for you. You just have to ask.</p>
-            <p>We don’t hold grudges or take revenge. We leave that to Karma</p>
-            <p>
-              We won’t share your information with anyone without your consent.
-            </p>
-          </div>
-        </div> */}
+      {/* <section className={styles.TosSection}>
+       
+      </section> */}
 
+      <section className={styles.TosSection}>
+        
         <div
-          style={{
-            backgroundColor: "white",
-            marginTop: 15,
-            marginRight: 15,
-            marginLeft: 15,
-            marginBottom: 0,
-            borderRadius: 10,
-            padding: 10,
-          }}
+          // style={{
+          //   backgroundColor: "white",
+          //   marginTop: 15,
+          //   marginRight: 15,
+          //   marginLeft: 15,
+          //   marginBottom: 0,
+          //   borderRadius: 10,
+          //   padding: 10,
+          // }}
           className={`${styles.COCImageSec} ${styles.hideMoboCOCImageSec}`}
         >
-          {/* <div className={styles.COCImageSec}> */}
+        
 
           <Image src={RobinImg} alt="Logo" width={250} height={310} />
           <Image src={Bar} alt="Logo" width={800} height={110} />
           <Image src={TamImg} alt="Logo" width={250} height={310} />
-          {/* </div> */}
+     
         </div>
 
         <div className={styles.TosTextContainer}>
@@ -81,9 +69,6 @@ export default function TOS() {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className={styles.TosSection}>
         <div className={styles.TosCOCSection}>
           <div className={styles.tosCard}>
             <div className={styles.tosHeader}>
@@ -580,11 +565,11 @@ export default function TOS() {
 
             <di className={styles.tosContent}></di>
 
-            <div>
+            {/* <div>
               <div className={styles.TosCOCImagefooter}>
                 <Image src={tosFooter} alt="Logo" width={600} height={300} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -1,5 +1,8 @@
 /* WRAPPER: holds all sections */
+.tosHeader li{
+  font-size: 15px;
 
+}
 .TosMainSection {
   background-color: #ffffcc;
   text-align: center;
@@ -24,11 +27,18 @@
 }
 
 .COCImageSec {
-  margin: 20px 0px;
+  /* margin: 20px 0px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+      background-color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .TosTextContainer2 p {
@@ -199,7 +209,7 @@
 
 /* make the first few lines a touch larger visually (matching image balance) */
 .content p {
-  margin: 6px 0;
+  margin: 0px 0;
   margin-left: 6px;
   margin-right: 6px;
 }
@@ -245,6 +255,9 @@
 }
 .hideMoboCOCImageSec{
   display: none;
+}
+.tosCard{
+  width: 100%;
 }
 
 /* small responsive tweaks */
@@ -341,6 +354,34 @@
   .TosTextContainer2 ol {
     padding-left: 25px;
   }
+  .hideMoboCOCImageSec{
+     background-color: white;
+    /* margin-top: 15px; */
+    /* margin-right: 15px; */
+    /* margin-left: 15px; */
+    /* margin-bottom: 0; */
+    border-radius: 10px;
+    padding: 10px;
+}
+.COCImageSec {
+  /* margin: 20px 0px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+      background-color: white;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tosHeader{
+     
+    font-size: 0px;
+   
+}
 
 }
 
@@ -350,10 +391,13 @@
     font-size: 24px;
   }
 
-  .TosTextContainer,
+  .TosTextContainer{
+
+ padding: 0px 0px;
+    margin:10px 0px;
+  }
   .TosTextContainer2 {
-    padding: 15px 10px;
-    margin: 8px 3px;
+   
   } 
    /* .TosSection {
     padding: 0px;
@@ -402,8 +446,8 @@
     height: auto;
   }
    .TosSection {
-    padding: 0px;
-    gap: 0px;
+    padding: 19px;
+    gap: 10px;
   }
   .hideMoboCOCImageSec2{
     display: none;
