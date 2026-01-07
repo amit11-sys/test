@@ -669,7 +669,7 @@ export default function ServicesSections() {
                   <h2 className={styles.mobileBronzetitle}>GOLD OFFER</h2>
                   <div className={styles.mobileservicesRowImgContainer}>
                     <Image
-                      src={SilverStar3}
+                      src={GoldStar}
                       alt="icon"
                       className={`${styles.imageNormal} ${styles.starGlow}`}
                     />
