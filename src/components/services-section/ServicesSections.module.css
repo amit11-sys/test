@@ -1439,18 +1439,33 @@
 }
 
 }
+@media (max-width: 415px) {
+   .mobileBronzetitle{
+      font-size: 29px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+}
+.mobileBronzeSubtitle{
+          font-weight: 800;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+}
+.subtitle {
+      font-size: 20px;
+    margin: 0;
+}
+
+}
 @media (max-width: 1024px) {
   .contentContainer {
     flex-wrap: wrap;
 
     /* justify-content: space-between; */
   }
-  .subtitle {
-    font-size: 26px;
-    font-weight: 900;
-    margin: 0px;
-    /* text-wrap: nowrap; */
-  }
+  
   .Bronzetitle {
     font-size: 30px;
     margin-top: 0px;
@@ -1600,10 +1615,7 @@
     width: 100%;
     margin-left: 30px;
   }
-  .subtitle {
-    font-size: 28px;
-    margin: 0;
-  }
+ 
   
   .moboplatinumTitleContainer {
     display: flex;
