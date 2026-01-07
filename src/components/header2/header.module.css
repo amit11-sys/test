@@ -286,7 +286,8 @@
     }
     .stickyHeader {
    
-  height: 60px;
+  height: 32px;
+  margin-top: 10px;
 }
 }
 
@@ -296,7 +297,8 @@
     }
     .stickyHeader {
    
-    height: 60px;
+    height: 32px;
+    margin-top: 10px;
 }
 }
 
@@ -323,7 +325,8 @@
     }
     .stickyHeader {
    
-     height: 60px;
+     height: 32px;
+     margin-top: 10px;
 }
     .container2 {
         margin: 0px 5px;
@@ -346,7 +349,8 @@
     }
 .stickyHeader {
    
-     height: 60px;
+     height: 32px;
+     margin-top: 10px;
 }
     .menuItemSec{
         margin-top: -2px;
@@ -378,7 +382,8 @@
     }
     .stickyHeader {
    
-    height: 60px;
+    height: 32px;
+    margin-top: 10px;
 }
     .musicnoteIcon {
         width: 10px;
@@ -412,7 +417,8 @@
     }
     .stickyHeader {
    
-    height: 60px;
+    height: 32px;
+    margin-top: 10px;
 }
     .container2 {
         margin: 0px 3px;
@@ -444,7 +450,8 @@
     }
     .stickyHeader {
    
-     height: 60px;
+     height: 32px;
+     margin-top: 10px;
 }
 }
 
@@ -454,6 +461,7 @@
     }
     .stickyHeader {
    
-    height: 60px;
+    height: 32px;
+    margin-top: 10px;
 }
 }
