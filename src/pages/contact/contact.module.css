@@ -453,6 +453,10 @@
     gap: 10px;
     height: auto;
   }
+  .bottomTextContainer {
+    display: none;
+   
+}
 }
 
 @media (max-width: 410px) {

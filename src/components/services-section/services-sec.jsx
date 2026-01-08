@@ -376,7 +376,7 @@ export default function ServicesSections() {
               <div className={styles.mobileheadingContent}>
                 <div className={styles.mobilestarImageContainer}>
 
-                  <h2 className={styles.mobileBronzetitle}>SILVER SOS RESCUE</h2>
+                  <h2 className={`${styles.mobileBronzetitle} ${styles.mobileSilvertitle}`}>SILVER SOS RESCUE</h2>
                   <div className={styles.mobileservicesRowImgContainer}>
                     <Image
                       src={SilverStar3}
@@ -398,35 +398,7 @@ export default function ServicesSections() {
                  <i>BURIED</i> DEEP IN A HOLE?
                 </h3>
 
-                {/* <div className={styles.mobileimageContainer}>
-                  <Image
-                    src={PowerImg}
-                    width={150}
-                    height={100}
-                    alt="icon"
-                    className={`${styles.imageWide} ${styles.headerImg}`}
-                  />
-                </div> */}
-                {/* </div> */}
-
-                {/* <div className={styles.mobileimageContainer}>
-                  <button className={styles.orderBtn}>
-                    <Image
-                      src={WhatsApp}
-                      alt="WhatsApp"
-                      className={styles.clickApplyIcon}
-                    />
-                    <span className={styles.applytext}>
-                      CLICK ME! <br />
-                      <span>TO ORDER</span>
-                    </span>
-                    <Image
-                      src={WhatsApp}
-                      alt="WhatsApp"
-                      className={styles.clickApplyIcon}
-                    />
-                  </button>
-                </div> */}
+            
               </div>
             </div>
             
