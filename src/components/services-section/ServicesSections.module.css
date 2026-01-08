@@ -1270,6 +1270,7 @@
     margin-bottom: 22px;
     gap: 16px;
   }
+ 
   .headingContent {
     display: none;
   }
@@ -1595,6 +1596,7 @@
   }
   .moboDescriptionContainer {
     display: flex;
+    gap: 0;
     width: 100%;
   }
 
