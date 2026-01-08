@@ -98,12 +98,38 @@
 
 /* ================= EXTRA SMALL SAFETY ================= */
 
-@media (max-width: 360px) {
-  .FooterMain {
-    padding: 6px;
-  }
-
-  .FooterMainSec {
-    gap: 6px;
-  }
+@media (max-width: 768px) {
+ 
+}
+@media (max-width: 425px) {
+ .midText{
+    
+    font-size: 8px;
+}
+.footerBtnContent {
+   
+    font-size: 10px;
+    -webkit-text-stroke: 0;
+}
+.bottomText {
+    
+    font-size: 10px;
+    -webkit-text-stroke: 0;
+}
+}
+@media (max-width: 320px) {
+  .midText{
+    
+    font-size: 8px;
+}
+.footerBtnContent {
+   
+    font-size: 8px;
+    -webkit-text-stroke: 0;
+}
+.bottomText {
+    
+    font-size: 8px;
+    -webkit-text-stroke: 0;
+}
 }

@@ -321,7 +321,7 @@
   background-color: #ffffff;
   gap: 10px;
   border-radius: 20px;
-  padding: 5px;
+  /* padding: 5px; */
   width: 100%;
   /* flex-wrap: wrap; */
 }
@@ -1443,6 +1443,27 @@
   .starGlow {
     animation: none;
   }
+  .mobileBronzetitle {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 32px;
+  }
+  .mobileBronzeSubtitle {
+       font-weight: 800;
+    font-size: 23px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+  .subtitle {
+    font-size: 25px;
+    margin: 0;
+    line-height: 24px;
+  }
 }
 @media (max-width: 415px) {
   .mobileBronzetitle {
@@ -1451,16 +1472,20 @@
     text-align: center;
     margin-bottom: 0;
     display: block;
+    line-height: 32px;
   }
   .mobileBronzeSubtitle {
-    font-weight: 800;
+       font-weight: 800;
     font-size: 23px;
     text-align: center;
     display: block;
+    margin-bottom: 0;
+    line-height: 20px;
   }
   .subtitle {
     font-size: 25px;
     margin: 0;
+    line-height: 24px;
   }
   .footerFirstInvestmentText {
     letter-spacing: 1px;

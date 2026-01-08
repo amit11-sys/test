@@ -30,6 +30,46 @@ export default function Contact() {
             </div>
           </div>
           <div className={styles.boxTextContainer}>
+            <div className={styles.businessOuter}>
+              <div className={styles.businessCard}>
+                <h2 className={styles.title}>BUSINESS HOURS</h2>
+
+                <p className={styles.sub}>Mon to Fri</p>
+                <p className={styles.hours}>8am to 4pm PST</p>
+                <p className={styles.hours}>9am to 12mn GMT/BST</p>
+
+                <p className={styles.small}>
+                  Text, voice or video, its your call
+                </p>
+
+                <div className={styles.whatsappWrap}>
+                  {/* replace src with your WhatsApp image if you have one */}
+                  <Image
+                    src={WhatsAppImg}
+                    alt="Logo"
+                    width={70}
+                    height={70}
+                    className={styles.activeLinks}
+                  />
+                </div>
+
+                <p className={styles.paragraph}>
+                  We can chat about anything you like, even just to pass the
+                  time of day!
+                </p>
+
+                <p className={styles.paragraph}>
+                  If its a Website AISEO issue we'll resolve it for Clients
+                  within 24 hours, no charge
+                </p>
+
+                <p className={styles.final}>AESTHETIC SURGEONS ONLY</p>
+
+                <p className={styles.note}>
+                  No Suppliers, thanks, we'll block you.
+                </p>
+              </div>
+            </div>
             <div className={styles.secondBox}>
               <span
                 style={{
@@ -55,7 +95,7 @@ export default function Contact() {
                 style={{
                   margin: "0px",
                   fontWeight: "600",
-                  fontSize: "24px",
+                  fontSize: "20px",
                   fontWeight: "700",
                   textAlign: "start",
                 }}
@@ -84,8 +124,17 @@ export default function Contact() {
               >
                 Direct
               </h1>
-              <Link href={`https://wa.me/${phone}?text=${message1}`} target="_blank">
-                <Image src={WhatsAppImg} alt="Logo" width={70} height={70}  className={styles.activeLinks} />
+              <Link
+                href={`https://wa.me/${phone}?text=${message1}`}
+                target="_blank"
+              >
+                <Image
+                  src={WhatsAppImg}
+                  alt="Logo"
+                  width={70}
+                  height={70}
+                  className={styles.activeLinks}
+                />
               </Link>
               <span
                 style={{
@@ -120,14 +169,39 @@ export default function Contact() {
                 we can chat about anything you like
               </span>
             </div>
-            
             <div className={styles.thirdBox}>
               <span
                 style={{ margin: "0px", fontWeight: "700", fontSize: "29px" }}
               >
-                If you are a Client and you have an AISEO issue we’ll resolve it
+                If you are a client and you have an AISEO issue we’ll resolve it
                 with in 24 hours, no charge
               </span>
+            </div>
+          </div>
+          <div className={styles.businessOuter}>
+            <div className={styles.businessCard}>
+              <h2 style={{fontSize:23}} className={styles.title}>WHAT’S  YOUR OPINION?</h2>
+
+              <div className={styles.whatsappWrap}>
+                {/* replace src with your WhatsApp image if you have one */}
+                <Image
+                  src={WhatsAppImg}
+                  alt="Logo"
+                  width={70}
+                  height={70}
+                  className={styles.activeLinks}
+                />
+              </div>
+
+              <p  className={styles.paragraph}>
+                Do you like or dislike anything about
+              </p>
+              <p  className={styles.paragraph}>
+               our Website? How could we improve?
+              </p>
+              <p  className={styles.paragraph}>
+               Any other Services  you’d like to see?
+              </p>
             </div>
           </div>
           <div className={styles.contactTextSec1}>
@@ -141,7 +215,10 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <Link href={`https://wa.me/${phone}?text=${message2}`} target="_blank"> 
+                <Link
+                  href={`https://wa.me/${phone}?text=${message2}`}
+                  target="_blank"
+                >
                   <Image
                     src={WhatsAppImg}
                     alt="Logo"
