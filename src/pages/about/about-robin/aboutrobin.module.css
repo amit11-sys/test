@@ -550,6 +550,52 @@
     max-width: 80px;
     max-height: 80px;
   }
+  .topImageRow {
+    gap: 21px;
+  }
+  .profileImg {
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .smallLogo {
+    width: 138px;
+    height: auto;
+  }
+  .sitelProfileImg {
+    width: 141px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .sitelSmallLogo {
+    width: 106px;
+    height: auto;
+  }
+  .sitelCardTitle {
+    font-size: 15px;
+  }
+  .cardTextHeader {
+    font-size: 15px;
+  }
+  .sitelCardText {
+    font-size: 14px;
+  }
+  .cardText {
+    font-size: 14px;
+
+    border-radius: 12px;
+  }
+   .MugCardText {
+    font-size: 14px;
+  }
+  .davidProfileImg {
+    width: 84px;
+   
+}
+.cardTitle{
+    font-size: 13px;
+    margin-bottom: 0;
+}
 }
 
 /* Extra small screens */
@@ -563,6 +609,60 @@
     max-width: 70px;
     max-height: 70px;
   }
+  .topImageRow {
+    gap: 21px;
+  }
+  .profileImg {
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .smallLogo {
+    width: 138px;
+    height: auto;
+  }
+  .sitelProfileImg {
+    width: 141px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .sitelSmallLogo {
+    width: 106px;
+    height: auto;
+  }
+  .sitelCardTitle {
+    font-size: 15px;
+  }
+  .cardTextHeader {
+    font-size: 15px;
+  }
+  .sitelCardText {
+    font-size: 14px;
+  }
+  .cardText {
+    font-size: 14px;
+
+    border-radius: 12px;
+  }
+  .leaseplanProfileImg {
+    width: 99px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .leaseplanCardTitle {
+    font-size: 16px;
+  }
+  .MugCardText {
+    font-size: 14px;
+  }
+   .davidProfileImg {
+    width: 84px;
+   
+}
+.cardTitle{
+    font-size: 13px;
+    margin-bottom: 0;
+}
 }
 
 /* Very small screens */
@@ -576,4 +676,81 @@
     max-width: 60px;
     max-height: 60px;
   }
+  .topImageRow {
+    gap: 21px;
+    border-radius: 18px;
+  }
+  .profileImg {
+    width: 119px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .smallLogo {
+    width: 96px;
+    height: auto;
+  }
+  .aboutrobin_topImageRow__GEn1A {
+    border-radius: 14px;
+  }
+  .robinJohnAboutSection {
+       padding: 16px;
+    margin-top: 0;
+    border-radius: 18px;
+  }
+  .robinJohncardTitle {
+    font-size: 15px;
+  }
+  .cardText {
+    font-size: 14px;
+
+    border-radius: 12px;
+  }
+  .sitelProfileImg {
+    width: 141px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .sitelSmallLogo {
+    width: 106px;
+    height: auto;
+  }
+  .sitelCardTitle {
+    font-size: 15px;
+  }
+  .cardTextHeader {
+    font-size: 15px;
+  }
+  .sitelCardText {
+    font-size: 14px;
+  }
+  .leaseplanProfileImg {
+    width: 99px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .leaseplanCardTitle {
+    font-size: 16px;
+  }
+  .MugCardText {
+    font-size: 14px;
+  }
+   .davidProfileImg {
+    width: 84px;
+   
+}
+.cardTitle{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.leaseplanCardText {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 33px;
+    /* line-height: 38px; */
+    padding: 0px 15px;
+    margin-bottom: 0px;
+}
 }

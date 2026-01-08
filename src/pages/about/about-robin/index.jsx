@@ -45,8 +45,7 @@ export default function AboutRobin() {
         </div>
 
         <h3 className={styles.sitelCardTitle}>
-          The Microsoft Network Account at SITEL A Nokia 5146 from Mobiles
-          Direct
+         MSN at SITEL & a  Nokia 5146 from Mobiles Direct
         </h3>
 
         <div className={styles.sitelCardText}>
