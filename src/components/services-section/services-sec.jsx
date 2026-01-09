@@ -22,6 +22,7 @@ import wolf from "./images/rob44.jpeg";
 import OpImg from "./images/sergonup-op.png";
 import SvBtn from "./images/serviceButton.png";
 import ServiceGraph from "./images/graphService.png";
+import mobileGraphService from "./images/mobile-graph-service.png";
 
 export default function ServicesSections() {
   return (
@@ -31,8 +32,13 @@ export default function ServicesSections() {
           <section className={styles.GraphserviceSection}>
             <div>
               <Image
-                className={styles.GraphServiceImage}
+                className={styles.desktopGraphServiceImage}
                 src={ServiceGraph}
+                alt="ServiceGraph"
+              />
+              <Image
+                className={styles.mobileGraphServiceImage}
+                src={mobileGraphService}
                 alt="ServiceGraph"
               />
             </div>
@@ -638,7 +644,7 @@ export default function ServicesSections() {
               <div className={styles.mobileheadingContent}>
                 <div className={styles.mobilestarImageContainer}>
 
-                  <h2 className={styles.mobileBronzetitle}>GOLD OFFER</h2>
+                  <h2 className={styles.mobileGoldtitle}>GOLD OFFER</h2>
                   <div className={styles.mobileservicesRowImgContainer}>
                     <Image
                       src={GoldStar}
@@ -656,7 +662,7 @@ export default function ServicesSections() {
                 </div>
 
                 {/* <div className={styles.BronzetitleContainer}> */}
-                <h3 className={` ${styles.mobileBronzeSubtitle}`}>
+                <h3 className={` ${styles.mobileGoldSubtitle}`}>
                  <i>STUCK</i>  IN A RUT?
                 </h3>
 
@@ -869,7 +875,7 @@ export default function ServicesSections() {
               <div className={styles.mobileheadingContent}>
                 <div className={styles.mobilestarImageContainer}>
 
-                  <h2 className={styles.mobileBronzetitle}>PLATINUM OFFER</h2>
+                  <h2 className={styles.mobilePlatiumtitle}>PLATINUM OFFER</h2>
                   <div className={styles.mobileservicesRowImgContainer}>
                     <Image
                       src={SilverStar}
@@ -887,7 +893,7 @@ export default function ServicesSections() {
                 </div>
 
                 {/* <div className={styles.BronzetitleContainer}> */}
-                <h3 className={` ${styles.mobileBronzeSubtitle}`}>
+                <h3 className={` ${styles.mobilePlatiumSubtitle}`}>
                   10 CLIENTS A MONTH
                 </h3>
 

@@ -545,6 +545,10 @@
     max-width: 100px;
     max-height: 110px;
   }
+  .aboutHeading {
+    font-size: 28px;
+  
+}
 
   .ImageContainer img:last-child {
     max-width: 80px;
@@ -604,6 +608,10 @@
     max-width: 90px;
     max-height: 100px;
   }
+    .aboutHeading {
+    font-size: 28px;
+  
+}
 
   .ImageContainer img:last-child {
     max-width: 70px;
@@ -671,6 +679,10 @@
     max-width: 80px;
     max-height: 90px;
   }
+    .aboutHeading {
+    font-size: 28px;
+  
+}
 
   .ImageContainer img:last-child {
     max-width: 60px;
