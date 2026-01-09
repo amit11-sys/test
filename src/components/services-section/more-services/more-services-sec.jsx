@@ -32,7 +32,7 @@ export default function MoreServicesSection() {
           {/* <button className={styles.backBtn}></button> */}
           {/* <img src={backToMoreServices} alt="" /> */}
           <div
-            style={{ paddingRight: "50px" }}
+            // style={{ paddingRight: "50px" }}
             className={styles.imageContainer}
           >
             {/* <Image
