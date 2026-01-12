@@ -45,7 +45,7 @@ export default function MoreServicesSection() {
             <section className={styles.serviceSection}>
               <div className={styles.container}>
                 <div
-                style={{cursor:"pointer"}}
+                  style={{ cursor: "pointer" }}
                   className={styles.item}
                   onClick={() => setActiveService("aioo")}
                 >
@@ -54,7 +54,7 @@ export default function MoreServicesSection() {
                   OPTIMISATION (AIOO)
                 </div>
                 <div
-                 style={{cursor:"pointer"}}
+                  style={{ cursor: "pointer" }}
                   className={styles.item}
                   onClick={() => setActiveService("ai-seo")}
                 >
@@ -63,7 +63,7 @@ export default function MoreServicesSection() {
                   OPTIMISATION (AISEO)
                 </div>
                 <div
-                 style={{cursor:"pointer"}}
+                  style={{ cursor: "pointer" }}
                   className={styles.item}
                   onClick={() => setActiveService("gbp")}
                 >
@@ -73,7 +73,7 @@ export default function MoreServicesSection() {
                 </div>
 
                 <div
-                 style={{cursor:"pointer"}}
+                  style={{ cursor: "pointer" }}
                   className={styles.item}
                   onClick={() => setActiveService("backlinks")}
                 >
@@ -82,7 +82,7 @@ export default function MoreServicesSection() {
                   DOMAINS LINK BUILDING
                 </div>
                 <div
-                 style={{cursor:"pointer"}}
+                  style={{ cursor: "pointer" }}
                   className={styles.item}
                   onClick={() => setActiveService("directory")}
                 >
@@ -91,7 +91,7 @@ export default function MoreServicesSection() {
                   LISTINGS & CITATIONS
                 </div>
                 <div
-                 style={{cursor:"pointer"}}
+                  style={{ cursor: "pointer" }}
                   className={styles.item}
                   onClick={() => setActiveService("keywords")}
                 >
@@ -101,7 +101,7 @@ export default function MoreServicesSection() {
                 </div>
 
                 <div
-                 style={{cursor:"pointer"}}
+                  style={{ cursor: "pointer" }}
                   className={styles.item}
                   onClick={() => setActiveService("gti-c")}
                 >
@@ -109,7 +109,13 @@ export default function MoreServicesSection() {
                   <br />
                   CREATION
                 </div>
-                <div  style={{cursor:"pointer"}}  className={styles.item}   onClick={() => setActiveService("card-costs")} >CUT YOUR CARD COSTS</div>
+                <div
+                  style={{ cursor: "pointer" }}
+                  className={styles.item}
+                  onClick={() => setActiveService("card-costs")}
+                >
+                  CUT YOUR CARD COSTS
+                </div>
                 <div className={styles.item}>OTHER NEW SERVICE tbc</div>
                 <div className={styles.item}>OTHER NEW SERVICE tbc</div>
                 <div className={styles.item}>OTHER NEW SERVICE tbc</div>
@@ -1564,4 +1570,3 @@ export default function MoreServicesSection() {
     </>
   );
 }
-
