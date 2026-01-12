@@ -1243,7 +1243,7 @@
     color: #3366ff;
   }
   .MoreServicesCutYourCardImageUltraWide {
-    width: 285px;
+       width: 386px;
     height: auto;
   }
   .footer {
@@ -1430,6 +1430,24 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 22.35px;
+    margin-bottom: 0px;
+}
+.keywordText {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24.35px;
+}
+.card {
+   
+    margin-bottom: 13px;
+   
+}
+.text {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.35px;
     margin-bottom: 0px;
 }
 }

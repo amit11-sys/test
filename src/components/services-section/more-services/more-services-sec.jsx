@@ -376,24 +376,35 @@ export default function MoreServicesSection() {
               </h2>
             </div>
 
-            <p className={styles.AiLLmtext}>
-              AI-SEO builds authoritative mentions across all the other AIs and
-              the entire web - the foundation that fuels AI-OO and powers your
-              practice flow. the Large Language Model (LLM) part uses the same
-              system as your brain - they parse layers. You can chat with them
-              in normal English, which is why they're catching on so fast.
-              Instead of being forced to choose from an old SEO list, potential
-              Clients just say "I'm thinking about a nose job" and AI directly
-              recommends a Surgeon based on verified sources, reviews, and
-              detailed service descriptions. AI doesn't just list links like
-              yesterday's SEO - it provides direct, contextual recommendations.
-              The mentions you've built propel your AI-OO. Being mentioned in AI
-              responses means reaching Clients who trust it for research.
-              They're up to the mark, qualified, informed, and ready to
-              book.AI-SEO is the fuel that primes your AI-OO F1 GP engine.
-              Together, they'll be the boosters that launch your Client
-              acquisition.
-            </p>
+            <div className={styles.AiLLmtext}>
+              <p>
+                AI-driven search is transforming how Clients discover Surgeons
+                nowadays.
+              </p>
+              <p>
+                Platforms like ChatGPT, Perplexity and Google's AI Overviews now
+                respond to millions of health-related queries such, “Who’s the
+                best Tummy-Tuck Surgeon near me?”, with specific
+                recommendations, rather than just a list of websites.
+              </p>
+              <p>
+                Being featured in AI responses is the new frontier of digital
+                visibility.
+              </p>
+              <p>
+                AI engines prioritise authoritative, content that answers
+                patient questions. They get their information from verified
+                sources, reviews and detailed medical service descriptions.
+              </p>
+              <p>
+                More and more Clients today trust AI when searching for a
+                Surgeon. Time is running out; take action now.
+              </p>
+              <p>
+                Few clinics have even started using AI. Don't fall behind!  Get
+                on board now, ride the crest of the wave with us!
+              </p>
+            </div>
 
             <div className={styles.footer}>
               <div className={styles.prices}>
@@ -550,20 +561,20 @@ export default function MoreServicesSection() {
             </div>
 
             <p className={styles.keywordText}>
-              Your Google Business Profile is your digital storefront. When
-              Clients search for Surgeons in your area, your GBP appears
-              prominently in Google Search and Maps—often before your website.
-              It's the first impression that determines whether they contact you
-              or move on to a competitor. An optimised GBP displays compelling
-              photos, authentic reviews, accurate hours, and detailed
-              services—all of which build the trust so essential for Surgeons.
-              Profiles with regular posts, timely review responses, and fresh
-              content consistently outperform competitors in visibility and
-              engagement.<br></br>
-              Most practices severely underutilise their GBP, treating it as a
-              static listing rather than the dynamic marketing asset it truly
-              is. The question is not whether you can afford to invest in
-              professional GBP optimisation—it's whether you can afford not to.
+              Your Google Business Profile (GBP) is your free 24/7/365
+              Marketing! It is essential for all Aesthetic Surgeons. Nearly half
+              of all Google searches are local. A well-optimised GBP gets you to
+              the top of the pack. It is prime screen real estate, with massive
+              visibility. It puts you literally on the map. Very often it will
+              be a prospect’s first impression of you. Showing your photos,
+              reviews, hours, location and services. All the elements that build
+              the trust that is important to all Businesses but crucial for
+              Surgeons. Clients can call, book, and get directions with one tap.
+              GBPs with regular posts, reviewed responses, and fresh content
+              consistently outperform competitors. Most practices underutilise
+              their GBP; don't be one of them! The question is not whether you
+              can afford to invest in your GBP—it's whether you can afford not
+              to!
             </p>
 
             <div className={styles.footer}>
@@ -846,8 +857,10 @@ export default function MoreServicesSection() {
             />
           </div>
         </section>
-        {/* BUSINESS DIRECTORY LISTINGS & CITATIONS */}
 
+
+
+        {/* BUSINESS DIRECTORY LISTINGS & CITATIONS */}
         <div className={styles.moboAIOOHeaderRow}>
           {/* <button className={styles.backBtn}></button> */}
           {/* <img src={backToMoreServices} alt="" /> */}
