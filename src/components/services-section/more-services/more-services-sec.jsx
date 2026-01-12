@@ -27,7 +27,6 @@ export default function MoreServicesSection() {
   return (
     <>
       <div className={styles.wrapper}>
-    
         <div className={styles.desktopServiceHeaderRow}>
           {/* <button className={styles.backBtn}></button> */}
           {/* <img src={backToMoreServices} alt="" /> */}
@@ -97,6 +96,25 @@ export default function MoreServicesSection() {
           </div>
         </section>
 
+        {/* AI & 00 SEARCH ENGINE OPTIMISATION (AI-00) */}
+        <div className={styles.moboAIOOHeaderRow}>
+          {/* <button className={styles.backBtn}></button> */}
+          {/* <img src={backToMoreServices} alt="" /> */}
+          <div
+            style={{ paddingRight: "50px" }}
+            className={styles.imageContainer}
+          >
+            <Image
+              src={backToMoreServices}
+              width={100}
+              height={100}
+              alt="icon"
+              className={styles.MoreServicesImageUltraWide}
+            />
+          </div>
+
+          <h2 className={styles.moboAIOOHeaderRowtitle}>AI-OO</h2>
+        </div>
         <div className={styles.desktopAIOOServiceHeaderRow}>
           {/* <button className={styles.backBtn}></button> */}
           {/* <img src={backToMoreServices} alt="" /> */}
@@ -123,10 +141,10 @@ export default function MoreServicesSection() {
               {/* </div> */}
             </div>
 
-            <h2 style={{ color: "#2F66FF" }}>AI OO</h2>
+            <h2 style={{ color: "#2F66FF" }}>AI-SEO</h2>
           </div>
         </div>
-        <section className={styles.googleAiserviceSection}>
+        <section className={styles.serviceSection}>
           <div className={styles.card}>
             <div className={styles.headerRow}>
               {/* <button className={styles.backBtn}></button> */}
@@ -142,15 +160,38 @@ export default function MoreServicesSection() {
               </div>
 
               <h2 className={styles.title}>
-                GOOGLE'S AI OVERVIEWS OPTIMISATION (AI-OO)
+                {/* AI & LLM SEARCH ENGINE OPTIMISATION */}
               </h2>
             </div>
 
-            <p className={styles.text}>
-             Are you paying premium rates for Google Ads that appear BELOW Google's AI Overviews? When someone searches "Who's the leading Facelift Surgeon near me?" Google's AI Overviews now appear ABOVE YOU PAID FOR ADS. Above organic results, above everything. It directly answers the Client's question with verified qualifications and trusted platforms before they ever see your expensive PPC placement. Your ad spend delivers diminishing returns while AI Overviews capture the prime digital real estate you're paying to compete for.
-              <br />
-              Most Surgeons remain locked into yesterday's PPC tactics while the landscape shifts beneath them. The first-mover advantage in AI-OO won't last for long. Stop paying for second place. Position yourself where Clients look first with Surge-on Up's AI-OO service.
-            </p>
+            <div className={styles.AiLLmtext}>
+              <p>
+                Google's AI Overview is upgrading how patients locate Surgeons
+                like you.
+              </p>
+              <p>
+                If someone asks, "Who’s the leading Facelift Surgeon near me?“
+                Google's AI Overviews results are shown ABOVE EVERYTHING ELSE
+                including Paid Ads (PPC). It lists specific Surgeons.
+              </p>
+              Google's AI promotes content that responds to people’s enquiries.
+              It gets its information from reliable platforms, professional
+              qualifications and authoritative medical content.
+              <p>
+                More patients are now depending on Google's AI Overviews when
+                choosing their Surgeon. Appearing in its AI search is crucial
+                for online presence.
+              </p>
+              <p>
+                Very few practices have begun AI Overview Optimisation (AI-OO)
+                at all. The opportunity for early advantage is closing fast;
+                swift action is vital.
+              </p>
+              <p>
+                Don't miss out! Get started now, ride on the crest of the AI
+                wave with us!
+              </p>
+            </div>
 
             <div className={styles.footer}>
               <div className={styles.prices}>
@@ -194,8 +235,8 @@ export default function MoreServicesSection() {
               </div>
             </div>
           </div>
-          <div className={styles.moboMonthCardcontainer}>
-            {/* <div className={styles.moboMonthCardTop}>
+          {/* <di className={styles.moboMonthCardcontainer}> */}
+          {/* <div className={styles.moboMonthCardTop}>
               <p style={{ textAlign: "center", marginBottom: 0 }}>
                 THE FIRST MONTH:
               </p>
@@ -209,7 +250,7 @@ export default function MoreServicesSection() {
                 <span>4407</span>
               </div>
             </div> */}
-            {/* <div className={styles.moboMonthCardTop}>
+          {/* <div className={styles.moboMonthCardTop}>
               <p style={{ textAlign: "center", marginBottom: 0 }}>
                 THE FIRST MONTH:
               </p>
@@ -227,35 +268,35 @@ export default function MoreServicesSection() {
                 </div>
               </div>
             </div> */}
-            <div className={styles.box}>
-              <div className={styles.row}>
-                <span className={styles.label}>THE FIRST MONTH:</span>
+          <div className={styles.box}>
+            <div className={styles.row}>
+              <span className={styles.label}>THE FIRST MONTH:</span>
 
-                <div className={styles.values}>
-                  <span className={styles.valueItem}>
-                    <span className={styles.currency}>$</span>1307
-                  </span>
-                  <span className={styles.valueItem}>
-                    <span className={styles.currency}>£</span>974
-                  </span>
-                </div>
+              <div className={styles.values}>
+                <span className={styles.valueItem}>
+                  <span className={styles.currency}>$</span>1307
+                </span>
+                <span className={styles.valueItem}>
+                  <span className={styles.currency}>£</span>974
+                </span>
               </div>
+            </div>
 
-              <div className={styles.line}></div>
+            {/* <div className={styles.line}></div> */}
 
-              <div
-                style={{ paddingTop: "10px", paddingBottom: "10px" }}
-                className={styles.row}
-              >
-                <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+            <div
+              style={{ paddingTop: "10px", paddingBottom: "10px" }}
+              className={styles.row}
+            >
+              <span className={styles.label}>SUBSEQUENT MONTHS:</span>
 
-                <div className={styles.values}>
-                  <span className={styles.valueNumber}>643</span>
-                  <span className={styles.valueNumber}>487</span>
-                </div>
+              <div className={styles.values}>
+                <span className={styles.valueNumber}>643</span>
+                <span className={styles.valueNumber}>487</span>
               </div>
             </div>
           </div>
+          {/* </di> */}
           <div className={styles.moboApplyImageINsectionsContainer}>
             <Image
               src={moboApply}
@@ -336,7 +377,22 @@ export default function MoreServicesSection() {
             </div>
 
             <p className={styles.AiLLmtext}>
-              AI-SEO builds authoritative mentions across all the other AIs and the entire web - the foundation that fuels AI-OO and powers your practice flow.  the Large Language Model (LLM)  part uses the same system as your brain - they parse layers. You can chat with them in normal English, which is why they're catching on so fast. Instead of being forced to choose from an old SEO list, potential Clients just say "I'm thinking about a nose job" and AI directly recommends a Surgeon based on verified sources, reviews, and detailed service descriptions. AI doesn't just list links like yesterday's SEO - it provides direct, contextual recommendations. The mentions you've built propel your AI-OO. Being mentioned in AI responses means reaching Clients who trust it for research. They're up to the mark, qualified, informed, and ready to book.AI-SEO is the fuel that primes your AI-OO F1 GP engine. Together, they'll be the boosters that launch your Client acquisition.
+              AI-SEO builds authoritative mentions across all the other AIs and
+              the entire web - the foundation that fuels AI-OO and powers your
+              practice flow. the Large Language Model (LLM) part uses the same
+              system as your brain - they parse layers. You can chat with them
+              in normal English, which is why they're catching on so fast.
+              Instead of being forced to choose from an old SEO list, potential
+              Clients just say "I'm thinking about a nose job" and AI directly
+              recommends a Surgeon based on verified sources, reviews, and
+              detailed service descriptions. AI doesn't just list links like
+              yesterday's SEO - it provides direct, contextual recommendations.
+              The mentions you've built propel your AI-OO. Being mentioned in AI
+              responses means reaching Clients who trust it for research.
+              They're up to the mark, qualified, informed, and ready to
+              book.AI-SEO is the fuel that primes your AI-OO F1 GP engine.
+              Together, they'll be the boosters that launch your Client
+              acquisition.
             </p>
 
             <div className={styles.footer}>
@@ -1482,3 +1538,173 @@ export default function MoreServicesSection() {
     </>
   );
 }
+
+//  <div className={styles.desktopAIOOServiceHeaderRow}>
+//           {/* <button className={styles.backBtn}></button> */}
+//           {/* <img src={backToMoreServices} alt="" /> */}
+//           <div className={styles.desktopAIOOHeaderMore}>
+//             <div
+//               // style={{ paddingRight: "50px" }}
+//               className={styles.imageContainer}
+//             >
+//               {/* <div className={styles.wrapper}> */}
+//               <button className={styles.desktopAIOOHeaderMorebutton}>
+//                 <span className={styles.desktopAIOOHeaderMoreicon}>
+//                   <Image
+//                     src={arrowLeft}
+//                     width={100}
+//                     height={100}
+//                     alt="icon"
+//                     // className={styles.MoreServicesImageUltraWide}
+//                   />
+//                 </span>
+//                 <span className={styles.desktopAIOOHeaderMoretext}>
+//                   MORE SERVICES MENU
+//                 </span>
+//               </button>
+//               {/* </div> */}
+//             </div>
+
+//             <h2 style={{ color: "#2F66FF" }}>AI OO</h2>
+//           </div>
+//         </div>
+//         <section className={styles.googleAiserviceSection}>
+//           <div className={styles.card}>
+//             <div className={styles.headerRow}>
+//               {/* <button className={styles.backBtn}></button> */}
+//               {/* <img src={backToMoreServices} alt="" /> */}
+//               <div className={styles.imageContainer}>
+//                 {/* <Image
+//                   src={backToMoreServices}
+//                   width={100}
+//                   height={100}
+//                   alt="icon"
+//                   className={styles.MoreServicesImageUltraWide}
+//                 /> */}
+//               </div>
+
+//               <h2 className={styles.title}>
+//                 GOOGLE'S AI OVERVIEWS OPTIMISATION (AI-OO)
+//               </h2>
+//             </div>
+
+//             <p className={styles.text}>
+//              Are you paying premium rates for Google Ads that appear BELOW Google's AI Overviews? When someone searches "Who's the leading Facelift Surgeon near me?" Google's AI Overviews now appear ABOVE YOU PAID FOR ADS. Above organic results, above everything. It directly answers the Client's question with verified qualifications and trusted platforms before they ever see your expensive PPC placement. Your ad spend delivers diminishing returns while AI Overviews capture the prime digital real estate you're paying to compete for.
+//               <br />
+//               Most Surgeons remain locked into yesterday's PPC tactics while the landscape shifts beneath them. The first-mover advantage in AI-OO won't last for long. Stop paying for second place. Position yourself where Clients look first with Surge-on Up's AI-OO service.
+//             </p>
+
+//             <div className={styles.footer}>
+//               <div className={styles.prices}>
+//                 <div className={styles.priceBlock}>
+//                   <span className={styles.label}>THE FIRST MONTH:</span>
+//                   <span className={styles.price}>
+//                     <span className={styles.priceSpanFlex}>
+//                       <span style={{ color: "#006633" }}>$</span>
+//                       <span style={{ color: "#006633" }}>1307</span>
+//                     </span>
+
+//                     <span className={styles.priceSpanFlex}>
+//                       <span>£</span>
+//                       <span> 974</span>
+//                     </span>
+//                   </span>
+//                 </div>
+//               </div>
+//               <div className={styles.priceBlock}>
+//                 <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+//                 <span className={styles.price}>
+//                   <span className={styles.priceSpanFlex}>
+//                     <span style={{ color: "#006633" }}>$</span>
+//                     <span style={{ color: "#006633" }}>643</span>
+//                   </span>
+//                   <span className={styles.priceSpanFlex}>
+//                     <span>£</span>
+//                     <span>487</span>
+//                   </span>
+//                 </span>
+//               </div>
+
+//               <div className={styles.imageContainer}>
+//                 <Image
+//                   src={ClickMe}
+//                   width={494}
+//                   height={100}
+//                   alt="icon"
+//                   className={styles.imageUltraWide}
+//                 />
+//               </div>
+//             </div>
+//           </div>
+//           <div className={styles.moboMonthCardcontainer}>
+//             {/* <div className={styles.moboMonthCardTop}>
+//               <p style={{ textAlign: "center", marginBottom: 0 }}>
+//                 THE FIRST MONTH:
+//               </p>
+//               <div className={styles.otherfirstFooterInvestmentText}>
+//                 <span>$</span>
+//                 <br />
+//                 <span>5873</span>
+
+//                 <span>£</span>
+//                 <br />
+//                 <span>4407</span>
+//               </div>
+//             </div> */}
+//             {/* <div className={styles.moboMonthCardTop}>
+//               <p style={{ textAlign: "center", marginBottom: 0 }}>
+//                 THE FIRST MONTH:
+//               </p>
+//               <div className={styles.otherfirstFooterInvestmentText}>
+//                 <div>
+//                   <span>$</span>
+
+//                   <span>5873</span>
+//                 </div>
+
+//                 <div>
+//                   <span>£</span>
+//                   <br />
+//                   <span>4407</span>
+//                 </div>
+//               </div>
+//             </div> */}
+//             <div className={styles.box}>
+//               <div className={styles.row}>
+//                 <span className={styles.label}>THE FIRST MONTH:</span>
+
+//                 <div className={styles.values}>
+//                   <span className={styles.valueItem}>
+//                     <span className={styles.currency}>$</span>1307
+//                   </span>
+//                   <span className={styles.valueItem}>
+//                     <span className={styles.currency}>£</span>974
+//                   </span>
+//                 </div>
+//               </div>
+
+//               <div className={styles.line}></div>
+
+//               <div
+//                 style={{ paddingTop: "10px", paddingBottom: "10px" }}
+//                 className={styles.row}
+//               >
+//                 <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+
+//                 <div className={styles.values}>
+//                   <span className={styles.valueNumber}>643</span>
+//                   <span className={styles.valueNumber}>487</span>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//           <div className={styles.moboApplyImageINsectionsContainer}>
+//             <Image
+//               src={moboApply}
+//               width={""}
+//               height={""}
+//               alt="icon"
+//               className={styles.moboApplyImage}
+//             />
+//           </div>
+//         </section>

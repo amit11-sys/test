@@ -1144,7 +1144,7 @@
 @media (max-width: 768px) {
   .serviceSection {
     /* width: 90%; */
-    padding: 25px;
+    padding: 17px;
     gap: 8px;
   }
   .googleAiserviceSection {
@@ -1424,5 +1424,12 @@
     align-items: center;
     justify-content: center;
     margin: 9px 0px 0px 0px;
+}
+.AiLLmtext {
+    margin-top: -3px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.35px;
+    margin-bottom: 0px;
 }
 }
