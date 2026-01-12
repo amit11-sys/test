@@ -1288,7 +1288,8 @@
   }
 
   .item {
-    flex: 1 1 100%;
+        flex: 1 1 100%;
+    font-size: 20px;
   }
   .servicesRowImgContainer :nth-child(2) {
     display: flex;
@@ -1405,5 +1406,23 @@
   .headingContentGold {
     gap: 20px;
   }
- 
+  .ServiceMenubackToMoreServices {
+    border: #2f66ff 2px solid;
+    padding: 2px 22px;
+    color: #2f66ff;
+    font-weight: 800;
+    font-size: 9px;
+    border-radius: 7px;
+    line-height: 13px;
+    cursor: pointer;
+    margin-bottom: 7px;
+  }
+  .imageContainer {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 36px;
+    align-items: center;
+    justify-content: center;
+    margin: 9px 0px 0px 0px;
+}
 }

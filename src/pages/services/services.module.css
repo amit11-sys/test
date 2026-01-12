@@ -185,11 +185,31 @@
     margin-bottom: 0;
   }
   .center {
-    font-size: 14px;
+        font-size: 18px;
     margin-right: 20px;
+    margin-left: 51px;
   }
   .right img {
-    width: 50px;
+    width: 67px;
+    margin-right: 12px;
+  }
+  .ServicesMainSection {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 315px) {
+  .servicesRow {
+    padding: 0 15px;
+    margin-bottom: 0;
+  }
+  .center {
+        font-size: 18px;
+    margin-right: 20px;
+    margin-left: 51px;
+  }
+  .right img {
+    width: 67px;
+    margin-right: -10px;
   }
   .ServicesMainSection {
     padding-top: 0px;
