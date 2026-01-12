@@ -226,6 +226,13 @@
 .moreBtn:hover {
   opacity: 0.85;
 }
+.cardText h3 {
+  position: relative;
+  font-size: 29px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
 
 /* Large screens (desktops 1200px+) */
 @media (min-width: 1200px) {
@@ -484,6 +491,67 @@
     max-width: 100px;
     max-height: 100px;
   }
+  .richardtopImageRow {
+    gap: 23px;
+    border-radius: 13px;
+  }
+  .richardProfileImg {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .smallLogo {
+    width: 107px;
+    height: auto;
+  }
+  .cardText h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .robinJohnAboutSection {
+    width: 100%;
+    margin: 20px auto 60px auto;
+    background: #ffffff;
+    border-radius: 26px;
+    margin-bottom: 20px;
+    padding: 14px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+    display: flex;
+    flex-direction: column;
+}
+.profileImg {
+    width: 78px;
+    height: auto;
+    border-radius: 10px;
+}
+.topImageRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 13px;
+}
+.cardTitle {
+    font-size: 14px;
+   
+}
+.VoyageLAsmallLogo {
+    width: 121px;
+    height: auto;
+}
+.VoyageLAprofileImg {
+    width: 137px;
+    height: auto;
+    border-radius: 10px;
+}
 }
 
 /* Small screens */
@@ -497,6 +565,70 @@
     max-width: 80px;
     max-height: 80px;
   }
+  .richardtopImageRow {
+    gap: 23px;
+    border-radius: 13px;
+  }
+  .richardProfileImg {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .smallLogo {
+    width: 107px;
+    height: auto;
+  }
+  .rechardCardTitle {
+    font-size: 17px;
+  }
+  .cardText h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+   .robinJohnAboutSection {
+    width: 100%;
+    margin: 20px auto 60px auto;
+    background: #ffffff;
+    border-radius: 26px;
+    margin-bottom: 20px;
+    padding: 14px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+    display: flex;
+    flex-direction: column;
+}
+.profileImg {
+    width: 78px;
+    height: auto;
+    border-radius: 10px;
+}
+.topImageRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 13px;
+}
+.cardTitle {
+    font-size: 14px;
+   
+}
+.VoyageLAsmallLogo {
+    width: 121px;
+    height: auto;
+}
+.VoyageLAprofileImg {
+    width: 137px;
+    height: auto;
+    border-radius: 10px;
+}
 }
 
 /* Extra small screens */
@@ -510,6 +642,69 @@
     max-width: 70px;
     max-height: 70px;
   }
+  .richardtopImageRow {
+    gap: 23px;
+    border-radius: 13px;
+  }
+  .richardProfileImg {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .smallLogo {
+    width: 107px;
+    height: auto;
+  }
+  .rechardCardTitle {
+    font-size: 17px;
+  }
+  .cardText h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+   .robinJohnAboutSection {
+    width: 100%;
+    margin: 20px auto 60px auto;
+    background: #ffffff;
+    border-radius: 26px;
+    margin-bottom: 20px;
+    padding: 14px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+    display: flex;
+    flex-direction: column;
+}
+.profileImg {
+    width: 78px;
+    height: auto;
+    border-radius: 10px;
+}
+.topImageRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 10px;
+border-radius: 13px;}
+.cardTitle {
+    font-size: 14px;
+   
+}
+.VoyageLAsmallLogo {
+    width: 121px;
+    height: auto;
+}
+.VoyageLAprofileImg {
+    width: 137px;
+    height: auto;
+    border-radius: 10px;
+}
 }
 
 /* Very small screens */
@@ -523,4 +718,79 @@
     max-width: 60px;
     max-height: 60px;
   }
+  .richardtopImageRow {
+    gap: 23px;
+    border-radius: 13px;
+  }
+  .richardProfileImg {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .smallLogo {
+    width: 107px;
+    height: auto;
+  }
+  .rechardCardTitle {
+    font-size: 13px;
+  }
+  .cardText h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardText {
+  
+    border-radius: 13px;
+  
+}
+  .cardText h4 {
+    position: relative;
+    font-size: 12px;
+
+    margin-bottom: 0px;
+  }
+   .robinJohnAboutSection {
+    width: 100%;
+    margin: 20px auto 60px auto;
+    background: #ffffff;
+    border-radius: 26px;
+    margin-bottom: 20px;
+    padding: 14px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+    display: flex;
+    flex-direction: column;
+}
+.profileImg {
+    width: 78px;
+    height: auto;
+    border-radius: 10px;
+}
+.topImageRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 10px;
+  border-radius: 13px;
+}
+.cardTitle {
+    font-size: 14px;
+   
+}
+.VoyageLAsmallLogo {
+    width: 121px;
+    height: auto;
+}
+.VoyageLAprofileImg {
+    width: 137px;
+    height: auto;
+    border-radius: 10px;
+}
 }

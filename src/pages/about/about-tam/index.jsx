@@ -26,12 +26,7 @@ export default function AboutTam() {
 
         <div className={styles.cardText}>
           <h3
-            style={{
-              marginBottom: 0,
-              fontWeight: 800,
-              textAlign: "center",
-              fontSize: "29px",
-            }}
+            
           >
             Is one of the few Aesthetic Surgeons ever to be Triple-Board
             Certified
@@ -59,12 +54,7 @@ export default function AboutTam() {
 
         <div className={styles.cardText}>
           <h3
-            style={{
-              marginBottom: 0,
-              fontWeight: 800,
-              textAlign: "center",
-              fontSize: "29px",
-            }}
+            
           >
             Zachary is an influential Double-Certified Aesthetic Surgeon
           </h3>
@@ -89,17 +79,12 @@ export default function AboutTam() {
 
         <div className={styles.cardText}>
           <h3
-            style={{
-              marginBottom: 0,
-              fontWeight: 800,
-              textAlign: "center",
-              fontSize: "29px",
-            }}
+         
           >
             Google Analytics is useful and free but its data is a month in
             arrears.{" "}
           </h3>
-          <h4 style={{ marginBottom: 0, fontSize: "29px", lineHeight: "32px" }}>
+          <h4 >
             Semrush provides live traffic data and informative tools for
             keywords, backlinks and competitor analysis. Tam is a certified
             Semrush Technical AI-SEO Analyst, having aced four of their exams in
@@ -120,19 +105,12 @@ export default function AboutTam() {
 
         <div className={styles.cardText}>
           <h3
-            style={{
-              marginBottom: 13,
-              fontWeight: 800,
-              textAlign: "center",
-              fontSize: "29px",
-            }}
+           
           >
             A niche Californian magazine, VoyageLA, plans to interview Tam.
           </h3>
           <h4
-            style={{
-              fontSize: "29px",
-            }}
+           
           >
             They are based in Culver City—once home to the legendary MGM Studios
             and close to Beverly Hills and Hollywood. It was founded a decade
