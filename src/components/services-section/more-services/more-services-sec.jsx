@@ -253,7 +253,7 @@ export default function MoreServicesSection() {
 
               <div className={styles.box}>
                 <div className={styles.row}>
-                  <span className={styles.label}>THE FIRST MONTH:</span>
+                  <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                   <div className={styles.values}>
                     <span className={styles.valueItem}>
@@ -269,7 +269,7 @@ export default function MoreServicesSection() {
                   style={{ paddingTop: "10px", paddingBottom: "10px" }}
                   className={styles.row}
                 >
-                  <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                  <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                   <div className={styles.values}>
                     <span className={styles.valueNumber}>643</span>
@@ -277,6 +277,7 @@ export default function MoreServicesSection() {
                   </div>
                 </div>
               </div>
+              
               <div className={styles.moboApplyImageINsectionsContainer}>
                 <Image
                   src={moboApply}
@@ -419,7 +420,7 @@ export default function MoreServicesSection() {
 
               <div className={styles.box}>
                 <div className={styles.row}>
-                  <span className={styles.label}>THE FIRST MONTH:</span>
+                  <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                   <div className={styles.values}>
                     <span className={styles.valueItem}>
@@ -437,7 +438,7 @@ export default function MoreServicesSection() {
                   style={{ paddingTop: "10px", paddingBottom: "10px" }}
                   className={styles.row}
                 >
-                  <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                  <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                   <div className={styles.values}>
                     <span className={styles.valueNumber}>643</span>
@@ -588,7 +589,7 @@ export default function MoreServicesSection() {
               <div className={styles.moboMonthCardcontainer}>
                 <div className={styles.box}>
                   <div className={styles.row}>
-                    <span className={styles.label}>THE FIRST MONTH:</span>
+                    <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueItem}>
@@ -606,7 +607,7 @@ export default function MoreServicesSection() {
                     style={{ paddingTop: "10px", paddingBottom: "10px" }}
                     className={styles.row}
                   >
-                    <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                    <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueNumber}>643</span>
@@ -753,7 +754,7 @@ export default function MoreServicesSection() {
               <div className={styles.moboMonthCardcontainer}>
                 <div className={styles.box}>
                   <div className={styles.row}>
-                    <span className={styles.label}>THE FIRST MONTH:</span>
+                    <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueItem}>
@@ -771,7 +772,7 @@ export default function MoreServicesSection() {
                     style={{ paddingTop: "10px", paddingBottom: "10px" }}
                     className={styles.row}
                   >
-                    <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                    <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueNumber}>497</span>
@@ -915,7 +916,7 @@ export default function MoreServicesSection() {
               <div className={styles.moboMonthCardcontainer}>
                 <div className={styles.box}>
                   <div className={styles.row}>
-                    <span className={styles.label}>THE FIRST MONTH:</span>
+                    <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueItem}>
@@ -933,7 +934,7 @@ export default function MoreServicesSection() {
                     style={{ paddingTop: "10px", paddingBottom: "10px" }}
                     className={styles.row}
                   >
-                    <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                    <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueNumber}>643</span>
@@ -1113,7 +1114,7 @@ export default function MoreServicesSection() {
             </div> */}
                 <div className={styles.box}>
                   <div className={styles.row}>
-                    <span className={styles.label}>THE FIRST MONTH:</span>
+                    <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueItem}>
@@ -1131,7 +1132,7 @@ export default function MoreServicesSection() {
                     style={{ paddingTop: "10px", paddingBottom: "10px" }}
                     className={styles.row}
                   >
-                    <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                    <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueNumber}>643</span>
@@ -1313,7 +1314,7 @@ export default function MoreServicesSection() {
             </div> */}
                 <div className={styles.box}>
                   <div className={styles.row}>
-                    <span className={styles.label}>THE FIRST MONTH:</span>
+                    <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueItem}>
@@ -1331,7 +1332,7 @@ export default function MoreServicesSection() {
                     style={{ paddingTop: "10px", paddingBottom: "10px" }}
                     className={styles.row}
                   >
-                    <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                    <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueNumber}>643</span>
@@ -1527,7 +1528,7 @@ export default function MoreServicesSection() {
             </div> */}
                 <div className={styles.box}>
                   <div className={styles.row}>
-                    <span className={styles.label}>THE FIRST MONTH:</span>
+                    <span className={styles.labelFirst}>THE FIRST MONTH:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueItem}>
@@ -1545,7 +1546,7 @@ export default function MoreServicesSection() {
                     style={{ paddingTop: "10px", paddingBottom: "10px" }}
                     className={styles.row}
                   >
-                    <span className={styles.label}>SUBSEQUENT MONTHS:</span>
+                    <span className={styles.labelSecond}>SUBSEQUENT MONTHS:</span>
 
                     <div className={styles.values}>
                       <span className={styles.valueNumber}>497</span>
