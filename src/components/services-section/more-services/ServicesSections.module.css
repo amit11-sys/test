@@ -1460,6 +1460,12 @@
   }
 }
 @media (max-width: 425px) {
+  .card {
+   
+    padding-right: 7px;
+    padding-left: 7px;
+   
+}
   .labelFirst {
     font-size: 29px;
   }
@@ -1687,6 +1693,12 @@
   }
 }
 @media (max-width: 375px) {
+  .card {
+   
+    padding-right: 7px;
+    padding-left: 7px;
+   
+}
   .labelFirst {
     font-size: 24px;
   }
@@ -1914,6 +1926,12 @@
   }
 }
 @media (max-width: 320px) {
+   .card {
+   
+    padding-right: 7px;
+    padding-left: 7px;
+   
+}
   .labelFirst {
     font-size: 18px;
   }
@@ -2120,8 +2138,12 @@
     margin-top: -3px;
     font-size: 16px;
     font-weight: 600;
-    line-height: 22.35px;
-    margin-bottom: 0px;
+    line-height: 20.35px;
+    margin-bottom: 20px;  
+  }
+  .AiLLmtext p {
+   
+    margin-bottom: 5px;
   }
   .keywordText {
     margin-top: 0px;
