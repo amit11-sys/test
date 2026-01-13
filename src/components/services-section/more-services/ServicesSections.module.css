@@ -1461,11 +1461,10 @@
 }
 @media (max-width: 425px) {
   .card {
-   
     padding-right: 7px;
     padding-left: 7px;
-   
-}
+    border-radius: 11px;
+  }
   .labelFirst {
     font-size: 29px;
   }
@@ -1694,11 +1693,10 @@
 }
 @media (max-width: 375px) {
   .card {
-   
+    border-radius: 11px;
     padding-right: 7px;
     padding-left: 7px;
-   
-}
+  }
   .labelFirst {
     font-size: 24px;
   }
@@ -1926,12 +1924,11 @@
   }
 }
 @media (max-width: 320px) {
-   .card {
-   
+  .card {
+    border-radius: 11px;
     padding-right: 7px;
     padding-left: 7px;
-   
-}
+  }
   .labelFirst {
     font-size: 18px;
   }
@@ -2139,10 +2136,9 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 20.35px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
   }
   .AiLLmtext p {
-   
     margin-bottom: 5px;
   }
   .keywordText {
