@@ -8,6 +8,7 @@ import LogoSeries from "./images/logoseries.jpg"
 import Services from "@/components/services/services";
 import Footer from "@/components/footer/footer";
 import Link from "next/link";
+import MoreService from "./images/more-services.png"
 import ServicesSections from "@/components/services-section/services-sec";
 
 export default function Service() {
@@ -20,7 +21,7 @@ export default function Service() {
     <div className={styles.right}>
       <Link href="services/more-services">
         <Image
-          src="/more-services.png"
+          src={MoreService}
           alt="More services"
            width={468}
           height={87}
