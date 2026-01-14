@@ -1530,16 +1530,14 @@
   }
 
   .item {
-       flex: 1 1 100%;
+    flex: 1 1 100%;
     padding: 0px 0px;
     line-height: 19px;
     min-height: 60px;
   }
-    .container{
-    
+  .container {
     gap: 11px;
-   
-}
+  }
   .servicesRowImgContainer :nth-child(2) {
     display: flex;
     align-items: center;
@@ -1676,26 +1674,41 @@
   }
   .AiLLmtext {
     margin-top: -3px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 22.35px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.35px;
+    margin-bottom: 0px;
+  }
+  .AiLLmtext p {
     margin-bottom: 0px;
   }
   .keywordText {
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 24.35px;
+    line-height: 25.35px;
+  }
+  .BlackLinkserviceSection {
+    padding: 17px;
+  }
+  .keywordsServiceSection {
+    padding: 15px;
   }
   .card {
-    margin-bottom: 13px;
+    margin-bottom: 8px;
   }
   .text {
     margin-top: 0px;
     font-size: 16px;
     font-weight: 600;
-    line-height: 23.35px;
+    line-height: 20.35px;
     margin-bottom: 0px;
+  }
+  .bussinessServiceSection {
+    padding: 16px;
+  }
+  .imageGeoServiceSection {
+    padding: 19px;
   }
 }
 @media (max-width: 375px) {
@@ -1768,17 +1781,15 @@
     font-size: 27px;
   }
 
-   .item {
-       flex: 1 1 100%;
+  .item {
+    flex: 1 1 100%;
     padding: 0px 0px;
     line-height: 19px;
     min-height: 60px;
   }
-    .container{
-    
+  .container {
     gap: 11px;
-   
-}
+  }
   .servicesRowImgContainer :nth-child(2) {
     display: flex;
     align-items: center;
@@ -1915,26 +1926,41 @@
   }
   .AiLLmtext {
     margin-top: -3px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
-    line-height: 22.35px;
+    line-height: 24.35px;
     margin-bottom: 0px;
   }
   .keywordText {
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 24.35px;
   }
+  .bussinessServiceSection {
+    padding: 16px;
+  }
+  .BlackLinkserviceSection {
+    padding: 17px;
+  }
+  .keywordsServiceSection {
+    padding: 15px;
+  }
   .card {
-    margin-bottom: 13px;
+    margin-bottom: 7px;
   }
   .text {
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
-    line-height: 23.35px;
+    line-height: 20.35px;
     margin-bottom: 0px;
+  }
+  .bussinessServiceSection {
+    padding: 16px;
+  }
+  .imageGeoServiceSection {
+    padding: 19px;
   }
 }
 @media (max-width: 320px) {
@@ -2008,16 +2034,14 @@
   }
 
   .item {
-       flex: 1 1 100%;
+    flex: 1 1 100%;
     padding: 0px 0px;
     line-height: 19px;
     min-height: 60px;
   }
-  .container{
-    
+  .container {
     gap: 11px;
-   
-}
+  }
   .servicesRowImgContainer :nth-child(2) {
     display: flex;
     align-items: center;
@@ -2154,28 +2178,43 @@
   }
   .AiLLmtext {
     margin-top: -3px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
-    line-height: 20.35px;
+    line-height: 19.35px;
     margin-bottom: 20px;
+  }
+  .bussinessServiceSection {
+    padding: 16px;
   }
   .AiLLmtext p {
     margin-bottom: 5px;
   }
   .keywordText {
     margin-top: 0px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24.35px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.35px;
+  }
+  .BlackLinkserviceSection {
+    padding: 17px;
+  }
+  .keywordsServiceSection {
+    padding: 15px;
   }
   .card {
-    margin-bottom: 13px;
+    margin-bottom: 8px;
   }
   .text {
     margin-top: 0px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 23.35px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21.35px;
     margin-bottom: 0px;
+  }
+  .bussinessServiceSection {
+    padding: 16px;
+  }
+  .imageGeoServiceSection {
+    padding: 19px;
   }
 }
