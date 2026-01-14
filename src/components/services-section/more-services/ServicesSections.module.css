@@ -1530,9 +1530,16 @@
   }
 
   .item {
-    flex: 1 1 100%;
-    font-size: 17px;
+       flex: 1 1 100%;
+    padding: 0px 0px;
+    line-height: 19px;
+    min-height: 60px;
   }
+    .container{
+    
+    gap: 11px;
+   
+}
   .servicesRowImgContainer :nth-child(2) {
     display: flex;
     align-items: center;
@@ -1761,10 +1768,17 @@
     font-size: 27px;
   }
 
-  .item {
-    flex: 1 1 100%;
-    font-size: 17px;
+   .item {
+       flex: 1 1 100%;
+    padding: 0px 0px;
+    line-height: 19px;
+    min-height: 60px;
   }
+    .container{
+    
+    gap: 11px;
+   
+}
   .servicesRowImgContainer :nth-child(2) {
     display: flex;
     align-items: center;
@@ -1994,9 +2008,16 @@
   }
 
   .item {
-    flex: 1 1 100%;
-    font-size: 17px;
+       flex: 1 1 100%;
+    padding: 0px 0px;
+    line-height: 19px;
+    min-height: 60px;
   }
+  .container{
+    
+    gap: 11px;
+   
+}
   .servicesRowImgContainer :nth-child(2) {
     display: flex;
     align-items: center;
