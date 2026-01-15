@@ -12,7 +12,7 @@ const tracks = [
   { title: "Music 5 – Peaceful Melody", src: "/music/music5.mp3" },
 ];
 
-export default function GdprBanner({setIsShowContent}) {
+export default function GdprBanner({ setIsShowContent }) {
   const audioRef = useRef(null);
   const [currentTrack, setCurrentTrack] = useState(0);
   const [playing, setPlaying] = useState(false);
@@ -29,7 +29,7 @@ export default function GdprBanner({setIsShowContent}) {
     setPlaying(true);
     setTimeout(() => audioRef.current.play(), 50);
   };
-   const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(false);
   const [closing, setClosing] = useState(false);
   const bannerRef = useRef(null);
 
@@ -37,27 +37,27 @@ export default function GdprBanner({setIsShowContent}) {
   useEffect(() => {
     // const accepted = localStorage.getItem("gdprAccepted");
     // if (!accepted) {
-      setVisible(true);
+    setVisible(true);
     // }
   }, []);
 
-const handleAccept = () => {
-  setClosing(true);
+  const handleAccept = () => {
+    setClosing(true);
 
-  // wait for animation to finish
-  setTimeout(() => {
-    setIsShowContent(false); // NOW load content
-    setVisible(false);
-  }, 600);
-};
+    // wait for animation to finish
+    setTimeout(() => {
+      setIsShowContent(false); // NOW load content
+      setVisible(false);
+    }, 600);
+  };
 
   if (!visible) return null;
 
   return (
-    <div   ref={bannerRef}
-      className={`${styles.wrapper} ${
-        closing ? styles.closing : styles.open
-      }`}>
+    <div
+      ref={bannerRef}
+      className={`${styles.wrapper} ${closing ? styles.closing : styles.open}`}
+    >
       {/* GREEN AREA */}
       <div className={styles.bannerArea}>
         {/* TOP RIGHT PLAYER */}
@@ -101,22 +101,30 @@ const handleAccept = () => {
 
       {/* COOKIE BAR */}
       <div className={styles.cookieBar}>
-        <div className={styles.cookieBtn}>
-          <div className={styles.underStandBtn} onClick={handleAccept}>I Understand</div>
-          <span>Click to dismiss</span>
-        </div>
+        <h6 className={styles.mobileCookieText}>
+          We only use essential cookies. We don’t do any tracking.
+        </h6>
+        <div style={{display:"flex",justifyContent:"space-between",width:"100%"}}>
+          <div className={styles.cookieBtn}>
+            <div className={styles.underStandBtn} onClick={handleAccept}>
+              I Understand
+            </div>
+            <span>Click to dismiss</span>
+          </div>
 
-        <p>We only use essential cookies. We don’t do any tracking.</p>
+          <p className={styles.desktopCookieText}>
+            We only use essential cookies. We don’t do any tracking.
+          </p>
 
-        <div className={styles.cookieBtn}>
-            <Link href="/privacy" className={styles.privacyBtn}>Privacy Policy</Link>
-          
+          <div className={styles.cookieBtn}>
+            <Link href="/privacy" className={styles.privacyBtn}>
+              Privacy Policy
+            </Link>
 
-          <span>Click to see</span>
+            <span>Click to see</span>
+          </div>
         </div>
       </div>
     </div>
   );
 }
-
-
