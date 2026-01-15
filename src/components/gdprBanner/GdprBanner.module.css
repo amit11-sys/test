@@ -317,11 +317,11 @@
     background: #eaf2ff;
     border-radius: 37px;
     padding: 10px 12px;
-    min-height: 267px;
+    min-height: 210px;
     width: 446px;
     border: 21px solid;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: unset;
     align-items: center;
     background: #e6fffb;
     border-radius: 37px;
@@ -381,11 +381,11 @@
     background: #eaf2ff;
     border-radius: 37px;
     padding: 10px 12px;
-    min-height: 267px;
+    min-height: 210px;
     width: 446px;
     border: 21px solid;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: unset;
     align-items: center;
     background: #e6fffb;
     border-radius: 37px;
