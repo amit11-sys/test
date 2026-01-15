@@ -40,9 +40,42 @@ export default function AboutTam() {
             unparalleled SEO strategies have expanded our businesses.”
           </h4>
         </div>
-      </div>
 
-      <div className={styles.robinJohnAboutSection}>
+         {/* Dr Zachary Farris, ZF Plastic Surgery */}
+          <div className={styles.mobileZachary}>
+
+
+           <div className={styles.topImageRow}>
+          <Image src={Img3} alt="logo" className={styles.profileImg} />
+          <Image src={Img4} alt="Logo" className={styles.smallLogo} />
+        </div>
+
+        <h3 className={styles.cardTitle}>
+          Dr Zachary Farris, ZF Plastic Surgery
+        </h3>
+
+        <div className={styles.cardText}>
+          <h3
+            
+          >
+            Zachary is an influential Double-Certified Aesthetic Surgeon
+          </h3>
+          <h4>
+            He is based in Dallas Texas and is approved to perform both Cosmetic
+            and Hair Restoration procedures. RealSelf says he is one of the top
+            1% influencers in plastic surgery. He has only worked with Tam since
+            last October. In December, he emailed to say, “Thank you, Tam. 2024
+            is the first Christmas I haven’t been worried about business leads
+            for the New Year. My Diary is completely full!”
+          </h4>
+        </div>
+          </div>
+
+
+
+      </div>
+         {/* Dr Zachary Farris, ZF Plastic Surgery */}
+      <div className={`${styles.robinJohnAboutSection} ${styles.desktopZachary}`}>
         <div className={styles.topImageRow}>
           <Image src={Img3} alt="logo" className={styles.profileImg} />
           <Image src={Img4} alt="Logo" className={styles.smallLogo} />
@@ -69,8 +102,10 @@ export default function AboutTam() {
         </div>
       </div>
 
+
+
       <div className={styles.robinJohnAboutSection}>
-        <div className={styles.topImageRow}>
+        <div className={styles.topImageRowSemRush}>
           <Image src={Img5} alt="logo" className={styles.profileImg} />
           <Image src={Img6} alt="Logo" className={styles.smallLogo} />
         </div>
@@ -93,9 +128,39 @@ export default function AboutTam() {
             Clients additional business listings at no extra cost
           </h4>
         </div>
+        {/* VoyageLA */}
+        <div className={styles.mobileVoyageLA}>
+
+
+          <div className={styles.topImageRow}>
+          <Image src={Img7} alt="logo" className={styles.VoyageLAprofileImg} />
+          <Image src={Img8} alt="Logo" className={styles.VoyageLAsmallLogo} />
+        </div>
+
+        <h3 className={styles.cardTitle}>VoyageLA</h3>
+
+        <div className={styles.cardText}>
+          <h3
+           
+          >
+            A niche Californian magazine, VoyageLA, plans to interview Tam.
+          </h3>
+          <h4
+           
+          >
+            They are based in Culver City—once home to the legendary MGM Studios
+            and close to Beverly Hills and Hollywood. It was founded a decade
+            ago to celebrate individuals. The interview is part of their
+            Inspiring Stories series, spotlighting creative and innovative LA
+            denizens. It introduces trailblazing entrepreneurs and artists to a
+            young, edgy audience.
+          </h4>
+        </div>
+        </div>
+
       </div>
 
-      <div className={styles.robinJohnAboutSection}>
+      <div className={`${styles.robinJohnAboutSection} ${styles.DesktopVoyageLA}`}>
         <div className={styles.topImageRow}>
           <Image src={Img7} alt="logo" className={styles.VoyageLAprofileImg} />
           <Image src={Img8} alt="Logo" className={styles.VoyageLAsmallLogo} />
@@ -121,6 +186,8 @@ export default function AboutTam() {
           </h4>
         </div>
       </div>
+
+
     </div>
   );
 }
