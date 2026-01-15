@@ -112,7 +112,7 @@ export default function AboutTam() {
 
         <h3 className={styles.cardTitle}>Membership of Semrush and Yext</h3>
 
-        <div className={styles.cardText}>
+        <div className={styles.cardTextSemRush}>
           <h3
          
           >
@@ -139,7 +139,7 @@ export default function AboutTam() {
 
         <h3 className={styles.cardTitle}>VoyageLA</h3>
 
-        <div className={styles.cardText}>
+        <div className={styles.cardTextVoyageLA}>
           <h3
            
           >
@@ -168,7 +168,7 @@ export default function AboutTam() {
 
         <h3 className={styles.cardTitle}>VoyageLA</h3>
 
-        <div className={styles.cardText}>
+        <div className={styles.cardTextVoyageLA}>
           <h3
            
           >

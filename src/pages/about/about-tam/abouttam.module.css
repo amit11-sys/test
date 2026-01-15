@@ -141,7 +141,7 @@
   padding: 10px;
   border-radius: 33px;
 }
-.topImageRowSemRush  {
+.topImageRowSemRush {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,6 +214,28 @@
   padding: 10px;
   margin-bottom: 0px;
 }
+.cardTextSemRush {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2a38ff;
+  background-color: #22ffd9;
+  border-radius: 33px;
+  line-height: 1.5;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.cardTextVoyageLA {
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2a38ff;
+  background-color: #22ffd9;
+  border-radius: 33px;
+  line-height: 1.5;
+  padding: 10px;
+  margin-bottom: 0px;
+}
 
 .moreBtn {
   /* background: #2a38ff; */
@@ -237,6 +259,20 @@
   opacity: 0.85;
 }
 .cardText h3 {
+  position: relative;
+  font-size: 29px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.cardTextSemRush h3 {
+  position: relative;
+  font-size: 29px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.cardTextVoyageLA h3 {
   position: relative;
   font-size: 29px;
   text-align: center;
@@ -603,6 +639,20 @@
     font-weight: 800;
     margin-bottom: 0px;
   }
+  .cardTextSemRush h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
   .robinJohnAboutSection {
     width: 100%;
     margin: 20px auto 60px auto;
@@ -654,8 +704,8 @@
     display: none;
   }
   .mobileVoyageLA {
-  display: block;
-}
+    display: block;
+  }
 }
 
 /* Extra small screens */
@@ -686,6 +736,20 @@
     font-size: 17px;
   }
   .cardText h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardTextSemRush h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h3 {
     position: relative;
     font-size: 12px;
     text-align: center;
@@ -739,12 +803,12 @@
   .desktopZachary {
     display: none;
   }
-    .DesktopVoyageLA {
+  .DesktopVoyageLA {
     display: none;
   }
   .mobileVoyageLA {
-  display: block;
-}
+    display: block;
+  }
 }
 
 /* Very small screens */
@@ -781,13 +845,51 @@
     font-weight: 800;
     margin-bottom: 0px;
   }
+  .cardTextSemRush h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
   .cardText {
     border-radius: 13px;
+    padding: 5px;
   }
   .cardText h4 {
     position: relative;
     font-size: 14px;
 
+    margin-bottom: 0px;
+  }
+  .cardTextSemRush h4 {
+    position: relative;
+    font-size: 14px;
+
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h4 {
+    position: relative;
+    font-size: 14.5px;
+
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 12px;
+    line-height: 1.5;
+    padding: 10px;
     margin-bottom: 0px;
   }
   .robinJohnAboutSection {
@@ -837,12 +939,12 @@
   .desktopZachary {
     display: none;
   }
-    .DesktopVoyageLA {
+  .DesktopVoyageLA {
     display: none;
   }
   .mobileVoyageLA {
-  display: block;
-}
+    display: block;
+  }
 }
 @media (max-width: 425px) {
   .ImageContainer img:first-child {
@@ -877,8 +979,34 @@
     font-weight: 800;
     margin-bottom: 0px;
   }
+  .cardTextSemRush h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
   .cardText {
     border-radius: 13px;
+    padding: 5px;
+  }
+  .cardTextSemRush {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 10px;
+    margin-bottom: 0px;
   }
   .cardText h4 {
     position: relative;
@@ -886,9 +1014,32 @@
 
     margin-bottom: 0px;
   }
+  .cardTextSemRush h4 {
+    position: relative;
+    font-size: 14px;
+
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h4 {
+    position: relative;
+    font-size: 14.5px;
+
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 12px;
+    line-height: 1.5;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
   .robinJohnAboutSection {
     width: 100%;
-    margin: 0px auto 60px auto;
+    margin: 2px auto 60px auto;
     background: #ffffff;
     border-radius: 16px;
     margin-bottom: 20px;
@@ -944,12 +1095,12 @@
   .desktopZachary {
     display: none;
   }
-    .DesktopVoyageLA {
+  .DesktopVoyageLA {
     display: none;
   }
   .mobileVoyageLA {
-  display: block;
-}
+    display: block;
+  }
 }
 @media (max-width: 375px) {
   .ImageContainer img:first-child {
@@ -984,18 +1135,67 @@
     font-weight: 800;
     margin-bottom: 0px;
   }
+  .cardTextSemRush h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
   .cardText {
     border-radius: 13px;
+    padding: 5px;
   }
   .cardText h4 {
     position: relative;
-   font-size: 13.42px;
+    font-size: 13.42px;
 
+    margin-bottom: 0px;
+  }
+  .cardTextSemRush h4 {
+    position: relative;
+    font-size: 12.5px;
+    line-height: 17px;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h4 {
+    position: relative;
+    font-size: 12.5px;
+    line-height: 17px;
+    margin-bottom: 0px;
+  }
+  .cardTextSemRush {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 12px;
+    line-height: 1.5;
+    padding: 10px;
     margin-bottom: 0px;
   }
   .robinJohnAboutSection {
     width: 100%;
-    margin: 0px auto 60px auto;
+    margin: 2px auto 60px auto;
     background: #ffffff;
     border-radius: 16px;
     margin-bottom: 20px;
@@ -1051,12 +1251,12 @@
   .desktopZachary {
     display: none;
   }
-    .DesktopVoyageLA {
+  .DesktopVoyageLA {
     display: none;
   }
   .mobileVoyageLA {
-  display: block;
-}
+    display: block;
+  }
 }
 @media (max-width: 320px) {
   .ImageContainer img:first-child {
@@ -1091,17 +1291,66 @@
     font-weight: 800;
     margin-bottom: 0px;
   }
+  .cardTextSemRush h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h3 {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
   .cardText {
     border-radius: 13px;
+    padding: 5px;
   }
   .cardText h4 {
     position: relative;
     font-size: 12px;
     margin-bottom: 0px;
   }
+  .cardTextSemRush h4 {
+    position: relative;
+    font-size: 10.5px;
+
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA h4 {
+    position: relative;
+    font-size: 10.5px;
+
+    margin-bottom: 0px;
+  }
+  .cardTextSemRush {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 10px;
+    line-height: 1.5;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+  .cardTextVoyageLA {
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2a38ff;
+    background-color: #22ffd9;
+    border-radius: 12px;
+    line-height: 1.5;
+    padding: 10px;
+    margin-bottom: 0px;
+  }
   .robinJohnAboutSection {
     width: 100%;
-    margin: 0px auto 60px auto;
+    margin: 2px auto 60px auto;
     background: #ffffff;
     border-radius: 16px;
     margin-bottom: 20px;
@@ -1128,12 +1377,12 @@
     padding: 10px;
     border-radius: 13px;
   }
-  .topImageRowSemRush  {
+  .topImageRowSemRush {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 11px;
-   margin-top: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
     background-color: white;
     padding: 10px;
@@ -1157,10 +1406,10 @@
   .desktopZachary {
     display: none;
   }
-    .DesktopVoyageLA {
+  .DesktopVoyageLA {
     display: none;
   }
   .mobileVoyageLA {
-  display: block;
-}
+    display: block;
+  }
 }
