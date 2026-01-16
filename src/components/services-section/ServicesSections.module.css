@@ -1209,12 +1209,12 @@
   display: none;
 }
 .mobilePlatiumtitle {
-     font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-    display: none;
-    line-height: 26px;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0;
+  display: none;
+  line-height: 26px;
 }
 .mobileGoldtitle {
   font-size: 38px;
@@ -1318,287 +1318,7 @@
     /* animation: ServicesSections_fadeUp__BYlbA 0.6s ease forwards; */
   }
 }
-@media (max-width: 768px) {
-  .serviceSection {
-    /* width: 90%; */
-    padding: 16px;
-    margin-bottom: 22px;
-    gap: 16px;
-  }
- 
-  .headingContent {
-    display: none;
-  }
-  .GraphserviceSection {
-    /* width: 80%; */
-    /* min-height: 70vh; */
-    margin: 0 auto 20px auto;
-    background: #ffffff;
-    border-radius: 18px;
-    padding: 16px;
-    color: #3366ff;
-    font-family: "Poppins", sans-serif;
-    background-color: #3366ff;
-    display: block;
-    /* flex-direction: column; */
-    /* gap: 20px; */
-    /* opacity: 0; */
-    /* transform: translateY(20px); */
-    /* animation: ServicesSections_fadeUp__BYlbA 0.6s ease forwards; */
-  }
-  .googleAiserviceSection {
-    /* width: 90%; */
-    padding: 25px;
-    gap: 8px;
-  }
 
-  .heading h2 {
-    font-size: 1.6rem;
-  }
-
-  /* .subtitle {
-    font-size: 1.2rem;
-  } */
-
-  .imageNormal {
-    width: 3rem;
-    height: 3rem;
-  }
-  .moboApplyImageINsectionsContainer {
-    display: flex;
-  }
-
-  .imageWide {
-    width: 139px;
-    height: 52px;
-  }
-  .ServicesSections_perMonthText__0thlP {
-    text-align: center;
-  }
-  .silverRescueContainer {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 15px;
-  }
-
-  .bronzedescDesktop {
-    display: none;
-  }
-  .bronzedescMobile {
-       background: #33ffcc;
-    /* padding: 20px; */
-    display: block;
-    border-radius: 12px;
-    margin-bottom: 0px;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 23px;
-  }
-  .silverDescDesktop {
-    display: none;
-  }
-  .descDesktop {
-    background: #33ffcc;
-    /* padding: 20px; */
-    border-radius: 12px;
-    margin-bottom: 0px;
-    display: none;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 39.5px;
-  }
-  .silverDescMobile {
-       display: block;
-    background: #33ffcc;
-    /* padding: 20px; */
-    border-radius: 12px;
-    margin-bottom: 0px;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 21px;
-  }
-  .descMobile {
-        background: #33ffcc;
-    /* padding: 20px; */
-    display: block;
-    border-radius: 12px;
-    margin-bottom: 0px;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 21.5px;
-  }
-  .silverSubtitle:nth-child(1) {
-    font-size: 1.5rem;
-    font-weight: 700;
-    display: none;
-    margin-top: 10px;
-  }
-  .subtitle:nth-child(1) {
-    font-size: 1.5rem;
-    font-weight: 700;
-    display: none;
-    margin-top: 10px;
-  }
-  .descPlatinum {
-    background: #33ffcc;
-    /* padding: 20px; */
-    border-radius: 12px;
-    display: none;
-    margin-bottom: 0px;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 39.5px;
-  }
-  .platinumImageMobile {
-    display: block;
-  }
-
-  .headingContentGold {
-    gap: 0;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .contentContainer {
-    justify-content: center;
-  }
-  .imageUltraWide {
-    width: 214px;
-    height: 49px;
-  }
-  .desktopAIOOServiceHeaderRow {
-    display: none;
-  }
-  .mobileBronzetitle {
-    font-size: 38px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-    display: block;
-  }
-  .mobilePlatiumtitle {
-       font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-    display: block;
-    line-height: 26px;
-  }
-  .mobileGoldtitle {
-     font-size: 42px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-    display: block;
-    line-height: 35px;
-  }
-  .mobileBronzeSubtitle {
-    font-weight: 800;
-    font-size: 28px;
-    text-align: center;
-    display: block;
-  }
-  .mobilePlatiumSubtitle {
-        font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-    display: block;
-    margin-bottom: 0;
-    line-height: 24px;
-  }
-  .mobileGoldSubtitle {
-        font-weight: 800;
-    font-size: 31px;
-    text-align: center;
-    display: block;
-    margin-bottom: 0;
-    line-height: 27px;
-  }
-  .headingContent {
-    display: none;
-  }
-  .mobileservicesRowImgContainer {
-    display: flex;
-    width: 100%;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .starGlow {
-    animation: none;
-  }
-  .mobileBronzetitle {
-    font-size: 36px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-    display: block;
-    line-height: 32px;
-  }
-  .mobilePlatiumtitle {
-       font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-    display: block;
-    line-height: 26px;
-  }
-  .mobileGoldtitle {
-        font-size: 42px;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 0;
-    display: block;
-    line-height: 35px;
-  }
-  .mobileBronzeSubtitle {
-       font-weight: 800;
-    font-size: 23px;
-    text-align: center;
-    display: block;
-    margin-bottom: 0;
-    line-height: 20px;
-  }
-   .mobilePlatiumSubtitle {
-        font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-    display: block;
-    margin-bottom: 0;
-    line-height: 24px;
-  }
-  .mobileGoldSubtitle {
-         font-weight: 800;
-    font-size: 31px;
-    text-align: center;
-    display: block;
-    margin-bottom: 0;
-    line-height: 27px;
-  }
-  .subtitle {
-    font-size: 25px;
-    margin: 0;
-    line-height: 24px;
-  }
-   .desktopGraphServiceImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: none;
-  border-radius: 12px;
-}
-  .mobileGraphServiceImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 12px;
-}
- 
-}
 @media (max-width: 425px) {
   .mobileBronzetitle {
     font-size: 36px;
@@ -1609,7 +1329,7 @@
     line-height: 32px;
   }
   .mobilePlatiumtitle {
-      font-size: 30px;
+    font-size: 30px;
     font-weight: 800;
     text-align: center;
     margin-bottom: 0;
@@ -1617,7 +1337,7 @@
     line-height: 26px;
   }
   .mobileGoldtitle {
-       font-size: 42px;
+    font-size: 42px;
     font-weight: 800;
     text-align: center;
     margin-bottom: 0;
@@ -1625,15 +1345,15 @@
     line-height: 35px;
   }
   .mobileBronzeSubtitle {
-       font-weight: 800;
+    font-weight: 800;
     font-size: 23px;
     text-align: center;
     display: block;
     margin-bottom: 0;
     line-height: 20px;
   }
-   .mobilePlatiumSubtitle {
-        font-weight: 800;
+  .mobilePlatiumSubtitle {
+    font-weight: 800;
     font-size: 25px;
     text-align: center;
     display: block;
@@ -1641,7 +1361,7 @@
     line-height: 24px;
   }
   .mobileGoldSubtitle {
-          font-weight: 800;
+    font-weight: 800;
     font-size: 31px;
     text-align: center;
     display: block;
@@ -1662,49 +1382,112 @@
   .footerSecontInvestmentText {
     font-size: 16px;
   }
-  .mobileSilvertitle {
-    font-size: 28px;
-  
-}
-.footerSecontInvestmentText span {
-   
+
+  .footerSecontInvestmentText span {
     font-size: 19px;
-   
-}
-.otherSecondFooterInvestmentText p {
-   
+  }
+  .otherSecondFooterInvestmentText p {
     font-size: 10px;
-}
-.otherfirstFooterInvestmentText div span {
-       /* width: 20%; */
-   
+  }
+  .otherfirstFooterInvestmentText div span {
+    /* width: 20%; */
+
     font-size: 17px;
-}
- .desktopGraphServiceImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: none;
-  border-radius: 12px;
-}
-.mobileGraphServiceImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 12px;
-}
-  
+  }
+  .desktopGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    border-radius: 12px;
+  }
+  .mobileGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+  }
 }
 @media (max-width: 1024px) {
   .contentContainer {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     /* justify-content: space-between; */
   }
+  .SilverimageNormal {
+    width: 32px;
+    height: 32px;
+  }
+  .SilverStriptitle {
+    font-weight: 900;
+    font-size: 15px;
+    color: #2f66ff;
+    white-space: nowrap;
+  }
+  .right {
+    font-size: 10px;
+  }
+  .perMonthText {
+    font-size: 9px;
+  }
+  .dollar {
+    font-size: 20px !important;
+    font-weight: 700;
+    color: #006633;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    line-height: 24px;
+  }
+  .free {
+    font-size: 17px !important;
+    font-weight: 900;
+    margin-bottom: 0px;
+  }
+  .euro {
+    font-size: 20px !important;
+    font-weight: 700;
+    color: #3366ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    line-height: 23px;
+  }
+  .GoldperMonthText {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: start;
+    width: 100%;
+    font-weight: 700;
+    color: #3366ff;
+  }
+  .subtitle {
+    font-size: 21px;
+    font-weight: 900;
+    margin: 0px;
+    /* text-wrap: nowrap; */
+  }
+  .platiumperMonthText {
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: start;
+    width: 100%;
+    font-weight: 700;
+    color: #3366ff;
+  }
+  .platinumtitle {
+    font-size: 24px;
+  }
 
   .Bronzetitle {
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 700;
@@ -1713,18 +1496,30 @@
   .headingContentGold {
     gap: 10px;
   }
-}
-
-/* Tablet */
-@media (max-width: 900px) {
-  .item {
-    flex: 1 1 calc(50% - 20px);
+  .BronzeSubtitle {
+    font-size: 23px;
+    font-weight: 900;
+    margin: 0px;
+    /* text-wrap: nowrap; */
+  }
+  .bronzedescDesktop {
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .silverSubtitle {
+    font-size: 20px;
+  }
+  .silverTitle {
+    font-size: 21px;
   }
 }
-
-/* Mobile */
-@media (max-width: 600px) {
-  .headerRow {
+@media (max-width: 768px) {
+   .headerRow {
     display: none;
   }
   .box {
@@ -1900,5 +1695,886 @@
   }
   .headingContentGold {
     gap: 0px;
+  }
+  .serviceSection {
+    /* width: 90%; */
+    padding: 16px;
+    margin-bottom: 22px;
+    gap: 16px;
+  }
+
+  .headingContent {
+    display: none;
+  }
+  .GraphserviceSection {
+    /* width: 80%; */
+    /* min-height: 70vh; */
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 16px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+    display: block;
+    /* flex-direction: column; */
+    /* gap: 20px; */
+    /* opacity: 0; */
+    /* transform: translateY(20px); */
+    /* animation: ServicesSections_fadeUp__BYlbA 0.6s ease forwards; */
+  }
+  .googleAiserviceSection {
+    /* width: 90%; */
+    padding: 25px;
+    gap: 8px;
+  }
+
+  .heading h2 {
+    font-size: 1.6rem;
+  }
+
+  /* .subtitle {
+    font-size: 1.2rem;
+  } */
+
+  .imageNormal {
+    width: 3rem;
+    height: 3rem;
+  }
+  .moboApplyImageINsectionsContainer {
+    display: flex;
+  }
+
+  .imageWide {
+    width: 139px;
+    height: 52px;
+  }
+  .ServicesSections_perMonthText__0thlP {
+    text-align: center;
+  }
+  .silverRescueContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .bronzedescDesktop {
+    display: none;
+  }
+  .bronzedescMobile {
+    background: #33ffcc;
+    /* padding: 20px; */
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .silverDescDesktop {
+    display: none;
+  }
+  .descDesktop {
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    display: none;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.5px;
+  }
+  .silverDescMobile {
+    display: block;
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .descMobile {
+    background: #33ffcc;
+    /* padding: 20px; */
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21.5px;
+  }
+  .silverSubtitle:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+    margin-top: 10px;
+  }
+  .subtitle:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+    margin-top: 10px;
+  }
+  .descPlatinum {
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    display: none;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.5px;
+  }
+  .platinumImageMobile {
+    display: block;
+  }
+
+  .headingContentGold {
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contentContainer {
+    justify-content: center;
+  }
+  .imageUltraWide {
+    width: 214px;
+    height: 49px;
+  }
+  .desktopAIOOServiceHeaderRow {
+    display: none;
+  }
+  .mobileBronzetitle {
+    font-size: 43px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 34px;
+  }
+  .mobilePlatiumtitle {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 26px;
+  }
+  .mobileGoldtitle {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 35px;
+  }
+  .mobileBronzeSubtitle {
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+  }
+  .mobilePlatiumSubtitle {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 31px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 27px;
+  }
+  .headingContent {
+    display: none;
+  }
+  .mobileservicesRowImgContainer {
+       display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .starGlow {
+    animation: none;
+  }
+
+  .mobilePlatiumtitle {
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 35px;
+  }
+  .mobileGoldtitle {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 37px;
+  }
+  .mobileBronzeSubtitle {
+    font-weight: 800;
+    font-size: 27px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 26px;
+  }
+  .mobilePlatiumSubtitle {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 31px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 27px;
+  }
+  .subtitle {
+    font-size: 27px;
+    margin: 0;
+    line-height: 26px;
+  }
+  .desktopGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    border-radius: 12px;
+  }
+  .mobileGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+  }
+  .SilverimageUltraWide {
+       width: 100%;
+    object-fit: unset;
+    height: 72px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 33px;
+  }
+  .mobileSilvertitle {
+    font-size: 35px;
+  }
+}
+/* Tablet */
+@media (max-width: 900px) {
+  .item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+/* Mobile */
+@media (max-width: 600px) {
+ 
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .serviceSection {
+    /* width: 90%; */
+    padding: 16px;
+    margin-bottom: 22px;
+    gap: 16px;
+  }
+
+  .headingContent {
+    display: none;
+  }
+  .GraphserviceSection {
+    /* width: 80%; */
+    /* min-height: 70vh; */
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 16px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+    display: block;
+    /* flex-direction: column; */
+    /* gap: 20px; */
+    /* opacity: 0; */
+    /* transform: translateY(20px); */
+    /* animation: ServicesSections_fadeUp__BYlbA 0.6s ease forwards; */
+  }
+  .googleAiserviceSection {
+    /* width: 90%; */
+    padding: 25px;
+    gap: 8px;
+  }
+
+  .heading h2 {
+    font-size: 1.6rem;
+  }
+
+  /* .subtitle {
+    font-size: 1.2rem;
+  } */
+
+  .imageNormal {
+    width: 3rem;
+    height: 3rem;
+  }
+  .moboApplyImageINsectionsContainer {
+    display: flex;
+  }
+
+  .imageWide {
+    width: 139px;
+    height: 52px;
+  }
+  .ServicesSections_perMonthText__0thlP {
+    text-align: center;
+  }
+  .silverRescueContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .bronzedescDesktop {
+    display: none;
+  }
+  .bronzedescMobile {
+    background: #33ffcc;
+    /* padding: 20px; */
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .silverDescDesktop {
+    display: none;
+  }
+  .descDesktop {
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    display: none;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.5px;
+  }
+  .silverDescMobile {
+    display: block;
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .descMobile {
+    background: #33ffcc;
+    /* padding: 20px; */
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21.5px;
+  }
+  .silverSubtitle:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+    margin-top: 10px;
+  }
+  .subtitle:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+    margin-top: 10px;
+  }
+  .descPlatinum {
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    display: none;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.5px;
+  }
+  .platinumImageMobile {
+    display: block;
+  }
+
+  .headingContentGold {
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contentContainer {
+    justify-content: center;
+  }
+  .imageUltraWide {
+    width: 214px;
+    height: 49px;
+  }
+  .desktopAIOOServiceHeaderRow {
+    display: none;
+  }
+  .mobileBronzetitle {
+    font-size: 43px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 34px;
+  }
+  .mobilePlatiumtitle {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 26px;
+  }
+  .mobileGoldtitle {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 35px;
+  }
+  .mobileBronzeSubtitle {
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+  }
+  .mobilePlatiumSubtitle {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 31px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 27px;
+  }
+  .headingContent {
+    display: none;
+  }
+  .mobileservicesRowImgContainer {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .starGlow {
+    animation: none;
+  }
+
+  .mobilePlatiumtitle {
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 35px;
+  }
+  .mobileGoldtitle {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 37px;
+  }
+  .mobileBronzeSubtitle {
+    font-weight: 800;
+    font-size: 27px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 26px;
+  }
+  .mobilePlatiumSubtitle {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 31px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 27px;
+  }
+  .subtitle {
+    font-size: 27px;
+    margin: 0;
+    line-height: 26px;
+  }
+  .desktopGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    border-radius: 12px;
+  }
+  .mobileGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+  }
+  .SilverimageUltraWide {
+    width: 100%;
+    object-fit: contain;
+    height: 55px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 33px;
+  }
+  .mobileSilvertitle {
+    font-size: 35px;
+  }
+}
+@media (max-width: 320px) {
+  .serviceSection {
+    /* width: 90%; */
+    padding: 16px;
+    margin-bottom: 22px;
+    gap: 16px;
+  }
+
+  .headingContent {
+    display: none;
+  }
+  .GraphserviceSection {
+    /* width: 80%; */
+    /* min-height: 70vh; */
+    margin: 0 auto 20px auto;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 16px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+    display: block;
+    /* flex-direction: column; */
+    /* gap: 20px; */
+    /* opacity: 0; */
+    /* transform: translateY(20px); */
+    /* animation: ServicesSections_fadeUp__BYlbA 0.6s ease forwards; */
+  }
+  .googleAiserviceSection {
+    /* width: 90%; */
+    padding: 25px;
+    gap: 8px;
+  }
+
+  .heading h2 {
+    font-size: 1.6rem;
+  }
+
+  /* .subtitle {
+    font-size: 1.2rem;
+  } */
+
+  .imageNormal {
+    width: 3rem;
+    height: 3rem;
+  }
+  .moboApplyImageINsectionsContainer {
+    display: flex;
+  }
+
+  .imageWide {
+    width: 139px;
+    height: 52px;
+  }
+  .ServicesSections_perMonthText__0thlP {
+    text-align: center;
+  }
+  .silverRescueContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .bronzedescDesktop {
+    display: none;
+  }
+  .bronzedescMobile {
+    background: #33ffcc;
+    /* padding: 20px; */
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .silverDescDesktop {
+    display: none;
+  }
+  .descDesktop {
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    display: none;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.5px;
+  }
+  .silverDescMobile {
+    display: block;
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .descMobile {
+    background: #33ffcc;
+    /* padding: 20px; */
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21.5px;
+  }
+  .silverSubtitle:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+    margin-top: 10px;
+  }
+  .subtitle:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: none;
+    margin-top: 10px;
+  }
+  .descPlatinum {
+    background: #33ffcc;
+    /* padding: 20px; */
+    border-radius: 12px;
+    display: none;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 39.5px;
+  }
+  .platinumImageMobile {
+    display: block;
+  }
+
+  .headingContentGold {
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contentContainer {
+    justify-content: center;
+  }
+  .imageUltraWide {
+    width: 214px;
+    height: 49px;
+  }
+  .desktopAIOOServiceHeaderRow {
+    display: none;
+  }
+  .mobileBronzetitle {
+       font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 29px;
+  }
+  .mobilePlatiumtitle {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 26px;
+  }
+  .mobileGoldtitle {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 35px;
+  }
+  .mobileBronzeSubtitle {
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+  }
+  .mobilePlatiumSubtitle {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 31px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 27px;
+  }
+  .headingContent {
+    display: none;
+  }
+  .mobileservicesRowImgContainer {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .starGlow {
+    animation: none;
+  }
+
+  .mobilePlatiumtitle {
+     font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 28px;
+  }
+  .mobileGoldtitle {
+       font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    display: block;
+    line-height: 32px;
+  }
+  .mobileBronzeSubtitle {
+       font-weight: 800;
+    font-size: 19px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 19px;
+  }
+  .mobilePlatiumSubtitle {
+      font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 22px;
+  }
+  .mobileGoldSubtitle {
+    font-weight: 800;
+    font-size: 31px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 27px;
+  }
+  .subtitle {
+      font-size: 20px;
+    margin: 0;
+    line-height: 20px;
+  }
+  .desktopGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    border-radius: 12px;
+  }
+  .mobileGraphServiceImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+  }
+  .SilverimageUltraWide {
+    width: 100%;
+    object-fit: contain;
+    height: 55px;
+  }
+  .mobileGoldSubtitle {
+        font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    line-height: 23px;
+  }
+  .mobileSilvertitle {
+       font-size: 25px;
   }
 }

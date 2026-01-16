@@ -841,7 +841,7 @@ export default function ServicesSections() {
                 </div>
 
                 <div className={styles.platinumTitleContainer}>
-                  <h3 className={styles.subtitle} style={{ fontSize: "34px" }}>
+                  <h3 className={styles.subtitle}>
                     GET 10 EXTRA <i>CLIENTS</i>
                   </h3>
 
