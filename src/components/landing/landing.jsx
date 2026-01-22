@@ -5,7 +5,7 @@ import styles from "./landing.module.css";
 
 export default function Landing({handleScroll}) {
   return (
-    <div style={{ marginTop: "20px" }}>
+    <div style={{ marginTop: "15px" }}>
       <div className={styles.mainLandingBody2}>
         <div className={styles.mainLandingContainer}>
           <p className={`${styles.fadeIn} ${styles.step3}`}>

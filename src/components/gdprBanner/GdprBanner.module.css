@@ -281,6 +281,14 @@
     text-align: center;
   }
 }
+@media (max-width: 654px) {
+ .wrapper {
+    /* width: 80%; */
+    /* min-height: 70vh; */
+    margin: 32px auto 110px auto;
+  
+}
+}
 @media (max-width: 768px) {
   .cookieBar p {
     font-size: 13px;
@@ -307,6 +315,17 @@
   .playerHeader {
     font-size: 23px;
   }
+  .wrapper {
+    /* width: 80%; */
+    /* min-height: 70vh; */
+    margin: 24px auto 110px auto;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 30px;
+    color: #3366ff;
+    font-family: "Poppins", sans-serif;
+    background-color: #3366ff;
+}
 }
 @media (max-width: 425px) {
   .playerCard {
