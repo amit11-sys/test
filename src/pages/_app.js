@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
 
         {/* Header needs to be INSIDE MusicProvider because it uses useMusic() */}
         <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-          <div style={{maxWidth:'1408px', width:"100%"}}>
+          <div style={{width:"100%"}}>
             <Header />
 
           <main className={styles.mainContent} style={{marginLeft:'1px'}}>
